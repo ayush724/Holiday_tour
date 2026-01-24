@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply -mx-0.5 overflow-x-hidden;
+}
+
+@layer base {
+  :root {
+    --background: 30 33% 98%;
+    --foreground: 24 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 24 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 24 10% 10%;
+
+    --primary: 24 100% 58%;
+    --primary-foreground: 60 9% 98%;
+
+    --secondary: 25 70% 70%;
+    --secondary-foreground: 24 10% 10%;
+
+    --muted: 60 9% 96%;
+    --muted-foreground: 25 5% 45%;
+
+    --accent: 95 55% 88%;
+    --accent-foreground: 24 10% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9% 98%;
+
+    --border: 20 5% 90%;
+    --input: 20 5% 90%;
+    --ring: 24 5% 64%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-poppins;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-travel-orange text-white px-6 py-2 rounded-md hover:bg-travel-maroon transition-colors duration-300;
+  }
+
+  .btn-outline {
+    @apply border-2 border-travel-orange text-travel-orange px-6 py-2 rounded-md hover:bg-travel-orange hover:text-white transition-colors duration-300;
+  }
+
+  .tour-card {
+    @apply overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .section-title {
+    @apply font-playfair text-3xl md:text-4xl font-bold relative;
+  }
+
+  .section-title::after {
+    @apply content-[''] block w-24 h-1 bg-travel-orange mt-2;
+  }
+
+  .nav-link {
+    @apply relative hover:text-travel-orange transition-colors;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute left-0 bottom-0 w-0 h-0.5 bg-travel-orange transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+}
+
+/* Animation classes */
+.parallax {
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0.8, 1);
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.stagger-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.stagger-delay-1 {
+  transition-delay: 0.1s;
+}
+.stagger-delay-2 {
+  transition-delay: 0.2s;
+}
+.stagger-delay-3 {
+  transition-delay: 0.3s;
+}
+.stagger-delay-4 {
+  transition-delay: 0.4s;
+}
+.stagger-delay-5 {
+  transition-delay: 0.5s;
+}
