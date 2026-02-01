@@ -7,6 +7,7 @@ const TourPageHero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2000" 
+          // src="../public/india.png"
           alt="Tour Packages" 
           className="w-full h-full object-cover"
         />

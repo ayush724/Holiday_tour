@@ -83,7 +83,7 @@ const HomePage = () => {
         <div className="absolute inset-0 z-0 overflow-hidden">
           <img
             // src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2000"
-            src="/india.png"
+            src="/temple.png"
             alt="India Travel"
             className="w-full h-full object-cover"
           />
