@@ -210,36 +210,53 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Our Values Section */}
-      <section className="py-20 bg-gray-50" ref={valuesRef}>
-        <div className="container mx-auto px-4">
-          <SectionTitle 
-            title="Our Values" 
-            subtitle="What Drives Us"
-            center
-          />
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-            {values.map((value, index) => (
-              <motion.div
-                key={index}
-                custom={index}
-                initial="hidden"
-                animate={valuesInView ? "visible" : "hidden"}
-                variants={staggerVariants}
-                className="bg-white rounded-lg p-6 shadow-md border border-gray-100 text-center"
-              >
-                <div className="flex justify-center mb-4">
-                  {value.icon}
+      {/* Our Story Section */}
+            <section className="py-20">
+              <div className="container mx-auto px-4">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                  <motion.div 
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                  >
+                    <SectionTitle 
+                      title="Our Story" 
+                      subtitle="Who We Are"
+                    />
+                    <p className="text-gray-700 mb-6">
+                      India Holiday Home, founded in 2010 by travel expert Rajiv Sharma, is dedicated to creating authentic and personalized travel experiences across India. Having served thousands of travelers, we continue to craft memorable journeys that showcase the country's rich culture, landscapes, and traditions.
+                    </p>
+                    {/*<p className="text-gray-700 mb-6">
+                      What started as a small operation with a handful of tours has grown into a trusted travel company offering a wide range of experiences across the Indian subcontinent. Despite our growth, we remain committed to our founding principles of authenticity, personalization, and exceptional service.
+                    </p>
+                    <p className="text-gray-700">
+                      Today, we take pride in having served thousands of happy travelers, helping them create memories that last a lifetime. Our team of passionate travel experts continues to explore new destinations and craft unique experiences that showcase the rich cultural heritage, breathtaking landscapes, and spiritual traditions of India.
+                    </p>*/}
+                  </motion.div>
+                  
+                  <motion.div 
+                    className="relative"
+                    initial={{ opacity: 0, x: 50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                  >
+                    <img 
+                      src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=600" 
+                      alt="Our story" 
+                      className="rounded-lg shadow-xl w-full h-[300px] object-cover"
+                    />
+                    <div className="absolute -bottom-8 -right-8 bg-white p-5 rounded-lg shadow-lg hidden md:block">
+                      <div className="text-travel-orange text-center">
+                        <div className="text-4xl font-bold">2010</div>
+                        <div className="text-sm">Year Founded</div>
+                      </div>
+                    </div>
+                  </motion.div>
                 </div>
-                <h3 className="text-xl font-bold mb-2">{value.title}</h3>
-                <p className="text-gray-700">{value.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+              </div>
+            </section>
 
       {/* Contact Information */}
       <section className="py-20">
@@ -400,54 +417,6 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Our Story Section */}
-            <section className="py-20">
-              <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                  <motion.div 
-                    initial={{ opacity: 0, x: -50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                  >
-                    <SectionTitle 
-                      title="Our Story" 
-                      subtitle="Who We Are"
-                    />
-                    <p className="text-gray-700 mb-6">
-                      India Holiday Home was born out of passion for showcasing the true essence of India to travelers from around the world. Founded in 2010 by Rajiv Sharma, a travel enthusiast with over 20 years of experience, our journey began with a simple vision – to create authentic travel experiences that go beyond the ordinary.
-                    </p>
-                    <p className="text-gray-700 mb-6">
-                      What started as a small operation with a handful of tours has grown into a trusted travel company offering a wide range of experiences across the Indian subcontinent. Despite our growth, we remain committed to our founding principles of authenticity, personalization, and exceptional service.
-                    </p>
-                    <p className="text-gray-700">
-                      Today, we take pride in having served thousands of happy travelers, helping them create memories that last a lifetime. Our team of passionate travel experts continues to explore new destinations and craft unique experiences that showcase the rich cultural heritage, breathtaking landscapes, and spiritual traditions of India.
-                    </p>
-                  </motion.div>
-                  
-                  <motion.div 
-                    className="relative"
-                    initial={{ opacity: 0, x: 50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                  >
-                    <img 
-                      src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=1200" 
-                      alt="Our story" 
-                      className="rounded-lg shadow-xl w-full h-auto object-cover"
-                    />
-                    <div className="absolute -bottom-8 -right-8 bg-white p-5 rounded-lg shadow-lg hidden md:block">
-                      <div className="text-travel-orange text-center">
-                        <div className="text-4xl font-bold">2010</div>
-                        <div className="text-sm">Year Founded</div>
-                      </div>
-                    </div>
-                  </motion.div>
-                </div>
-              </div>
-            </section>
-
       {/* Map Section */}
       <section className="pb-20">
         <div className="container mx-auto px-4">
@@ -463,6 +432,36 @@ const ContactPage = () => {
                 title="Google Maps"
               ></iframe>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Values Section */}
+      <section className="py-20 bg-gray-50" ref={valuesRef}>
+        <div className="container mx-auto px-4">
+          <SectionTitle 
+            title="Our Values" 
+            subtitle="What Drives Us"
+            center
+          />
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+            {values.map((value, index) => (
+              <motion.div
+                key={index}
+                custom={index}
+                initial="hidden"
+                animate={valuesInView ? "visible" : "hidden"}
+                variants={staggerVariants}
+                className="bg-white rounded-lg p-6 shadow-md border border-gray-100 text-center"
+              >
+                <div className="flex justify-center mb-4">
+                  {value.icon}
+                </div>
+                <h3 className="text-xl font-bold mb-2">{value.title}</h3>
+                <p className="text-gray-700">{value.description}</p>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
