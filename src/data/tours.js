@@ -91,7 +91,7 @@ export const featuredTours = [
     duration: "5 Days / 4 Nights",
     // price: 599,
     image:
-      "https://images.unsplash.com/photo-1602215399818-b34897f2b3f1?q=80&w=1200",
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4.9,
     locations: ["Kochi", "Munnar", "Alleppey"],
     category: "adventure",
@@ -283,7 +283,7 @@ export const featuredTours = [
     duration: "4 Days / 3 Nights",
     // price: 499,
     image:
-      "https://images.unsplash.com/photo-1561361058-c24cecde1229?q=80&w=1200",
+      "https://images.unsplash.com/photo-1706186839147-0d708602587b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4.6,
     locations: ["Varanasi", "Sarnath"],
     category: "Spiritual",
@@ -353,7 +353,7 @@ export const CharDhamYatra = [
       "Chardham Yatra is a beautiful and religious trip of the Himalayas. Chardham Yatra 2025 starts from late April. The tour includes spiritual, Himalayan scenery, pilgrim experiences and includes Ganga Aarti, Himalayan views and stays in Uttarakhand. Different packages (Luxury, Deluxe, Budget) are available. Advance booking is a must.",
     duration: "12 Days / 11 Nights",
     // price: "",
-    image: "", // images present, but no single “featured” image URL was extracted
+    image: "https://www.allinharidwar.com/wp-content/uploads/2018/04/Rishikesh-to-Chardham-Yatra.jpg", // images present, but no single “featured” image URL was extracted
     rating: "", // not provided
     locations: [
       "Delhi",
@@ -584,7 +584,7 @@ export const CharDhamYatra = [
       "The source of river Yamuna, Yamunotri, is the westernmost shrine in Chardham. Situated on the top of Bandar Poonch Parvat the temple is devoted to goddess Yamuna. Although the actual source of river Yamuna is the Champasar Glacier or the Yamunotri Glacier is located at a distance of 1 km from the temple on Kalind Mountain, but is not accessible so the temple itself is worshiped as the source of Yamuna. Yamunotri is reached after a 7 km trek from Janki Chatti. The temple was built by Maharaja Pratap Shah of Tehri Garhwal on the banks of the river and the deity that resides here is made of black marble. The river Yamuna has been elevated to the status of a divine mother by the Hindu mythology for its role in nurturing the civilization in the Gangetic plain. There are hot water springs near the temple forming Kunds among which Surya Kund is the most important. Near this kund is a rock known as Divya Shila. The Divya Shila is worshiped before the deity. Devotees prepare potato and rice by tying them in a muslin cloth dipping them in the hot water springs and offer them to the deity. The rice is taken back as Prasad. The temple remains closed during the winters as the area is prone to heavy snowfall.",
     duration: "5 Days / 4 Nights",
     // price: "", // as listed price on the page :contentReference[oaicite:0]{index=0}
-    image: "", // multiple images are present but no single “featured” image URL extracted :contentReference[oaicite:1]{index=1}
+    image: "https://www.allinharidwar.com/library/timthumb.php?src=/wp-content/uploads/2018/02/Yamunotri-Dham-Yatra-1.jpg&w=628&h=380&zc=0&q=80", // multiple images are present but no single “featured” image URL extracted :contentReference[oaicite:1]{index=1}
     rating: "", // not given on the page :contentReference[oaicite:2]{index=2}
     locations: ["Delhi", "Haridwar", "Barkot", "Janki Chatti", "Yamunotri"],
     category: "Spiritual",
@@ -665,7 +665,7 @@ export const CharDhamYatra = [
       "The holy place overlooks the thundering river Bhagirathi which flows between the rugged mountains; Gangotri is the spiritual source of India’s holiest river Ganga. Here Ganga is known as Bhagirathi. The actual source is the ice cave of Gaumukh. It is believed that bathing in her waters brings liberation from all sins committed in the present and past birth. According to legend, after King Bhagirath’s prayers, goddess Ganga agreed to descend from heaven, Lord Shiva caught her in his locks (to prevent the destruction of Earth), and released her drops onto the earth to cleanse it. ",
     duration: "4 Nights / 5 Days",
     // price: "",
-    image: "", // there are photos on the page but no single “featured image” URL was clearly extracted
+    image: "https://images.unsplash.com/photo-1696465889052-6c8921536920?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // there are photos on the page but no single “featured image” URL was clearly extracted
     rating: "", // one review is indicated but no star rating visible
     locations: ["Delhi", "Haridwar", "Uttarkashi", "Gangotri"],
     category: "Spiritual",
@@ -748,7 +748,7 @@ export const CharDhamYatra = [
       "One of the twelve Jyotirlingas dedicated to the Sadashiva form of Lord Shiva and the third shrine in Chardham, Kedarnath is a magnificent temple situated at a height of 3581m. In the temple a huge statue of Nandi stands. There are a number of hot water springs called as Kunds in Kedarnath. Among which Shiv Kund is the most important and Rudhir Kund is famous for its red colored water. The whole valley of Kedarnath is surrounded by snow-covered peaks from three sides with Madakini and Gandhi Glaciers on the fourth side only a few kilometers away. Among the Chardham, Kedarnath is situated at the highest altitude. It is reached after a 14 km trek from Gaurikund. It is believed that Kedarnath shrine was built by the Pandavas after the battle of Mahabharat. Kedarnath also is the main shrine among the Panch Kedar devoted to Lord Shiva. The other four are Tungnath, Rudranath, Mad Maheshwar, Kalpeshwar. These temples are worshipped by Hindu devotees during their Chardham pilgrimage.",
     duration: "5 Days / 4 Nights",
     // price: "", // price not clearly given
-    image: "", // image(s) present, but no single “featured” image URL extracted
+    image: "https://images.unsplash.com/photo-1712733900711-d0b929d0d7cc?q=80&w=377&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // image(s) present, but no single “featured” image URL extracted
     rating: "1 Review", // there is “(1 Review)” shown on page :contentReference[oaicite:0]{index=0}
     locations: [
       "Delhi",
@@ -837,7 +837,7 @@ export const CharDhamYatra = [
       "The Abode Of Lord Vishnu : – Badrinath Temple situated in the twin mountain ranges of Nar and Narayan is the holiest of the four main shrines, Temple Darshan along the left bank river Alaknanda with the view of splendid Neelkanth mountain and visiting Mana Village are the main attractions, Badrinath is an important destination for every devout Hindu. Once the spot was carpeted with ‘badris’ or wild berries and hence was famous as ‘Badri Van’. Badrinath is considered the holiest of the four important shrines in Garhwal. The town is at an altitude of 3,133 m … The present temple was built about two centuries ago by Garhwal Kings … The temple has three parts – Garbha Griha (sanctum sanctorum), Darshan Mandap, Shobha Mandap … Haridwar is the gateway; pilgrims take the holy Ganga dip before starting the Yatra …",
     duration: "6 Days / 5 Nights",
     // price: "",
-    image: "", // images are shown on page but no single “featured” image URL clearly extracted
+    image: "https://images.unsplash.com/photo-1601821139990-9fc929db79ce?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // images are shown on page but no single “featured” image URL clearly extracted
     rating: "2 Reviews",
     locations: [
       "Delhi",
@@ -939,7 +939,7 @@ export const CharDhamYatra = [
       "Kedarnath Badrinath (or Do Dham / Kedar-Badri Yatra) is a beautiful introductory trip of the Himalayas. There are three categories of packages: Luxury, Deluxe, Budget. The tour includes Haridwar Ganga Aarti, Delhi arrival/departure, and spiritual / pilgrimage elements along with Himalayan scenic views.",
     duration: "8 Days / 7 Nights",
     // price: "", // the page gives sample/starting packages but doesn’t list a specific fixed price here
-    image: "", // images are present but a single featured image URL not clearly extracted
+    image: "https://www.chardhamtour.in/blog/wp-content/uploads/2024/02/Badrinath-Kedarnath-Yatra-from-Delhi.jpg", // images are present but a single featured image URL not clearly extracted
     rating: "", // no star rating or review count shown explicitly on this page
     locations: [
       "Delhi",
@@ -1062,7 +1062,7 @@ export const CharDhamYatra = [
       "Yamunotri Gangotri Yatra is a beautiful and introductory trip of the Himalayas. The tour offers three categories of packages: Luxury, Deluxe, and Budget, each providing a unique experience of the sacred shrines of Yamunotri and Gangotri.",
     duration: "8 Days / 7 Nights",
     // price: "", // Price details are not explicitly mentioned on the page
-    image: "", // Featured image URL is not provided on the page
+    image: "https://www.shikhar.com/images/gallery/tours/631/847934040.jpg", // Featured image URL is not provided on the page
     rating: "", // No star rating or review count is available
     locations: [
       "Delhi",
@@ -1188,7 +1188,7 @@ export const Honeymoon = [
       "A romantic tour for newlyweds exploring India’s royal heritage, historic cities, and scenic destinations. Experience luxury, culture, and unforgettable moments together.",
     duration: "9 Nights / 10 Days",
     // price: "On Request",
-    image: "",
+    image: "https://plus.unsplash.com/premium_photo-1661962404003-e0ca40da40ef?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "",
     locations: ["Delhi", "Agra", "Samode", "Jaipur", "Udaipur"],
     category: "Honeymoon",
@@ -1316,7 +1316,7 @@ export const Honeymoon = [
       "A romantic beach honeymoon for couples, exploring the pristine beaches, water sports, and scenic islands of Andaman and Nicobar.",
     duration: "5 Nights / 6 Days",
     // price: "On Request",
-    image: "",
+    image: "https://plus.unsplash.com/premium_photo-1661962958462-9e52fda9954d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "",
     locations: ["Port Blair", "Havelock"],
     category: "Honeymoon",
@@ -1404,7 +1404,7 @@ export const Honeymoon = [
       "A serene honeymoon tour in Kashmir where couples can enjoy the natural beauty of Srinagar, Gulmarg, Sonmarg, and Pahalgam, creating unforgettable memories amidst picturesque landscapes.",
     duration: "5 Nights / 6 Days",
     // price: "On Request",
-    image: "",
+    image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "",
     locations: ["Srinagar", "Gulmarg", "Sonmarg", "Pahalgam"],
     category: "Honeymoon",
@@ -1494,7 +1494,7 @@ export const Honeymoon = [
       "A serene and romantic honeymoon experience in Himachal Pradesh for newly married couples, surrounded by snow-capped mountains, lush forests, and tranquil hill stations.",
     duration: "On Request",
     // price: "On Request",
-    image: "",
+    image: "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "",
     locations: [
       "Shimla",
@@ -1602,7 +1602,7 @@ export const Honeymoon = [
       "Rajasthan offers newlyweds a mix of royal heritage, romantic lakes, deserts, forts, palaces, and cultural experiences. Couples can enjoy boat rides, shopping, camel safaris, sound & light shows, and more.",
     duration: "On Request",
     // price: "On Request",
-    image: "",
+    image: "https://plus.unsplash.com/premium_photo-1661904165347-369200d4bf72?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "",
     locations: [
       "Delhi",
@@ -1721,7 +1721,7 @@ export const Honeymoon = [
       "A romantic getaway for newlyweds exploring the serene beaches, lush hills, tranquil forests, and backwaters of South India. Perfect for couples seeking peace, privacy, and memorable experiences.",
     duration: "On Request",
     // price: "On Request",
-    image: "",
+    image: "https://plus.unsplash.com/premium_photo-1697729603226-8c8627dfc12b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "",
     locations: [
       "Pondicherry",
@@ -1838,7 +1838,7 @@ export const Honeymoon = [
       "An exhilarating and romantic honeymoon experience for couples, exploring exotic and breathtaking destinations across India, combining culture, nature, and memorable experiences.",
     duration: "Customizable",
     // price: "On Request",
-    image: "",
+    image: "https://images.unsplash.com/photo-1674922049190-f631ba5bc44f?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "",
     locations: ["Kashmir", "Kerala", "Rajasthan", "Sikkim"],
     category: "Honeymoon",
@@ -1874,7 +1874,7 @@ export const Honeymoon = [
     duration: "4 Days / 3 Nights",
     // price: "On Request",
     image:
-      "https://images.unsplash.com/photo-1591358381213-6e5d25a5c3f3?q=80&w=1200",
+      "https://images.unsplash.com/photo-1690441850698-b9aae3786d35?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4.6,
     locations: ["Pipariya", "Pachmarhi", "Pipariya"],
     category: "Honeymoon",
@@ -1945,7 +1945,7 @@ export const Honeymoon = [
     duration: "7 Days / 6 Nights",
     // price: "On Request",
     image:
-      "https://images.unsplash.com/photo-1590490360182-8a10c2d8b4f4?q=80&w=1200",
+      "https://plus.unsplash.com/premium_photo-1697729438401-fcb4ff66d9a8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4.9,
     locations: ["Cochin", "Munnar", "Alleppey", "Kovalam", "Trivandrum"],
     category: "Honeymoon",
@@ -2286,7 +2286,7 @@ export const IndiaTour = [
       "Explore the vibrant cities, beaches, temples, caves, and wildlife sanctuaries of Western India including Mumbai, Goa, Gujarat, and Maharashtra.",
     duration: "",
     // price: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "",
     locations: ["Mumbai", "Goa", "Gujarat", "Maharashtra"],
     category: "indiatour",
@@ -2311,7 +2311,7 @@ export const IndiaTour = [
       "North India, which extends from Rajasthan in the west to Bihar in the East, is a region of the Indian subcontinent over which kings and empires have fought for centuries. The Northern Zone of India with Uttar Pradesh, Himachal Pradesh, Jammu & Kashmir, Uttarakhand, Punjab, Haryana, Rajasthan, Chandigarh having very much popular tourist destinations, we are suggesting few tour options below…… …",
     duration: "", // no single overall duration given
     // price: "", // no pricing given
-    image: "", // individual images shown but no single featured image URL found
+    image: "https://images.unsplash.com/photo-1712510817140-917938f92e5b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // individual images shown but no single featured image URL found
     rating: "", // no rating provided
     locations: [
       "Uttar Pradesh",
@@ -2774,7 +2774,7 @@ export const IndiaTour = [
       "South India is the most famous region of India. It is a land of temples and one can also enjoy the honeymoon in its hill station like Ooty, Kodaikanal, and backwaters of Kerala are the best for new couple. India Holiday Home takes you the tour of South India and we hope that you will explore it nicely and let us know your experience.",
     duration: "", // no overall duration given
     // price: "", // no pricing given
-    image: "", // image(s) present but no single featured image URL specified
+    image: "https://images.unsplash.com/photo-1616849540275-0bc274e2a474?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // image(s) present but no single featured image URL specified
     rating: "", // no rating provided
     locations: [
       "Tamil Nadu",
@@ -2850,7 +2850,7 @@ export const IndiaTour = [
       "Tours on luxury trains in India have become extremely popular. They’re an excellent way to explore the country without having to compromise on comfort. These luxury trains, which offer every indulgence imaginable right down to customized cutlery, inject glamor and romance into seeing some of India’s best tourist attractions. The luxury trains generally run from September to April each year. All meals, tours, and entrance fees to monuments and cultural sites are included in the price.",
     duration: "", // varies by train / itinerary; no single overall value given
     // price: "", // no fixed price for all, but some example rates are given
-    image: "", // there are images on the page, but no single “featured” image URL extracted
+    image: "https://www.indianluxurytrains.com/wp-content/uploads/2011/11/Maharajas-Express-Train-1.jpg", // there are images on the page, but no single “featured” image URL extracted
     rating: "", // no rating info given
     locations: [
       "Rajasthan",
@@ -2950,7 +2950,7 @@ export const IndiaTour = [
       "India Holiday Home introduce the Wild life packages for those who love to thrill and adventures in wild life. We invites you for a memorable time on wildlife tours in India. Choose any of our comprehensively designed tour in this category and explore the varied flora and fauna of various wildlife sanctuaries in India. We hope you will like it as one of the finest Wildlife destinations in the world, with its varied terrain, wetlands, jungles, deserts that provide excellent habitat for Tigers, Leopards, Lions, Rhinoceros, Elephants, Crocodiles, River Dolphins, Bears and variety of Deer, fabulous flowers and bird life. We have customized wildlife tours with different category, so you can see the Itinerary below and let us know to book any tour for you…",
     duration: "", // no common overall duration given
     // price: "", // no pricing information provided
-    image: "", // images present on page, but no specific featured image URL extracted
+    image: "https://plus.unsplash.com/premium_photo-1719922537914-526b2802c367?q=80&w=889&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // images present on page, but no specific featured image URL extracted
     rating: "", // not given
     locations: [
       "India", // generally everywhere in India where wildlife sanctuaries / national parks are
@@ -3108,7 +3108,7 @@ export const IndiaTour = [
       "Heritage & Culture Tour India. Indian Culture endows the place with unique rituals, beliefs, attitudes, art forms, handicrafts and others. An enigmatic country like India has its root deep into its custom, culture, history and religion. Each state is different in this element creating a cluster of diversity that no other country can show. Tours focus on famous local festivals, epic rituals, traditions, customs, architecture, delicacies etc.",
     duration: "", // overall not fixed; different packages have different durations
     // price: "", // price not listed
-    image: "", // images present but no single featured image extracted
+    image: "https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // images present but no single featured image extracted
     rating: "", // no rating information given
     locations: [
       "Delhi",
@@ -3243,7 +3243,7 @@ export const ReligiousTours = [
       "It is a beautiful and introductory trip of Jain Tours. We have 2 category of Packages for Jain Tours. Deluxe Category ::- In Deluxe Category, We are using Deluxe Hotels Camps. Advance booking is Must. Budget Category :- In Budget Category, We are using the Budget class Hotels Lodges Guest Houses. Advance booking is Must. The innumerable Jain Shrines in India spread the message of peace, non violence, love and enlightenment associated with the lives and activities of the Jain Tirthankars … India holds immense attraction for all those who desire to see the great Jain architectural splendour, and to know and understand the essence of this great religion …",
     duration: "9 Nights / 8 Days", // derived from itinerary: Day 1 to Day 9 (arrival day + 8 full days)
     // price: "", // not specified
-    image: "", // no single featured image URL explicitly given
+    image: "https://www.livehindustan.com/lh-img/uploadimage/library/2022/04/12/16_9/16_9_6/famous_jain_temples_1649765728.jpg", // no single featured image URL explicitly given
     rating: "", // not provided
     locations: [
       "Delhi",
@@ -3356,7 +3356,7 @@ export const ReligiousTours = [
       "India is a country where one can find an amalgamation of different religions. These religions make the country’s culture more vibrant and diverse. One such religion spreading the message of peace is Sikhism. It is one of the youngest religions of the world and finds its roots in the Indian states like Punjab and Haryana. The shrines of Sikhism, Gurudwaras, display wonderful piece of architect and serenity. This 13 nights and 14 days itinerary takes the tourists to some of the famous Takhts of Sikhism. The tour lets the traveler explore different regions with religious significance in Sikhism such as Chandigarh, Ropar, Fategarh, Anandpur, Amritsar, Tarn Taran, Goindwal, and Patna. In addition, the itinerary also includes visiting magnificent tourist destinations such as Varanasi, Agra and Delhi.",
     duration: "14 Days / 13 Nights",
     // price: "", // Not mentioned on the page
-    image: "", // Not a single featured image URL clearly specified
+    image: "https://images.unsplash.com/photo-1621377099913-ac1ec4848e52?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Not a single featured image URL clearly specified
     rating: "", // No rating info on the page
     locations: [
       "Delhi",
@@ -3541,7 +3541,7 @@ export const ReligiousTours = [
     duration: "7 Days / 6 Nights",
     // price: "", // Price details are not explicitly mentioned on the page
     image:
-      "https://www.thevalleyofflowers.com/wp-content/uploads/2024/02/hemkund-sahib-valley-of-flowers.jpg", // Example image URL
+      "https://images.unsplash.com/photo-1631377649998-58947055c21d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Example image URL
     rating: "", // No star rating or review count is available
     locations: [
       "Delhi",
