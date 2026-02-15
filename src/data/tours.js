@@ -1,5 +1,554 @@
 export const featuredTours = [
   {
+    id: "char-dham-yatra",
+    title: "Chardham Yatra",
+    description:
+      "Chardham Yatra is a beautiful and religious trip of the Himalayas. Chardham Yatra 2025 starts from late April. The tour includes spiritual, Himalayan scenery, pilgrim experiences and includes Ganga Aarti, Himalayan views and stays in Uttarakhand. Different packages (Luxury, Deluxe, Budget) are available. Advance booking is a must.",
+    duration: "12 Days / 11 Nights",
+    // price: "",
+    image: "https://www.allinharidwar.com/wp-content/uploads/2018/04/Rishikesh-to-Chardham-Yatra.jpg", // images present, but no single “featured” image URL was extracted
+    rating: "", // not provided
+    locations: [
+      "Delhi",
+      "Haridwar",
+      "Barkot",
+      "Yamunotri",
+      "Uttarkashi",
+      "Gangotri",
+      "Rudraprayag",
+      "Kedarnath",
+      "Joshimath",
+      "Badrinath",
+      "Rishikesh",
+    ],
+    category: "Spiritual1",
+    featured: false,
+    highlights: [
+      "Ganga Aarti of Haridwar & Rishikesh",
+      "Introduction to Indian spirituality through pilgrimage",
+      "Panoramic views of the Himalayas",
+      "Special features: multiple types of package (Luxury, Deluxe, Budget) with different standards of hotels or camps",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Haridwar",
+        description:
+          "Arrive in Delhi and drive to Haridwar. In the evening, attend the sacred Ganga Aarti at Har-ki-Pauri.",
+        activities: [
+          "Drive from Delhi to Haridwar",
+          "Evening Ganga Aarti at Har-ki-Pauri",
+        ],
+      },
+      {
+        day: 2,
+        title: "Haridwar to Barkot",
+        description:
+          "Travel from Haridwar to Barkot via Dehradun and Mussoorie. Scenic drive through hills and valleys.",
+        activities: [
+          "Drive through Dehradun",
+          "Stopover at Mussoorie",
+          "Arrival at Barkot",
+        ],
+      },
+      {
+        day: 3,
+        title: "Barkot to Yamunotri and back",
+        description:
+          "Early morning drive to Janki Chatti, then trek/horse/doli ride to Yamunotri. Visit Yamunotri temple before returning to Barkot.",
+        activities: [
+          "Drive to Janki Chatti",
+          "Trek/horse/doli to Yamunotri",
+          "Yamunotri Darshan",
+          "Return to Barkot",
+        ],
+      },
+      {
+        day: 4,
+        title: "Barkot to Uttarkashi",
+        description:
+          "Drive to Uttarkashi and visit the famous Vishwanath Temple in the evening.",
+        activities: ["Drive to Uttarkashi", "Visit Vishwanath Temple"],
+      },
+      {
+        day: 5,
+        title: "Uttarkashi to Gangotri and back",
+        description:
+          "Full-day excursion to Gangotri, one of the Char Dhams. Return to Uttarkashi for overnight stay.",
+        activities: [
+          "Scenic drive to Gangotri",
+          "Gangotri Temple Darshan",
+          "Return to Uttarkashi",
+        ],
+      },
+      {
+        day: 6,
+        title: "Uttarkashi to Rudraprayag",
+        description:
+          "Drive from Uttarkashi to Rudraprayag via the Tehri Dam route.",
+        activities: ["Drive through Tehri Dam", "Arrival at Rudraprayag"],
+      },
+      {
+        day: 7,
+        title: "Rudraprayag to Kedarnath",
+        description:
+          "Travel to Gaurikund and begin trek to Kedarnath. Stay overnight near the Kedarnath Temple.",
+        activities: [
+          "Drive to Gaurikund",
+          "Trek to Kedarnath",
+          "Darshan at Kedarnath Temple",
+          "Overnight stay at Kedarnath",
+        ],
+      },
+      {
+        day: 8,
+        title: "Kedarnath to Rudraprayag",
+        description:
+          "Return from Kedarnath trek to Gaurikund and drive back to Rudraprayag via Guptkashi.",
+        activities: [
+          "Trek back from Kedarnath",
+          "Drive via Guptkashi",
+          "Arrival at Rudraprayag",
+        ],
+      },
+      {
+        day: 9,
+        title: "Rudraprayag to Badrinath",
+        description:
+          "Drive to Badrinath via Joshimath. Evening darshan at the Badrinath Temple.",
+        activities: [
+          "Scenic drive to Joshimath",
+          "Continue to Badrinath",
+          "Evening Badrinath Temple Darshan",
+        ],
+      },
+      {
+        day: 10,
+        title: "Badrinath to Joshimath",
+        description:
+          "Morning darshan at Badrinath, then drive to Joshimath. Visit nearby attractions like Mana village and Vyas Gufa.",
+        activities: [
+          "Morning Badrinath Darshan",
+          "Visit Mana Village",
+          "Visit Vyas Gufa",
+          "Drive to Joshimath",
+        ],
+      },
+      {
+        day: 11,
+        title: "Joshimath to Rishikesh",
+        description:
+          "Drive to Rishikesh. Visit Narsingh Temple and Shankaracharya Math. Evening free at leisure.",
+        activities: [
+          "Drive to Rishikesh",
+          "Visit Narsingh Temple",
+          "Visit Shankaracharya Math",
+        ],
+      },
+      {
+        day: 12,
+        title: "Rishikesh to Delhi (via Haridwar)",
+        description:
+          "Drive back to Delhi via Haridwar. Departure for onward journey.",
+        activities: [
+          "Breakfast at hotel",
+          "Drive to Haridwar",
+          "Continue to Delhi",
+          "Departure",
+        ],
+      },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Haridwar",
+        description:
+          "Arrive in Delhi and drive to Haridwar. In the evening, attend the Ganga Ceremony at Har Ki Pauri.",
+        activities: [
+          "Drive from Delhi to Haridwar",
+          "Evening Ganga Ceremony at Har Ki Pauri",
+        ],
+      },
+      {
+        day: 2,
+        title: "Haridwar to Barkot",
+        description:
+          "Drive from Haridwar to Barkot via Dehradun and Mussoorie. Stop at Satya Narayan Temple, Prakasheswar Temple, and Kempty Falls.",
+        activities: [
+          "Drive through Dehradun and Mussoorie",
+          "Visit Satya Narayan Temple",
+          "Visit Prakasheswar Temple",
+          "Visit Kempty Falls",
+          "Arrive at Barkot",
+        ],
+      },
+      {
+        day: 3,
+        title: "Barkot to Yamunotri and back",
+        description:
+          "Travel to Janki Chatti and trek to Yamunotri Temple. Return to Barkot in the evening.",
+        activities: [
+          "Drive to Janki Chatti",
+          "Trek to Yamunotri Temple",
+          "Yamunotri Darshan",
+          "Return to Barkot",
+        ],
+      },
+      {
+        day: 4,
+        title: "Barkot to Haridwar",
+        description:
+          "Drive back to Haridwar via Devprayag, visiting Vasistha Gufa, Laxman Jhula, and Ram Jhula along the way.",
+        activities: [
+          "Drive via Devprayag",
+          "Visit Vasistha Gufa",
+          "Visit Laxman Jhula",
+          "Visit Ram Jhula",
+          "Arrive at Haridwar",
+        ],
+      },
+      {
+        day: 5,
+        title: "Haridwar to Delhi",
+        description:
+          "Drive back to Delhi with visits en route to Daksh Temple, Shri Yantra Temple, and Maya Devi Temple.",
+        activities: [
+          "Visit Daksh Temple",
+          "Visit Shri Yantra Temple",
+          "Visit Maya Devi Temple",
+          "Drive to Delhi",
+          "Departure",
+        ],
+      },
+    ],
+
+    contact: {
+      phone: ["+91-9412072802", "+91-8630090671", "+91-9456332153"],
+      email: ["amitbajaj13@hotmail.com", "indiaholidayhome@gmail.com"],
+      address:
+        "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
+    },
+  },
+
+  {
+    id: "kedarnath-badrinath-yatra",
+    title: "Kedarnath Badrinath Yatra",
+    description:
+      "Kedarnath Badrinath (or Do Dham / Kedar-Badri Yatra) is a beautiful introductory trip of the Himalayas. There are three categories of packages: Luxury, Deluxe, Budget. The tour includes Haridwar Ganga Aarti, Delhi arrival/departure, and spiritual / pilgrimage elements along with Himalayan scenic views.",
+    duration: "8 Days / 7 Nights",
+    // price: "", // the page gives sample/starting packages but doesn’t list a specific fixed price here
+    image: "https://www.chardhamtour.in/blog/wp-content/uploads/2024/02/Badrinath-Kedarnath-Yatra-from-Delhi.jpg", // images are present but a single featured image URL not clearly extracted
+    rating: "", // no star rating or review count shown explicitly on this page
+    locations: [
+      "Delhi",
+      "Haridwar",
+      "Guptkashi",
+      "Gaurikund",
+      "Kedarnath",
+      "Rudraprayag",
+      "Badrinath",
+      "Joshimath",
+      "Rishikesh",
+    ],
+    category: "Spiritual1",
+    featured: false,
+    highlights: [
+      "Ganga Aarti at Haridwar & Rishikesh",
+      'Spiritual pilgrimage to both Kedarnath and Badrinath in one tour ("Do Dham")',
+      "Three categories of accommodation: Luxury, Deluxe, Budget",
+      "Scenic Himalayan views throughout",
+      "Trek (or pony / doli / helicopter options) up to Kedarnath with overnight stay",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Haridwar",
+        description:
+          "Drive from Delhi to Haridwar and attend the evening Ganga Aarti at Har-ki-Pauri.",
+        activities: [
+          "Drive from Delhi to Haridwar",
+          "Evening Ganga Aarti at Har-ki-Pauri",
+        ],
+      },
+      {
+        day: 2,
+        title: "Haridwar to Guptkashi",
+        description:
+          "Travel from Haridwar to Guptkashi via Devprayag and Rudraprayag, enjoying scenic views en route.",
+        activities: [
+          "Drive from Haridwar to Guptkashi",
+          "Visit Devprayag & Rudraprayag en route",
+        ],
+      },
+      {
+        day: 3,
+        title: "Guptkashi to Kedarnath",
+        description:
+          "Proceed to Gaurikund and trek/pony/doli/helicopter 14 km to Kedarnath; overnight stay at Kedarnath.",
+        activities: [
+          "Drive to Gaurikund",
+          "Trek/pony/doli/helicopter to Kedarnath",
+          "Overnight stay at Kedarnath",
+        ],
+      },
+      {
+        day: 4,
+        title: "Kedarnath to Rudraprayag",
+        description:
+          "Descend from Kedarnath to Gaurikund and drive to Rudraprayag; overnight stay at Rudraprayag.",
+        activities: [
+          "Descend from Kedarnath to Gaurikund",
+          "Drive to Rudraprayag",
+          "Overnight stay at Rudraprayag",
+        ],
+      },
+      {
+        day: 5,
+        title: "Rudraprayag to Badrinath",
+        description:
+          "Drive to Badrinath via Joshimath and attend evening Darshan at Badrinath Temple.",
+        activities: [
+          "Drive to Badrinath via Joshimath",
+          "Evening Darshan at Badrinath Temple",
+        ],
+      },
+      {
+        day: 6,
+        title: "Badrinath to Joshimath",
+        description:
+          "Sightseeing around Joshimath including Mana Village, Vyas Gufa, Charanpaduka, etc.",
+        activities: [
+          "Visit Mana Village",
+          "Explore Vyas Gufa",
+          "Visit Charanpaduka and nearby sites",
+          "Overnight stay in Joshimath",
+        ],
+      },
+      {
+        day: 7,
+        title: "Joshimath to Rishikesh",
+        description:
+          "Drive to Rishikesh via Shankaracharya Math and Narsingh Temple; overnight stay in Rishikesh.",
+        activities: [
+          "Drive to Rishikesh via Shankaracharya Math & Narsingh Temple",
+          "Overnight stay in Rishikesh",
+        ],
+      },
+      {
+        day: 8,
+        title: "Rishikesh to Delhi via Haridwar",
+        description:
+          "Return to Delhi via Haridwar with transfer to railway station or airport.",
+        activities: [
+          "Drive from Rishikesh to Delhi via Haridwar",
+          "Transfer to railway station / airport",
+        ],
+      },
+    ],
+    otherDetails: {
+      phone: ["+91-9412072802", "+91-9456332153", "8630090671"],
+      email: ["amitbajaj13@hotmail.com", "indiaholidayhome@gmail.com"],
+      address:
+        "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
+    },
+  },
+
+  {
+    id: "kedarnath-dham-yatra",
+    title: "Kedarnath Dham Yatra",
+    description:
+      "Kedarnath is one of the twelve Jyotirlingas of Lord Shiva and the highest Char Dham shrine, located at 3,581 meters. It is reached by a 14 km trek from Gaurikund and is surrounded by snow-covered peaks and glaciers.The temple has a large Nandi statue and sacred hot springs like Shiv Kund, and is believed to have been built by the Pandavas after the Mahabharata.",
+    duration: "5 Days / 4 Nights",
+    // price: "", // price not clearly given
+    image: "https://images.unsplash.com/photo-1712733900711-d0b929d0d7cc?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // image(s) present, but no single “featured” image URL extracted
+    rating: "1 Review", // there is “(1 Review)” shown on page :contentReference[oaicite:0]{index=0}
+    locations: [
+      "Delhi",
+      "Haridwar",
+      "Rudraprayag / Guptkashi",
+      "Gaurikund",
+      "Kedarnath",
+    ],
+    category: "Spiritual1",
+    featured: false,
+    highlights: [
+      "Visit Kedarnath Temple, one of the 12 Jyotirlingas and part of Chardham pilgrimage",
+      "Trek 14 km from Gaurikund (trek / horse / pony / dolly; option of helicopter service available)",
+      "Scenic views: Gonded peaks, Madakini & Gandhi Glaciers around the valley",
+      "Ganga Ceremony at Har Ki Pauri in Haridwar, visit Satyanarayan Temple, Devprayag, Guptkashi",
+      "Surrounded by snow-covered mountains; high altitude pilgrimage experience",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Haridwar",
+        description:
+          "Arrive in Delhi and drive to Haridwar. Attend the evening Ganga Ceremony at Har Ki Pauri.",
+        activities: [
+          "Drive from Delhi to Haridwar",
+          "Evening Ganga Ceremony at Har Ki Pauri",
+        ],
+      },
+      {
+        day: 2,
+        title: "Haridwar to Rudraprayag / Guptkashi",
+        description:
+          "Travel from Haridwar to Rudraprayag / Guptkashi via Devprayag, visiting Satyanarayan Temple along the way.",
+        activities: [
+          "Drive from Haridwar to Rudraprayag / Guptkashi via Devprayag",
+          "Visit Satyanarayan Temple en route",
+        ],
+      },
+      {
+        day: 3,
+        title: "Rudraprayag / Sitapur to Kedarnath and back",
+        description:
+          "Travel to Gaurikund, then trek or use horse/pony/dolly/helicopter to reach Kedarnath. Return to Rudraprayag / Sitapur in the evening.",
+        activities: [
+          "Drive to Gaurikund",
+          "Trek / Horse / Pony / Dolly / Helicopter to Kedarnath",
+          "Visit Kedarnath Temple",
+          "Return to Rudraprayag / Sitapur",
+        ],
+      },
+      {
+        day: 4,
+        title: "Rudraprayag / Sitapur to Haridwar",
+        description:
+          "Drive back to Haridwar via Rishikesh and Devprayag, enjoying scenic views along the way.",
+        activities: [
+          "Drive via Rishikesh & Devprayag",
+          "Arrive in Haridwar",
+          "Leisure time",
+        ],
+      },
+      {
+        day: 5,
+        title: "Haridwar to Delhi",
+        description:
+          "Drive back to Delhi, visiting Daksh Temple, Shri Yantra Temple, and Maya Devi Temple en route. Depart from Delhi.",
+        activities: [
+          "Drive from Haridwar to Delhi",
+          "Visit Daksh Temple, Shri Yantra Temple, Maya Devi Temple en route",
+          "Departure from Delhi",
+        ],
+      },
+    ],
+
+    contact: {
+      phone: ["+91-9412072802", "+91-9456332153", "8630090671"],
+      email: ["indiaholidayhome@gmail.com", "amitbajaj13@hotmail.com"],
+      address:
+        "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
+    },
+  },
+  {
+    id: "badrinath-dham-yatra",
+    title: "Badrinath Dham Yatra",
+    description:
+      "**Badrinath Temple** is the holiest Char Dham shrine, located between the Nar–Narayan ranges on the Alaknanda River with views of Neelkanth Peak.Situated at 3,133 m, it was once called *Badri Van* for its wild berries. The present temple was built by the Garhwal kings and has three main sections — sanctum, darshan hall, and assembly hall. Pilgrims usually begin the yatra from Haridwar after a holy Ganga dip.",
+    duration: "6 Days / 5 Nights",
+    // price: "",
+    image: "https://images.unsplash.com/photo-1601821139990-9fc929db79ce?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // images are shown on page but no single “featured” image URL clearly extracted
+    rating: "2 Reviews",
+    locations: [
+      "Delhi",
+      "Haridwar",
+      "Rudraprayag",
+      "Badrinath",
+      "Joshimath",
+      "Rishikesh",
+      "Uttarakhand",
+    ],
+    category: "Spiritual1",
+    featured: false,
+    highlights: [
+      "Darshan of Badrinath Temple at 3,133 m in the Garhwal Himalayas",
+      "View of Neelkanth mountain, visit Mana Village",
+      "Temple architecture and sanctum structures (Garbha Griha, Darshan Mandap, Shobha Mandap)",
+      "Holy Ganga dip in Haridwar before starting yatra; scenic drives through Rudraprayag & Joshimath",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Haridwar",
+        description:
+          "Drive from Delhi to Haridwar and attend the evening Ganga Aarti at Har-ki-Pauri.",
+        activities: [
+          "Drive from Delhi to Haridwar",
+          "Evening Ganga Aarti at Har-ki-Pauri",
+        ],
+      },
+      {
+        day: 2,
+        title: "Haridwar to Rudraprayag",
+        description:
+          "Travel from Haridwar to Rudraprayag via Deoprayag, enjoying scenic stops along the way.",
+        activities: [
+          "Drive from Haridwar to Rudraprayag via Deoprayag",
+          "Scenic stops en route",
+        ],
+      },
+      {
+        day: 3,
+        title: "Rudraprayag to Badrinath",
+        description:
+          "Drive to Badrinath via Joshimath and visit Badrinath Temple in the evening.",
+        activities: [
+          "Drive to Badrinath via Joshimath",
+          "Evening visit to Badrinath Temple",
+        ],
+      },
+      {
+        day: 4,
+        title: "Badrinath to Joshimath",
+        description:
+          "Explore nearby sites around Joshimath including Mana Village, Vyas Gufa, Bhimkund, and Charanpaduka; overnight stay in Joshimath.",
+        activities: [
+          "Visit Mana Village",
+          "Explore Vyas Gufa, Bhimkund, Charanpaduka",
+          "Overnight stay in Joshimath",
+        ],
+      },
+      {
+        day: 5,
+        title: "Joshimath to Rishikesh",
+        description:
+          "Drive to Rishikesh visiting Sriningsh Temple and Shankaracharya Math; overnight stay in Rishikesh.",
+        activities: [
+          "Drive to Rishikesh via Sriningsh Temple & Shankaracharya Math",
+          "Overnight stay in Rishikesh",
+        ],
+      },
+      {
+        day: 6,
+        title: "Rishikesh to Delhi via Haridwar",
+        description:
+          "Drive back to Delhi via Haridwar with drop at railway station or airport.",
+        activities: [
+          "Drive from Rishikesh to Delhi via Haridwar",
+          "Drop at railway station / airport",
+        ],
+      },
+    ],
+    contact: {
+      phone: ["+91-9412072802", "+91-9456-332153", "8630090671"],
+      email: ["indiaholidayhome@gmail.com", "amitbajaj13@hotmail.com"],
+      address:
+        "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
+    },
+    otherDetails: {
+      availability: "Jan 16 – Dec 31", // tour is available during this period :contentReference[oaicite:0]{index=0}
+      minAge: "9+", // required minimum age :contentReference[oaicite:1]{index=1}
+      maxPeople: "34", // maximum group size :contentReference[oaicite:2]{index=2}
+      region: "Uttarakhand", // the state/region where the tour takes place :contentReference[oaicite:3]{index=3}
+    },
+  },
+  
+];
+
+export const featuredTours1 = [
+  {
     id: "golden-triangle",
     title: "Golden Triangle Tour",
     description: "Explore the cultural heritage of Delhi, Agra, and Jaipur",
@@ -368,7 +917,7 @@ export const CharDhamYatra = [
       "Badrinath",
       "Rishikesh",
     ],
-    category: "Spiritual",
+    category: "Spiritual1",
     featured: false,
     highlights: [
       "Ganga Aarti of Haridwar & Rishikesh",
@@ -581,13 +1130,13 @@ export const CharDhamYatra = [
     id: "yamunotri-dham-yatra",
     title: "Yamunotri Dham Yatra",
     description:
-      "The source of river Yamuna, Yamunotri, is the westernmost shrine in Chardham. Situated on the top of Bandar Poonch Parvat the temple is devoted to goddess Yamuna. Although the actual source of river Yamuna is the Champasar Glacier or the Yamunotri Glacier is located at a distance of 1 km from the temple on Kalind Mountain, but is not accessible so the temple itself is worshiped as the source of Yamuna. Yamunotri is reached after a 7 km trek from Janki Chatti. The temple was built by Maharaja Pratap Shah of Tehri Garhwal on the banks of the river and the deity that resides here is made of black marble. The river Yamuna has been elevated to the status of a divine mother by the Hindu mythology for its role in nurturing the civilization in the Gangetic plain. There are hot water springs near the temple forming Kunds among which Surya Kund is the most important. Near this kund is a rock known as Divya Shila. The Divya Shila is worshiped before the deity. Devotees prepare potato and rice by tying them in a muslin cloth dipping them in the hot water springs and offer them to the deity. The rice is taken back as Prasad. The temple remains closed during the winters as the area is prone to heavy snowfall.",
+      "Yamunotri, the westernmost shrine of the Char Dham, is dedicated to Goddess Yamuna and is worshipped as the river’s source, though the actual glacier lies 1 km away and is inaccessible. Reached by a 7 km trek from Janki Chatti, the temple was built by Maharaja Pratap Shah and houses a black marble idol.Nearby are hot springs like Surya Kund and the sacred Divya Shila, where offerings are made. The temple remains closed in winter due to heavy snowfall.",
     duration: "5 Days / 4 Nights",
     // price: "", // as listed price on the page :contentReference[oaicite:0]{index=0}
     image: "https://www.allinharidwar.com/library/timthumb.php?src=/wp-content/uploads/2018/02/Yamunotri-Dham-Yatra-1.jpg&w=628&h=380&zc=0&q=80", // multiple images are present but no single “featured” image URL extracted :contentReference[oaicite:1]{index=1}
     rating: "", // not given on the page :contentReference[oaicite:2]{index=2}
     locations: ["Delhi", "Haridwar", "Barkot", "Janki Chatti", "Yamunotri"],
-    category: "Spiritual",
+    category: "Spiritual1",
     featured: false,
     highlights: [
       "Visit Yamunotri temple, the westernmost shrine of Chardham",
@@ -662,13 +1211,13 @@ export const CharDhamYatra = [
     id: "gangotri-dham-yatra",
     title: "Gangotri Dham Yatra",
     description:
-      "The holy place overlooks the thundering river Bhagirathi which flows between the rugged mountains; Gangotri is the spiritual source of India’s holiest river Ganga. Here Ganga is known as Bhagirathi. The actual source is the ice cave of Gaumukh. It is believed that bathing in her waters brings liberation from all sins committed in the present and past birth. According to legend, after King Bhagirath’s prayers, goddess Ganga agreed to descend from heaven, Lord Shiva caught her in his locks (to prevent the destruction of Earth), and released her drops onto the earth to cleanse it. ",
+      "Gangotri overlooks the roaring Bhagirathi River and is revered as the spiritual source of the Ganga, whose actual origin is the ice cave of Gaumukh.According to legend, Goddess Ganga descended to Earth after King Bhagirath’s prayers, with Lord Shiva breaking her fall to save the world. Bathing in her waters is believed to cleanse all sins",
     duration: "4 Nights / 5 Days",
     // price: "",
     image: "https://images.unsplash.com/photo-1696465889052-6c8921536920?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // there are photos on the page but no single “featured image” URL was clearly extracted
     rating: "", // one review is indicated but no star rating visible
     locations: ["Delhi", "Haridwar", "Uttarkashi", "Gangotri"],
-    category: "Spiritual",
+    category: "Spiritual1",
     featured: false,
     highlights: [
       "Holy bathing at the source of the river Ganga (Bhagirathi) in Gangotri",
@@ -745,7 +1294,7 @@ export const CharDhamYatra = [
     id: "kedarnath-dham-yatra",
     title: "Kedarnath Dham Yatra",
     description:
-      "One of the twelve Jyotirlingas dedicated to the Sadashiva form of Lord Shiva and the third shrine in Chardham, Kedarnath is a magnificent temple situated at a height of 3581m. In the temple a huge statue of Nandi stands. There are a number of hot water springs called as Kunds in Kedarnath. Among which Shiv Kund is the most important and Rudhir Kund is famous for its red colored water. The whole valley of Kedarnath is surrounded by snow-covered peaks from three sides with Madakini and Gandhi Glaciers on the fourth side only a few kilometers away. Among the Chardham, Kedarnath is situated at the highest altitude. It is reached after a 14 km trek from Gaurikund. It is believed that Kedarnath shrine was built by the Pandavas after the battle of Mahabharat. Kedarnath also is the main shrine among the Panch Kedar devoted to Lord Shiva. The other four are Tungnath, Rudranath, Mad Maheshwar, Kalpeshwar. These temples are worshipped by Hindu devotees during their Chardham pilgrimage.",
+      "Kedarnath is one of the twelve Jyotirlingas of Lord Shiva and the highest Char Dham shrine, located at 3,581 meters. It is reached by a 14 km trek from Gaurikund and is surrounded by snow-covered peaks and glaciers.The temple has a large Nandi statue and sacred hot springs like Shiv Kund, and is believed to have been built by the Pandavas after the Mahabharata.",
     duration: "5 Days / 4 Nights",
     // price: "", // price not clearly given
     image: "https://images.unsplash.com/photo-1712733900711-d0b929d0d7cc?q=80&w=377&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // image(s) present, but no single “featured” image URL extracted
@@ -757,7 +1306,7 @@ export const CharDhamYatra = [
       "Gaurikund",
       "Kedarnath",
     ],
-    category: "Spiritual",
+    category: "Spiritual1",
     featured: false,
     highlights: [
       "Visit Kedarnath Temple, one of the 12 Jyotirlingas and part of Chardham pilgrimage",
@@ -834,7 +1383,7 @@ export const CharDhamYatra = [
     id: "badrinath-dham-yatra",
     title: "Badrinath Dham Yatra",
     description:
-      "The Abode Of Lord Vishnu : – Badrinath Temple situated in the twin mountain ranges of Nar and Narayan is the holiest of the four main shrines, Temple Darshan along the left bank river Alaknanda with the view of splendid Neelkanth mountain and visiting Mana Village are the main attractions, Badrinath is an important destination for every devout Hindu. Once the spot was carpeted with ‘badris’ or wild berries and hence was famous as ‘Badri Van’. Badrinath is considered the holiest of the four important shrines in Garhwal. The town is at an altitude of 3,133 m … The present temple was built about two centuries ago by Garhwal Kings … The temple has three parts – Garbha Griha (sanctum sanctorum), Darshan Mandap, Shobha Mandap … Haridwar is the gateway; pilgrims take the holy Ganga dip before starting the Yatra …",
+      "**Badrinath Temple** is the holiest Char Dham shrine, located between the Nar–Narayan ranges on the Alaknanda River with views of Neelkanth Peak.Situated at 3,133 m, it was once called *Badri Van* for its wild berries. The present temple was built by the Garhwal kings and has three main sections — sanctum, darshan hall, and assembly hall. Pilgrims usually begin the yatra from Haridwar after a holy Ganga dip.",
     duration: "6 Days / 5 Nights",
     // price: "",
     image: "https://images.unsplash.com/photo-1601821139990-9fc929db79ce?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // images are shown on page but no single “featured” image URL clearly extracted
@@ -848,7 +1397,7 @@ export const CharDhamYatra = [
       "Rishikesh",
       "Uttarakhand",
     ],
-    category: "Spiritual",
+    category: "Spiritual1",
     featured: false,
     highlights: [
       "Darshan of Badrinath Temple at 3,133 m in the Garhwal Himalayas",
@@ -952,7 +1501,7 @@ export const CharDhamYatra = [
       "Joshimath",
       "Rishikesh",
     ],
-    category: "Spiritual",
+    category: "Spiritual1",
     featured: false,
     highlights: [
       "Ganga Aarti at Haridwar & Rishikesh",
@@ -1073,7 +1622,7 @@ export const CharDhamYatra = [
       "Gangotri",
       "Rishikesh",
     ],
-    category: "Spiritual",
+    category: "Spiritual1",
     featured: false,
     highlights: [
       "Ganga Aarti at Haridwar and Rishikesh",
@@ -5921,8 +6470,9 @@ export const AdveturousTours = [
   },
 ];
 export const allTours = [
-  ...featuredTours,
   ...CharDhamYatra,
+  ...featuredTours1,
+  // ...CharDhamYatra,
   ...Honeymoon,
   ...IndiaTour,
   ...ReligiousTours,
@@ -6288,6 +6838,15 @@ export const allTours = [
 ];
 
 export const tourCategories = [
+  {
+    id: "spiritual1",
+    name: "CharDham Yatra",
+    description:
+      "Explore India's rich cultural heritage and historical monuments",
+    image:
+      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?q=80&w=800",
+    count: 12,
+  },
   {
     id: "cultural",
     name: "Cultural Tours",
