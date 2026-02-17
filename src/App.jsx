@@ -11,6 +11,9 @@ import TourDetailsPage from "./pages/TourDetailsPage";
 import ServicesPage from "./pages/ServicesPage";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
+// added for toaster 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +25,7 @@ const App = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <ToastContainer position="top-center" />
       <TooltipProvider>
         <Toaster />
         <Sonner />

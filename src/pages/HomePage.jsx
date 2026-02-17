@@ -11,7 +11,25 @@ import FacebookGallery from "../components/ui/FacebookGallery";
 import { featuredTours, tourCategories, carRental } from "../data/tours";
 import { reviews } from "../data/reviews";
 
+import { toast } from "react-toastify";
+
+
 const HomePage = () => {
+
+  useEffect(() => {
+    toast(
+      <div className="toast-card">
+        <img src="https://images.unsplash.com/photo-1712733900711-d0b929d0d7cc?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Char Dham" />
+        
+         <h4>Char Dham Yatra 2026</h4>
+        <p>Starting from <b>10 May 2026</b></p>
+        <button className="book-btn">Book Now</button>
+      </div>,
+      { autoClose: 5000 }
+    );
+  }, []);
+
+
   // Animation for parallax
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]);
@@ -77,6 +95,7 @@ const HomePage = () => {
 
   return (
     <Layout>
+
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Background Video/Image */}
