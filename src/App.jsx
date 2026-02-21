@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <ToastContainer position="top-center" />
+      <ToastContainer position="top-center"/>
       <TooltipProvider>
         <Toaster />
         <Sonner />

@@ -6,6 +6,7 @@ export const featuredTours = [
       "Chardham Yatra is a beautiful and religious trip of the Himalayas. Chardham Yatra 2025 starts from late April. The tour includes spiritual, Himalayan scenery, pilgrim experiences and includes Ganga Aarti, Himalayan views and stays in Uttarakhand. Different packages (Luxury, Deluxe, Budget) are available. Advance booking is a must.",
     duration: "12 Days / 11 Nights",
     // price: "",
+
     image: "https://www.allinharidwar.com/wp-content/uploads/2018/04/Rishikesh-to-Chardham-Yatra.jpg", // images present, but no single “featured” image URL was extracted
     rating: "", // not provided
     locations: [
@@ -4189,7 +4190,7 @@ export const ReligiousTours = [
     duration: "1 Day",
     // price: "",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/tirupati-darshan-package.jpg",
+      "https://www.gurucool.life/_next/image?url=https%3A%2F%2Fdrive.gurucool.life%2FblogsImage%2F1762924859225.Tirupati-Balaji-Temple.webp&w=1080&q=75",
     rating: "4.5/5",
     locations: ["Chennai", "Tirupati"],
     category: "Spiritual",
@@ -4232,7 +4233,7 @@ export const ReligiousTours = [
     duration: "17 Nights / 18 Days",
     // price: "", // Price details are not explicitly mentioned on the page
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/12-jyotirlinga-tour.jpg", // Example image URL
+      "/12shivjyoti.png", // Example image URL
     rating: "", // No star rating or review count is available
     locations: [
       "Somnath (Gujarat)",
@@ -4273,7 +4274,7 @@ export const ReligiousTours = [
     duration: "16 Days",
     // price: "₹1,75,000 per person",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/kailash-mansarovar.jpg",
+      "/kailashmansarover.png",
     rating: "4.8/5",
     locations: [
       "Kathmandu",
@@ -4450,7 +4451,7 @@ export const ReligiousTours = [
     duration: "5 Days / 4 Nights",
     // price: "₹25,000 per person",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/amarnath-yatra.jpg",
+      "https://images.unsplash.com/photo-1698723985259-68880264e201?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "4.8/5",
     locations: ["Srinagar", "Pahalgam", "Amarnath Cave"],
     category: "Spiritual",
@@ -4524,7 +4525,7 @@ export const ReligiousTours = [
     duration: "2 Days / 1 Night",
     // price: "₹3,999 per person",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/vaishno-devi-yatra.jpg",
+      "https://images.unsplash.com/photo-1717502713522-543a97e13dab?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: "4.8/5",
     locations: ["Katra", "Vaishno Devi Shrine"],
     category: "Spiritual",
@@ -4573,7 +4574,7 @@ export const ReligiousTours = [
     duration: "8 Nights / 9 Days",
     // price: "₹25,000 per person",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/yoga-meditation-tour.jpg",
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1220",
     rating: "4.7/5",
     locations: ["Haridwar", "Uttarkashi", "Rishikesh"],
     category: "Spiritual",
@@ -4695,7 +4696,7 @@ export const ReligiousTours = [
     duration: "6 Days / 5 Nights",
     // price: "₹18,000 per person",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/source-of-ganges-tour.jpg",
+      "https://images.unsplash.com/photo-1511754863001-18d44abd0a93?q=80&w=1170",
     rating: "4.7/5",
     locations: ["Delhi", "Haridwar", "Uttarkashi", "Gangotri", "Gaumukh"],
     category: "Spiritual",
@@ -4789,7 +4790,7 @@ export const ReligiousTours = [
     duration: "6 Days / 5 Nights",
     // price: "₹17,000 per person",
     image:
-      "https://www.thevalleyofflowers.com/wp-content/uploads/2024/02/hemkund-sahib-valley-of-flowers.jpg",
+      "https://images.unsplash.com/photo-1653545709990-a6a4c8a6c36c?q=80&w=1171",
     rating: "4.8/5",
     locations: [
       "Haridwar",
@@ -4893,7 +4894,7 @@ export const AdveturousTours = [
     duration: "8 Days / 7 Nights",
     // price: "₹25,000 per person",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/auli-skiing.jpg",
+      "https://images.unsplash.com/photo-1464243875140-f8f83262bd1a?q=80&w=1331",
     rating: "4.7/5",
     locations: ["Auli", "Delhi", "Haridwar", "Joshimath", "Rishikesh"],
     category: "Adventure",
@@ -5026,7 +5027,7 @@ export const AdveturousTours = [
     duration: "1 Day",
     // price: "₹500–₹1,500 per person",
     image:
-      "https://www.indianholiday.com/uttarakhand/rishikesh/river-rafting-in-rishikesh.html",
+      "https://plus.unsplash.com/premium_photo-1697730398251-40cd8dc57e0b?q=80&w=1170",
     rating: "4.5/5",
     locations: ["Rishikesh, Uttarakhand"],
     category: "Adventure",
@@ -5076,7 +5077,7 @@ export const AdveturousTours = [
     duration: "Varies by trek",
     // price: "Varies by trek",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/trekking.jpg",
+      "https://plus.unsplash.com/premium_photo-1732476370774-a57fe72b9f91?q=80&w=1170",
     rating: "4.7/5",
     locations: [
       "Uttarakhand",
@@ -5174,7 +5175,7 @@ export const AdveturousTours = [
     duration: "Half-day to multi-day trips",
     // price: "₹1,000–₹4,000 per person",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/kayaking.jpg",
+      "https://images.unsplash.com/photo-1715230656262-9410dfbead2a?q=80&w=1170",
     rating: "4.6/5",
     locations: ["Rishikesh, Uttarakhand"],
     category: "Adventure",
@@ -5236,7 +5237,7 @@ export const AdveturousTours = [
       "Jeep Safari tours arranged by wildlife sanctuaries are the best way to explore flora and fauna of the wildlife sanctuaries along with wildlife in a secured manner. Popular in India, these tours allow visitors to reach remote parts of the jungle quickly.",
     duration: "",
     // price: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1656828059237-add66db82a2b?q=80&w=1170",
     rating: "",
     locations: [
       "Dudhwa National Park",
@@ -5265,7 +5266,7 @@ export const AdveturousTours = [
       "Travel through high mountain passes with this thrilling 7-night/8-day Trans Himalayan Jeep Safari, covering desert valleys, lakes, monasteries, and scenic landscapes.",
     duration: "7 Nights / 8 Days",
     // price: "",
-    image: "",
+    image: "https://www.extremetoursindia.com/wp-content/uploads/2015/04/Tso-kar-rupshu-valley-ladakh-India.png.webp",
     rating: "",
     locations: [
       "Delhi",
@@ -5404,7 +5405,7 @@ export const AdveturousTours = [
       "A 14-night/15-day wildlife and cultural tour across Madhya Pradesh and Mumbai covering temples, forts, caves, and tiger reserves.",
     duration: "14 Nights / 15 Days",
     // price: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1666348489677-b2ed44d12f43?q=80&w=2070",
     rating: "",
     locations: [
       "Delhi",
@@ -5583,7 +5584,7 @@ export const AdveturousTours = [
       "A 12-night/13-day tour exploring India’s tiger reserves, including Kanha and Bandhavgarh National Parks, along with cultural excursions to Agra and Delhi.",
     duration: "12 Nights / 13 Days",
     // price: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1700562554203-5b8644512759",
     rating: "",
     locations: ["Mumbai", "Nagpur", "Kanha", "Bandhavgarh", "Agra", "Delhi"],
     category: "Wildlife",
@@ -5779,7 +5780,7 @@ export const AdveturousTours = [
       "Discover top film shooting locations in Uttarakhand, India, offering picturesque settings for filmmakers seeking both explored and unexplored sites.",
     duration: "Varies by destination",
     // price: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1663560454900-ea81284f2e18?q=80&w=1170",
     rating: "",
     locations: [
       "Mussoorie",
@@ -5887,7 +5888,7 @@ export const AdveturousTours = [
       "Experience thrilling rock climbing holidays across India, from beginner bouldering to advanced multi-pitch climbs, amidst scenic landscapes and historical sites.",
     duration: "Varies by package",
     // price: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1602531734042-c565f8365a0b?q=80&w=687",
     rating: "",
     locations: [
       "Delhi",
@@ -6010,7 +6011,7 @@ export const AdveturousTours = [
     duration: "Half-day to full-day trips",
     // price: "Varies by location and package",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/paragliding.jpg",
+      "https://images.unsplash.com/photo-1635219895406-cf47ae41647e?q=80&w=687",
     rating: "4.6/5",
     locations: [
       "Rishikesh",
@@ -6084,7 +6085,7 @@ export const AdveturousTours = [
     duration: "5 Nights / 6 Days",
     // price: "Varies by package",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/elephant-safari.jpg",
+      "https://images.unsplash.com/photo-1644325515343-c94b15a4757f?q=80&w=687",
     rating: "4.7/5",
     locations: ["Corbett National Park, Uttarakhand"],
     category: "Wildlife",
@@ -6172,7 +6173,7 @@ export const AdveturousTours = [
     duration: "Varies by tour",
     // price: "Varies by package",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/rajasthan-tour.jpg",
+      "https://plus.unsplash.com/premium_photo-1661962388409-eb7a041606fb?q=80&w=1170",
     rating: "4.7/5",
     locations: [
       "Jaipur",
@@ -6309,7 +6310,7 @@ export const AdveturousTours = [
     duration: "12 Days",
     // price: "Varies by package",
     image:
-      "https://indiaholidayhome.com/wp-content/uploads/2024/02/wildlife-safari.jpg",
+      "https://images.unsplash.com/photo-1731355775922-1ba3f1f008be?q=80&w=1167",
     rating: "4.7/5",
     locations: [
       "Ranthambore National Park, Rajasthan",

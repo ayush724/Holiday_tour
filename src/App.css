@@ -1,56 +1,96 @@
+/* ===== Toast Card ===== */
 .toast-card {
-  width: 300px;
+  width: 340px; /* slightly wider for better balance */
   text-align: center;
-  font-family: sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* ===== Banner Image ===== */
 .toast-card img {
   width: 100%;
-  height: 80px;
+  height: 250px;        /* increased hero size */
   object-fit: cover;
-  border-radius: 14px;
-  margin-bottom: 10px;
+  border-radius: 16px;
+  margin-bottom: 12px;
 }
 
+/* ===== Toast Wrapper ===== */
+.Toastify__toast {
+  padding: 14px !important;
+  border-radius: 18px;
+  min-height: auto !important;
+}
+
+/* ===== Perfect Center (horizontal + vertical) ===== */
+.Toastify__toast-container--top-center {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: auto !important;
+}
+
+/* ===== Badge ===== */
 .badge {
+  display: inline-block;
   background: #ff7a00;
-  color: white;
+  color: #fff;
   font-size: 12px;
-  padding: 4px 10px;
+  padding: 4px 12px;
   border-radius: 20px;
+  margin-bottom: 6px;
 }
 
+/* ===== Text ===== */
 .toast-card h4 {
-  margin: 8px 0 4px;
+  margin: 6px 0 4px;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .toast-card p {
   font-size: 14px;
   color: #555;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
+/* ===== CTA Button ===== */
 .book-btn {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   background: #ff7a00;
-  color: white;
+  color: #fff;
   border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  border-radius: 10px;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .book-btn:hover {
   background: #e86d00;
+  transform: translateY(-1px);
+}
+
+/* ===== Close Button (❌) ===== */
+.Toastify__close-button {
+  font-size: 24px;   /* bigger & premium */
+  width: 36px;
+  height: 36px;
+  opacity: 0.75;
+  border-radius: 50%;
+  transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+.Toastify__close-button:hover {
+  background: rgba(0, 0, 0, 0.08);
+  opacity: 1;
 }
 
 
-
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
