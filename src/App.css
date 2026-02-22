@@ -8,7 +8,7 @@
 /* ===== Banner Image ===== */
 .toast-card img {
   width: 100%;
-  height: 250px;        /* increased hero size */
+  height: 350px;        /* increased hero size */
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 12px;

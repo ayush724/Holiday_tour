@@ -146,7 +146,7 @@ const ContactPage = () => {
         </svg>
       ),
       title: 'Address',
-      content: '123 Travel Street, New Delhi, India'
+      content: '24- Sharanya, Brahm Vihar Phase 2 ,  Latowali, Kankhal - 249408. Haridwar. Uttrakhand, India'
     },
     {
       icon: (
@@ -155,7 +155,7 @@ const ContactPage = () => {
         </svg>
       ),
       title: 'Email',
-      content: 'info@indiaholidayhome.com'
+      content: 'info@indiaholidayhome.com , amitbajaj13@hotmail.com '
     },
     {
       icon: (
@@ -164,7 +164,7 @@ const ContactPage = () => {
         </svg>
       ),
       title: 'Phone',
-      content: '+91 98765 43210'
+      content: '+919412072802 , +918630090671'
     },
     {
       icon: (
@@ -422,8 +422,8 @@ const ContactPage = () => {
         <div className="container mx-auto px-4">
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="h-96">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.52697094855!2d76.76355748473875!3d28.643795032051788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1651231234567!5m2!1sen!2sin" 
+              <iframe  
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9750.718226192539!2d78.13069766806805!3d29.924526742974574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39094642feabb0a7%3A0x929cf16c139da902!2sIndia%20Holiday%20Home!5e0!3m2!1sen!2sin!4v1771757886371!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 

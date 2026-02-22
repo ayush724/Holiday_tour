@@ -541,7 +541,7 @@ const TourDetailsPage = () => {
                 
                 <div className="mt-6 text-center">
                   <p className="text-sm text-gray-600">Need help? Call us at</p>
-                  <p className="font-bold text-lg text-travel-maroon">+91 98765 43210</p>
+                  <p className="font-bold text-lg text-travel-maroon">+919412072802</p>
                 </div>
               </motion.div>
             </div>
