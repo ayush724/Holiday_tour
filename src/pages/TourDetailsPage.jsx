@@ -35,7 +35,6 @@ const TourDetailsPage = () => {
       </Layout>
     );
   }
-
   if (!tour) {
     return (
       <Layout>
@@ -120,6 +119,20 @@ const TourDetailsPage = () => {
               )}
             </div>
             <p className="text-lg text-gray-200 mb-8">{tour.description}</p>
+             {tour.id == "char-dham-yatra" && (
+  <button
+    className="book-btn"
+    onClick={() => {
+      window.open(
+        "https://registrationandtouristcare.uk.gov.in/",
+        "_blank"
+      );
+      toast.dismiss();
+    }}
+  >
+    Register Now
+  </button>
+)}
             <div className="flex items-center">
               <div className="text-3xl font-bold text-travel-orange mr-4">{tour.price}</div>
               {/* <span className="text-gray-300">per person</span> */}
