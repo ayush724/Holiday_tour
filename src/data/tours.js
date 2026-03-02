@@ -159,70 +159,7 @@ export const featuredTours = [
         ],
       },
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Delhi to Haridwar",
-        description:
-          "Arrive in Delhi and drive to Haridwar. In the evening, attend the Ganga Ceremony at Har Ki Pauri.",
-        activities: [
-          "Drive from Delhi to Haridwar",
-          "Evening Ganga Ceremony at Har Ki Pauri",
-        ],
-      },
-      {
-        day: 2,
-        title: "Haridwar to Barkot",
-        description:
-          "Drive from Haridwar to Barkot via Dehradun and Mussoorie. Stop at Satya Narayan Temple, Prakasheswar Temple, and Kempty Falls.",
-        activities: [
-          "Drive through Dehradun and Mussoorie",
-          "Visit Satya Narayan Temple",
-          "Visit Prakasheswar Temple",
-          "Visit Kempty Falls",
-          "Arrive at Barkot",
-        ],
-      },
-      {
-        day: 3,
-        title: "Barkot to Yamunotri and back",
-        description:
-          "Travel to Janki Chatti and trek to Yamunotri Temple. Return to Barkot in the evening.",
-        activities: [
-          "Drive to Janki Chatti",
-          "Trek to Yamunotri Temple",
-          "Yamunotri Darshan",
-          "Return to Barkot",
-        ],
-      },
-      {
-        day: 4,
-        title: "Barkot to Haridwar",
-        description:
-          "Drive back to Haridwar via Devprayag, visiting Vasistha Gufa, Laxman Jhula, and Ram Jhula along the way.",
-        activities: [
-          "Drive via Devprayag",
-          "Visit Vasistha Gufa",
-          "Visit Laxman Jhula",
-          "Visit Ram Jhula",
-          "Arrive at Haridwar",
-        ],
-      },
-      {
-        day: 5,
-        title: "Haridwar to Delhi",
-        description:
-          "Drive back to Delhi with visits en route to Daksh Temple, Shri Yantra Temple, and Maya Devi Temple.",
-        activities: [
-          "Visit Daksh Temple",
-          "Visit Shri Yantra Temple",
-          "Visit Maya Devi Temple",
-          "Drive to Delhi",
-          "Departure",
-        ],
-      },
-    ],
-
+    
     contact: {
       phone: ["+91-9412072802", "+91-8630090671", "+91-9456332153"],
       email: ["amitbajaj13@hotmail.com", "indiaholidayhome@gmail.com"],
@@ -1055,70 +992,7 @@ export const CharDhamYatra = [
         ],
       },
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Delhi to Haridwar",
-        description:
-          "Arrive in Delhi and drive to Haridwar. In the evening, attend the Ganga Ceremony at Har Ki Pauri.",
-        activities: [
-          "Drive from Delhi to Haridwar",
-          "Evening Ganga Ceremony at Har Ki Pauri",
-        ],
-      },
-      {
-        day: 2,
-        title: "Haridwar to Barkot",
-        description:
-          "Drive from Haridwar to Barkot via Dehradun and Mussoorie. Stop at Satya Narayan Temple, Prakasheswar Temple, and Kempty Falls.",
-        activities: [
-          "Drive through Dehradun and Mussoorie",
-          "Visit Satya Narayan Temple",
-          "Visit Prakasheswar Temple",
-          "Visit Kempty Falls",
-          "Arrive at Barkot",
-        ],
-      },
-      {
-        day: 3,
-        title: "Barkot to Yamunotri and back",
-        description:
-          "Travel to Janki Chatti and trek to Yamunotri Temple. Return to Barkot in the evening.",
-        activities: [
-          "Drive to Janki Chatti",
-          "Trek to Yamunotri Temple",
-          "Yamunotri Darshan",
-          "Return to Barkot",
-        ],
-      },
-      {
-        day: 4,
-        title: "Barkot to Haridwar",
-        description:
-          "Drive back to Haridwar via Devprayag, visiting Vasistha Gufa, Laxman Jhula, and Ram Jhula along the way.",
-        activities: [
-          "Drive via Devprayag",
-          "Visit Vasistha Gufa",
-          "Visit Laxman Jhula",
-          "Visit Ram Jhula",
-          "Arrive at Haridwar",
-        ],
-      },
-      {
-        day: 5,
-        title: "Haridwar to Delhi",
-        description:
-          "Drive back to Delhi with visits en route to Daksh Temple, Shri Yantra Temple, and Maya Devi Temple.",
-        activities: [
-          "Visit Daksh Temple",
-          "Visit Shri Yantra Temple",
-          "Visit Maya Devi Temple",
-          "Drive to Delhi",
-          "Departure",
-        ],
-      },
-    ],
-
+    
     contact: {
       phone: ["+91-9412072802", "+91-8630090671", "+91-9456332153"],
       email: ["amitbajaj13@hotmail.com", "indiaholidayhome@gmail.com"],

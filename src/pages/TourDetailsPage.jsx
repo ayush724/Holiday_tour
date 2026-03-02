@@ -118,8 +118,15 @@ const TourDetailsPage = () => {
                 </div>
               )}
             </div>
-            <p className="text-lg text-gray-200 mb-8">{tour.description}</p>
-             {tour.id == "char-dham-yatra" && (
+            <p className="text-lg text-gray-200 mb-8">{tour.description}</p> 
+             {(
+  tour.id === "char-dham-yatra" ||
+  tour.id === "kedarnath-badrinath-yatra" ||
+  tour.id === "kedarnath-dham-yatra" ||
+  tour.id === "yamunotri-dham-yatra" ||
+  tour.id === "yamunotri-gangotri-yatra" ||
+  tour.id === "badrinath-dham-yatra"
+                         )            && (
   <button
     className="book-btn"
     onClick={() => {
