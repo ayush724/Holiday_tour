@@ -3,7 +3,7 @@ export const featuredTours = [
     id: "char-dham-yatra",
     title: "Chardham Yatra",
     description:
-      "Chardham Yatra is a beautiful and religious trip of the Himalayas. Chardham Yatra 2025 starts from late April. The tour includes spiritual, Himalayan scenery, pilgrim experiences and includes Ganga Aarti, Himalayan views and stays in Uttarakhand. Different packages (Luxury, Deluxe, Budget) are available. Advance booking is a must.",
+      "Chardham Yatra is a beautiful and religious trip of the Himalayas. Chardham Yatra 2026 starts from late April. The tour includes spiritual, Himalayan scenery, pilgrim experiences and includes Ganga Aarti, Himalayan views and stays in Uttarakhand. Different packages (Luxury, Deluxe, Budget) are available. Advance booking is a must.",
     duration: "12 Days / 11 Nights",
     // price: "",
 
@@ -482,6 +482,294 @@ export const featuredTours = [
       region: "Uttarakhand", // the state/region where the tour takes place :contentReference[oaicite:3]{index=3}
     },
   },
+  {
+    id: "yamunotri-dham-yatra",
+    title: "Yamunotri Dham Yatra",
+    description:
+      "Yamunotri, the westernmost shrine of the Char Dham, is dedicated to Goddess Yamuna and is worshipped as the river’s source, though the actual glacier lies 1 km away and is inaccessible. Reached by a 7 km trek from Janki Chatti, the temple was built by Maharaja Pratap Shah and houses a black marble idol.Nearby are hot springs like Surya Kund and the sacred Divya Shila, where offerings are made. The temple remains closed in winter due to heavy snowfall.",
+    duration: "5 Days / 4 Nights",
+    // price: "", // as listed price on the page :contentReference[oaicite:0]{index=0}
+    image: "https://www.allinharidwar.com/library/timthumb.php?src=/wp-content/uploads/2018/02/Yamunotri-Dham-Yatra-1.jpg&w=628&h=380&zc=0&q=80", // multiple images are present but no single “featured” image URL extracted :contentReference[oaicite:1]{index=1}
+    rating: "", // not given on the page :contentReference[oaicite:2]{index=2}
+    locations: ["Delhi", "Haridwar", "Barkot", "Janki Chatti", "Yamunotri"],
+    category: "Spiritual1",
+    featured: false,
+    highlights: [
+      "Visit Yamunotri temple, the westernmost shrine of Chardham",
+      "Trek 7 km from Janki Chatti to Yamunotri temple",
+      "See hot water springs (Surya Kund), Divya Shila rock, ritual of “prasād” cooked in springs",
+      "Includes Ganga ceremony in Haridwar, scenic drives, and stops at places like Satya Narayan Temple, Prakasheswar Temple, Kempty Falls",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Haridwar",
+        description:
+          "Arrive in Delhi and drive to Haridwar. Attend the evening Ganga Ceremony at Har Ki Pauri.",
+        activities: [
+          "Drive from Delhi to Haridwar",
+          "Evening Ganga Ceremony at Har Ki Pauri",
+        ],
+      },
+      {
+        day: 2,
+        title: "Haridwar to Rudraprayag / Guptkashi",
+        description:
+          "Travel from Haridwar to Rudraprayag / Guptkashi via Devprayag, visiting Satyanarayan Temple along the way.",
+        activities: [
+          "Drive from Haridwar to Rudraprayag / Guptkashi via Devprayag",
+          "Visit Satyanarayan Temple en route",
+        ],
+      },
+      {
+        day: 3,
+        title: "Rudraprayag / Sitapur to Kedarnath and back",
+        description:
+          "Travel to Gaurikund, then trek or use horse/pony/dolly/helicopter to reach Kedarnath. Return to Rudraprayag / Sitapur in the evening.",
+        activities: [
+          "Drive to Gaurikund",
+          "Trek / Horse / Pony / Dolly / Helicopter to Kedarnath",
+          "Visit Kedarnath Temple",
+          "Return to Rudraprayag / Sitapur",
+        ],
+      },
+      {
+        day: 4,
+        title: "Rudraprayag / Sitapur to Haridwar",
+        description:
+          "Drive back to Haridwar via Rishikesh and Devprayag, enjoying scenic views along the way.",
+        activities: [
+          "Drive via Rishikesh & Devprayag",
+          "Arrive in Haridwar",
+          "Leisure time",
+        ],
+      },
+      {
+        day: 5,
+        title: "Haridwar to Delhi",
+        description:
+          "Drive back to Delhi, visiting Daksh Temple, Shri Yantra Temple, and Maya Devi Temple en route. Depart from Delhi.",
+        activities: [
+          "Drive from Haridwar to Delhi",
+          "Visit Daksh Temple, Shri Yantra Temple, Maya Devi Temple en route",
+          "Departure from Delhi",
+        ],
+      },
+    ],
+    contact: {
+      phone: ["+91-9412072802", "+91-9456332153", "8630090671"],
+      email: ["amitbajaj13@hotmail.com", "indiaholidayhome@gmail.com"],
+      address:
+        "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
+    },
+  },
+  {
+    id: "gangotri-dham-yatra",
+    title: "Gangotri Dham Yatra",
+    description:
+      "Gangotri overlooks the roaring Bhagirathi River and is revered as the spiritual source of the Ganga, whose actual origin is the ice cave of Gaumukh.According to legend, Goddess Ganga descended to Earth after King Bhagirath’s prayers, with Lord Shiva breaking her fall to save the world. Bathing in her waters is believed to cleanse all sins",
+    duration: "4 Nights / 5 Days",
+    // price: "",
+    image: "https://images.unsplash.com/photo-1696465889052-6c8921536920?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // there are photos on the page but no single “featured image” URL was clearly extracted
+    rating: "", // one review is indicated but no star rating visible
+    locations: ["Delhi", "Haridwar", "Uttarkashi", "Gangotri"],
+    category: "Spiritual1",
+    featured: false,
+    highlights: [
+      "Holy bathing at the source of the river Ganga (Bhagirathi) in Gangotri",
+      "Visit Uttarkashi valley and its scenic surroundings",
+      "Ganga Aarti at Har-Ki-Pauri in Haridwar",
+      "Scenic travel through mountainous terrain with river views",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Haridwar",
+        description:
+          "Arrive in Delhi and drive to Haridwar. Attend the Ganga Aarti at Har-Ki-Pauri in the evening.",
+        activities: [
+          "Drive from Delhi to Haridwar",
+          "Evening Ganga Aarti at Har-Ki-Pauri",
+        ],
+      },
+      {
+        day: 2,
+        title: "Haridwar to Uttarkashi",
+        description:
+          "Drive from Haridwar to Uttarkashi via a scenic route through the mountains.",
+        activities: [
+          "Drive from Haridwar to Uttarkashi",
+          "Enjoy scenic mountain views en route",
+        ],
+      },
+      {
+        day: 3,
+        title: "Uttarkashi to Gangotri and back",
+        description:
+          "Travel from Uttarkashi to Gangotri, perform holy dip and pooja at the Gangotri Temple, then return to Uttarkashi.",
+        activities: [
+          "Drive to Gangotri",
+          "Holy dip at Gangotri",
+          "Pooja at Gangotri Temple",
+          "Return to Uttarkashi",
+        ],
+      },
+      {
+        day: 4,
+        title: "Uttarkashi to Haridwar",
+        description:
+          "Drive back to Haridwar with a lunch stop at Chamba. Leisure time upon arrival.",
+        activities: [
+          "Drive via Chamba",
+          "Lunch at Chamba",
+          "Arrive in Haridwar",
+          "Leisure time",
+        ],
+      },
+      {
+        day: 5,
+        title: "Haridwar to Delhi",
+        description:
+          "Drive back to Delhi and transfer to the railway station or airport for departure.",
+        activities: [
+          "Drive from Haridwar to Delhi",
+          "Transfer to railway station/airport",
+          "Departure",
+        ],
+      },
+    ],
+
+    contact: {
+      phone: ["+91-9412072802", "+91-9456332153", "8630090671"],
+      email: ["amitbajaj13@hotmail.com", "indiaholidayhome@gmail.com"],
+      address:
+        "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
+    },
+  },
+   {
+    id: "yamunotri-gangotri-yatra",
+    title: "Yamunotri – Gangotri Yatra",
+    description:
+      "Yamunotri Gangotri Yatra is a beautiful and introductory trip of the Himalayas. The tour offers three categories of packages: Luxury, Deluxe, and Budget, each providing a unique experience of the sacred shrines of Yamunotri and Gangotri.",
+    duration: "8 Days / 7 Nights",
+    // price: "", // Price details are not explicitly mentioned on the page
+    image: "https://www.shikhar.com/images/gallery/tours/631/847934040.jpg", // Featured image URL is not provided on the page
+    rating: "", // No star rating or review count is available
+    locations: [
+      "Delhi",
+      "Haridwar",
+      "Barkot",
+      "Yamunotri",
+      "Uttarkashi",
+      "Gangotri",
+      "Rishikesh",
+    ],
+    category: "Spiritual1",
+    featured: false,
+    highlights: [
+      "Ganga Aarti at Haridwar and Rishikesh",
+      "Introduction to Indian spirituality",
+      "Panoramic views of the Himalayas",
+      "Visit to Yamunotri and Gangotri temples",
+      "Three accommodation categories: Luxury, Deluxe, Budget",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Haridwar",
+        description: "Drive 230 km (~6 hrs) from Delhi to Haridwar.",
+        activities: [
+          "Drive from Delhi to Haridwar",
+          "Check-in at hotel",
+          "Evening at leisure",
+        ],
+      },
+      {
+        day: 2,
+        title: "Haridwar to Barkot",
+        description:
+          "Travel from Haridwar to Barkot via Dehradun, enjoying scenic views en route.",
+        activities: [
+          "Drive from Haridwar to Barkot via Dehradun",
+          "Check-in at hotel",
+          "Leisure in Barkot",
+        ],
+      },
+      {
+        day: 3,
+        title: "Barkot to Yamunotri and Back",
+        description:
+          "Trek 7 km each way from Barkot to Yamunotri temple and return.",
+        activities: [
+          "7 km trek to Yamunotri temple",
+          "Temple visit and rituals",
+          "Return trek to Barkot",
+        ],
+      },
+      {
+        day: 4,
+        title: "Barkot to Uttarkashi",
+        description: "Drive from Barkot to Uttarkashi and check-in at hotel.",
+        activities: [
+          "Drive from Barkot to Uttarkashi",
+          "Check-in at hotel",
+          "Leisure time",
+        ],
+      },
+      {
+        day: 5,
+        title: "Uttarkashi to Gangotri and Back",
+        description:
+          "Travel 100 km (~4 hrs) to Gangotri, perform rituals and return to Uttarkashi.",
+        activities: [
+          "Drive to Gangotri",
+          "Holy dip and pooja at Gangotri",
+          "Return to Uttarkashi",
+        ],
+      },
+      {
+        day: 6,
+        title: "Uttarkashi to Rishikesh",
+        description:
+          "Drive from Uttarkashi to Rishikesh and check-in at hotel.",
+        activities: [
+          "Drive to Rishikesh",
+          "Check-in at hotel",
+          "Evening leisure",
+        ],
+      },
+      {
+        day: 7,
+        title: "Rishikesh to Haridwar",
+        description:
+          "Travel from Rishikesh to Haridwar, visit local sites if time permits.",
+        activities: [
+          "Drive from Rishikesh to Haridwar",
+          "Optional sightseeing",
+          "Check-in at hotel",
+        ],
+      },
+      {
+        day: 8,
+        title: "Haridwar to Delhi",
+        description:
+          "Return to Delhi from Haridwar with drop at railway station or airport.",
+        activities: [
+          "Drive from Haridwar to Delhi",
+          "Transfer to railway station / airport",
+        ],
+      },
+      {
+        bestTime: "April to June and September to November",
+      },
+    ],
+    contact: {
+      phone: ["+91‑9412072802", "+91‑9456332153", "8630090671"],
+      email: ["amitbajaj13@hotmail.com", "indiaholidayhome@gmail.com"],
+      address:
+        "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
+    },
+  },
   
 ];
 
@@ -837,7 +1125,7 @@ export const CharDhamYatra = [
     id: "char-dham-yatra",
     title: "Chardham Yatra",
     description:
-      "Chardham Yatra is a beautiful and religious trip of the Himalayas. Chardham Yatra 2025 starts from late April. The tour includes spiritual, Himalayan scenery, pilgrim experiences and includes Ganga Aarti, Himalayan views and stays in Uttarakhand. Different packages (Luxury, Deluxe, Budget) are available. Advance booking is a must.",
+      "Chardham Yatra is a beautiful and religious trip of the Himalayas. Chardham Yatra 2026 starts from late April. The tour includes spiritual, Himalayan scenery, pilgrim experiences and includes Ganga Aarti, Himalayan views and stays in Uttarakhand. Different packages (Luxury, Deluxe, Budget) are available. Advance booking is a must.",
     duration: "12 Days / 11 Nights",
     // price: "",
     image: "https://www.allinharidwar.com/wp-content/uploads/2018/04/Rishikesh-to-Chardham-Yatra.jpg", // images present, but no single “featured” image URL was extracted
@@ -4754,7 +5042,7 @@ export const ReligiousTours = [
       minAge: "15 years",
       maxAge: "60 years",
       dailyLimit: "50 trekkers",
-      registrationStart: "March 1, 2025",
+      registrationStart: "March 1, 2026",
       registrationLink: "https://indiaholidayhome.com/reservation/",
     },
   },
@@ -4889,7 +5177,7 @@ export const AdveturousTours = [
       minAge: "10 years",
       maxAge: "60 years",
       dailyLimit: "50 participants",
-      registrationStart: "November 1, 2025",
+      registrationStart: "November 1, 2026",
       registrationLink: "https://indiaholidayhome.com/reservation/",
     },
   },
@@ -6719,7 +7007,7 @@ export const tourCategories = [
     description:
       "Explore India's rich cultural heritage and historical monuments",
     image:
-      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?q=80&w=800",
+      "https://www.allinharidwar.com/wp-content/uploads/2018/04/Rishikesh-to-Chardham-Yatra.jpg",
     count: 12,
   },
   {
@@ -6728,7 +7016,7 @@ export const tourCategories = [
     description:
       "Explore India's rich cultural heritage and historical monuments",
     image:
-      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?q=80&w=800",
+      "https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     count: 12,
   },
   {
@@ -6737,7 +7025,7 @@ export const tourCategories = [
     description:
       "Experience India's diverse wildlife in national parks and sanctuaries",
     image:
-      "https://images.unsplash.com/photo-1564989549226-7eb5f06e40ca?q=80&w=800",
+      "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     count: 6,
   },
   {
@@ -6746,7 +7034,7 @@ export const tourCategories = [
     description:
       "Connect with your inner self through India's spiritual destinations",
     image:
-      "https://images.unsplash.com/photo-1561361058-c24cecde1229?q=80&w=800",
+      "https://www.allinharidwar.com/library/timthumb.php?src=/wp-content/uploads/2018/02/Yamunotri-Dham-Yatra-1.jpg&w=628&h=380&zc=0&q=800",
     count: 8,
   },
   {
@@ -6755,7 +7043,7 @@ export const tourCategories = [
     description:
       "Get your adrenaline pumping with exciting adventure activities",
     image:
-      "https://images.unsplash.com/photo-1544650039-3ef40c32a685?q=80&w=800",
+      "https://images.unsplash.com/photo-1464243875140-f8f83262bd1a?q=80&w=1331",
     count: 9,
   },
   {
@@ -6764,7 +7052,7 @@ export const tourCategories = [
     description:
       "Experience India's diverse wildlife in national parks and sanctuaries",
     image:
-      "https://images.unsplash.com/photo-1564989549226-7eb5f06e40ca?q=80&w=800",
+      "https://images.unsplash.com/photo-1700562554203-5b8644512759",
     count: 6,
   },
   {
@@ -6773,7 +7061,7 @@ export const tourCategories = [
     description:
       "Experience India's diverse wildlife in national parks and sanctuaries",
     image:
-      "https://images.unsplash.com/photo-1564989549226-7eb5f06e40ca?q=80&w=800",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200",
     count: 6,
   },
   {
@@ -6782,7 +7070,7 @@ export const tourCategories = [
     description:
       "Explore India's rich cultural heritage and historical monuments",
     image:
-      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?q=80&w=800",
+      "https://images.unsplash.com/photo-1724161179561-e9b991c83ec1?q=80&w=1074",
     count: 12,
   },
 ];

@@ -6,7 +6,7 @@ import Layout from '../components/layout/Layout';
 import SectionTitle from '../components/ui/SectionTitle';
 import ScrollToTop from '../components/ui/ScrollToTop';
 import TourCard from '../components/ui/TourCard';
-import { allTours } from '../data/tours';
+import { allTours, featuredTours } from '../data/tours';
 
 const TourDetailsPage = () => {
   const { id } = useParams();
@@ -566,9 +566,9 @@ const TourDetailsPage = () => {
           />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {allTours
+            {featuredTours
               .filter(relatedTour => relatedTour.id !== tour?.id)
-              .slice(0, 3)
+              // .slice(0, 3)
               .map((relatedTour, index) => (
                 <motion.div
                   key={relatedTour.id}
