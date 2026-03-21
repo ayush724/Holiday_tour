@@ -79,6 +79,7 @@ const Footer = () => {
             <h3 className="text-xl font-playfair font-bold mb-4">Tour Categories</h3>
             <ul className="space-y-2">
               <li><Link to="/tours?category=cultural" className="text-gray-400 hover:text-travel-orange transition-colors">Cultural Tours</Link></li>
+               <li><Link to="/tours?category=spirtual1" className="text-gray-400 hover:text-travel-orange transition-colors">CharDham Yatra</Link></li>
               <li><Link to="/tours?category=spiritual" className="text-gray-400 hover:text-travel-orange transition-colors">Spiritual Tours</Link></li>
               <li><Link to="/tours?category=adventure" className="text-gray-400 hover:text-travel-orange transition-colors">Adventure Tours</Link></li>
               <li><Link to="/tours?category=wildlife" className="text-gray-400 hover:text-travel-orange transition-colors">Wildlife Tours</Link></li>

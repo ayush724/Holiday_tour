@@ -7008,7 +7008,7 @@ export const tourCategories = [
       "Explore India's rich cultural heritage and historical monuments",
     image:
       "https://www.allinharidwar.com/wp-content/uploads/2018/04/Rishikesh-to-Chardham-Yatra.jpg",
-    count: 12,
+    count: 7,
   },
   {
     id: "cultural",
@@ -7017,7 +7017,7 @@ export const tourCategories = [
       "Explore India's rich cultural heritage and historical monuments",
     image:
       "https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    count: 12,
+    count: 2,
   },
   {
     id: "indiatour",
@@ -7026,7 +7026,7 @@ export const tourCategories = [
       "Experience India's diverse wildlife in national parks and sanctuaries",
     image:
       "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    count: 6,
+    count: 7,
   },
   {
     id: "spiritual",
@@ -7035,7 +7035,7 @@ export const tourCategories = [
       "Connect with your inner self through India's spiritual destinations",
     image:
       "https://www.allinharidwar.com/library/timthumb.php?src=/wp-content/uploads/2018/02/Yamunotri-Dham-Yatra-1.jpg&w=628&h=380&zc=0&q=800",
-    count: 8,
+    count: 12,
   },
   {
     id: "adventure",
@@ -7044,7 +7044,7 @@ export const tourCategories = [
       "Get your adrenaline pumping with exciting adventure activities",
     image:
       "https://images.unsplash.com/photo-1464243875140-f8f83262bd1a?q=80&w=1331",
-    count: 9,
+    count: 11,
   },
   {
     id: "wildlife",
@@ -7062,7 +7062,7 @@ export const tourCategories = [
       "Experience India's diverse wildlife in national parks and sanctuaries",
     image:
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200",
-    count: 6,
+    count: 10,
   },
   {
     id: "beach",
@@ -7071,7 +7071,7 @@ export const tourCategories = [
       "Explore India's rich cultural heritage and historical monuments",
     image:
       "https://images.unsplash.com/photo-1724161179561-e9b991c83ec1?q=80&w=1074",
-    count: 12,
+    count: 1,
   },
 ];
 
