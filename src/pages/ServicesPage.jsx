@@ -161,7 +161,7 @@ const ServicesPage = () => {
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2000" 
+            src="https://images.unsplash.com/photo-1586687798886-5a34d5b97337?q=80&w=1170" 
             alt="Car Rental Services" 
             className="w-full h-full object-cover"
           />
@@ -189,7 +189,7 @@ const ServicesPage = () => {
       </section>
 
       {/* Service Introduction */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div 
@@ -240,7 +240,7 @@ const ServicesPage = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Service Features */}
       <section className="py-20 bg-gray-50" ref={featuresRef}>
@@ -362,10 +362,10 @@ const ServicesPage = () => {
                     className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                     required
                   >
-                    <option value="economy">Economy</option>
-                    <option value="standard">Standard</option>
-                    <option value="premium">Premium</option>
-                    <option value="suv">SUV</option>
+                    <option value="economy">2 Seater</option>
+                    <option value="standard">5 Seater</option>
+                    <option value="premium">7 Seater</option>
+                    <option value="suv">9 Seater</option>
                   </select>
                 </div>
                 
