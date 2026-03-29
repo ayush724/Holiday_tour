@@ -459,7 +459,7 @@ const HomePage = () => {
       {/* Car Rental Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid  gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -506,7 +506,7 @@ const HomePage = () => {
               </Link>
             </motion.div>
 
-            <div className="grid grid-cols-2 gap-4">
+            {/* <div className="grid grid-cols-2 gap-4">
               {carRental.categories.map((category, index) => (
                 <motion.div
                   key={category.id}
@@ -534,7 +534,7 @@ const HomePage = () => {
                   </Link>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -577,12 +577,12 @@ const HomePage = () => {
             animate={testimonialsInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ delay: 0.6, duration: 0.5 }}
           >
-            <Link
+            {/* <Link
               to="/about#testimonials"
               className="btn-outline border-white text-white hover:bg-white hover:text-gray-900"
             >
               View All Reviews
-            </Link>
+            </Link> */}
           </motion.div>
         </div>
       </section>
