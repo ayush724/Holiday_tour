@@ -299,7 +299,7 @@ export const featuredTours = [
     duration: "5 Days / 4 Nights",
     // price: "", // price not clearly given
     image: "https://images.unsplash.com/photo-1712733900711-d0b929d0d7cc?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // image(s) present, but no single “featured” image URL extracted
-    rating: "1 Review", // there is “(1 Review)” shown on page :contentReference[oaicite:0]{index=0}
+    rating: "", // there is “(1 Review)” shown on page :contentReference[oaicite:0]{index=0}
     locations: [
       "Delhi",
       "Haridwar",
@@ -388,7 +388,7 @@ export const featuredTours = [
     duration: "6 Days / 5 Nights",
     // price: "",
     image: "https://images.unsplash.com/photo-1601821139990-9fc929db79ce?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // images are shown on page but no single “featured” image URL clearly extracted
-    rating: "2 Reviews",
+    rating: "",
     locations: [
       "Delhi",
       "Haridwar",
@@ -782,7 +782,7 @@ export const featuredTours1 = [
     // price: ,
     image:
       "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1200",
-    rating: 4.8,
+    rating: "",
     locations: ["Delhi", "Agra", "Jaipur"],
     category: "Cultural",
     featured: true,
@@ -867,7 +867,7 @@ export const featuredTours1 = [
     // price: 599,
     image:
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    rating: 4.9,
+    rating: "",
     locations: ["Kochi", "Munnar", "Alleppey"],
     category: "adventure",
     featured: true,
@@ -947,7 +947,7 @@ export const featuredTours1 = [
     // price: 899,
     image:
       "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=1200",
-    rating: 4.7,
+    rating: "",
     locations: ["Jaipur", "Udaipur", "Jodhpur", "Jaisalmer"],
     category: "Cultural",
     featured: true,
@@ -1059,7 +1059,7 @@ export const featuredTours1 = [
     // price: 499,
     image:
       "https://images.unsplash.com/photo-1706186839147-0d708602587b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    rating: 4.6,
+    rating: "",
     locations: ["Varanasi", "Sarnath"],
     category: "Spiritual",
     featured: true,
@@ -1461,7 +1461,7 @@ export const CharDhamYatra = [
     duration: "5 Days / 4 Nights",
     // price: "", // price not clearly given
     image: "https://images.unsplash.com/photo-1712733900711-d0b929d0d7cc?q=80&w=377&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // image(s) present, but no single “featured” image URL extracted
-    rating: "1 Review", // there is “(1 Review)” shown on page :contentReference[oaicite:0]{index=0}
+    rating: "", // there is “(1 Review)” shown on page :contentReference[oaicite:0]{index=0}
     locations: [
       "Delhi",
       "Haridwar",
@@ -1550,7 +1550,7 @@ export const CharDhamYatra = [
     duration: "6 Days / 5 Nights",
     // price: "",
     image: "https://images.unsplash.com/photo-1601821139990-9fc929db79ce?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // images are shown on page but no single “featured” image URL clearly extracted
-    rating: "2 Reviews",
+    rating: "",
     locations: [
       "Delhi",
       "Haridwar",
@@ -2587,7 +2587,7 @@ export const Honeymoon = [
     // price: "On Request",
     image:
       "https://images.unsplash.com/photo-1690441850698-b9aae3786d35?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    rating: 4.6,
+    rating: "",
     locations: ["Pipariya", "Pachmarhi", "Pipariya"],
     category: "Honeymoon",
     featured: false,
@@ -2658,7 +2658,7 @@ export const Honeymoon = [
     // price: "On Request",
     image:
       "https://plus.unsplash.com/premium_photo-1697729438401-fcb4ff66d9a8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    rating: 4.9,
+    rating: "",
     locations: ["Cochin", "Munnar", "Alleppey", "Kovalam", "Trivandrum"],
     category: "Honeymoon",
     featured: true,
@@ -2768,7 +2768,7 @@ export const Honeymoon = [
     // price: "On Request",
     image:
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200",
-    rating: 4.9,
+    rating: "",
     locations: [
       "Lakshadweep",
       "Leh & Ladakh",
@@ -4353,7 +4353,7 @@ export const ReligiousTours = [
     // price: "",
     image:
       "https://www.gurucool.life/_next/image?url=https%3A%2F%2Fdrive.gurucool.life%2FblogsImage%2F1762924859225.Tirupati-Balaji-Temple.webp&w=1080&q=75",
-    rating: "4.5/5",
+    rating: "",
     locations: ["Chennai", "Tirupati"],
     category: "Spiritual",
     featured: true,
@@ -4437,7 +4437,7 @@ export const ReligiousTours = [
     // price: "₹1,75,000 per person",
     image:
       "/kailashmansarover.png",
-    rating: "4.8/5",
+    rating: "",
     locations: [
       "Kathmandu",
       "Gyirong",
@@ -4614,7 +4614,7 @@ export const ReligiousTours = [
     // price: "₹25,000 per person",
     image:
       "https://images.unsplash.com/photo-1698723985259-68880264e201?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    rating: "4.8/5",
+    rating: "",
     locations: ["Srinagar", "Pahalgam", "Amarnath Cave"],
     category: "Spiritual",
     featured: true,
@@ -4688,7 +4688,7 @@ export const ReligiousTours = [
     // price: "₹3,999 per person",
     image:
       "https://images.unsplash.com/photo-1717502713522-543a97e13dab?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    rating: "4.8/5",
+    rating: "",
     locations: ["Katra", "Vaishno Devi Shrine"],
     category: "Spiritual",
     featured: true,
@@ -4737,7 +4737,7 @@ export const ReligiousTours = [
     // price: "₹25,000 per person",
     image:
       "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1220",
-    rating: "4.7/5",
+    rating: "",
     locations: ["Haridwar", "Uttarkashi", "Rishikesh"],
     category: "Spiritual",
     featured: true,
@@ -4859,7 +4859,7 @@ export const ReligiousTours = [
     // price: "₹18,000 per person",
     image:
       "https://images.unsplash.com/photo-1511754863001-18d44abd0a93?q=80&w=1170",
-    rating: "4.7/5",
+    rating: "",
     locations: ["Delhi", "Haridwar", "Uttarkashi", "Gangotri", "Gaumukh"],
     category: "Spiritual",
     featured: true,
@@ -4953,7 +4953,7 @@ export const ReligiousTours = [
     // price: "₹17,000 per person",
     image:
       "https://images.unsplash.com/photo-1653545709990-a6a4c8a6c36c?q=80&w=1171",
-    rating: "4.8/5",
+    rating: "",
     locations: [
       "Haridwar",
       "Govindghat",
@@ -5057,7 +5057,7 @@ export const AdveturousTours = [
     // price: "₹25,000 per person",
     image:
       "https://images.unsplash.com/photo-1464243875140-f8f83262bd1a?q=80&w=1331",
-    rating: "4.7/5",
+    rating: "",
     locations: ["Auli", "Delhi", "Haridwar", "Joshimath", "Rishikesh"],
     category: "Adventure",
     featured: true,
@@ -5190,7 +5190,7 @@ export const AdveturousTours = [
     // price: "₹500–₹1,500 per person",
     image:
       "https://plus.unsplash.com/premium_photo-1697730398251-40cd8dc57e0b?q=80&w=1170",
-    rating: "4.5/5",
+    rating: "",
     locations: ["Rishikesh, Uttarakhand"],
     category: "Adventure",
     featured: true,
@@ -5240,7 +5240,7 @@ export const AdveturousTours = [
     // price: "Varies by trek",
     image:
       "https://plus.unsplash.com/premium_photo-1732476370774-a57fe72b9f91?q=80&w=1170",
-    rating: "4.7/5",
+    rating: "",
     locations: [
       "Uttarakhand",
       "Himachal Pradesh",
@@ -5338,7 +5338,7 @@ export const AdveturousTours = [
     // price: "₹1,000–₹4,000 per person",
     image:
       "https://images.unsplash.com/photo-1715230656262-9410dfbead2a?q=80&w=1170",
-    rating: "4.6/5",
+    rating: "",
     locations: ["Rishikesh, Uttarakhand"],
     category: "Adventure",
     featured: true,
@@ -6174,7 +6174,7 @@ export const AdveturousTours = [
     // price: "Varies by location and package",
     image:
       "https://images.unsplash.com/photo-1635219895406-cf47ae41647e?q=80&w=687",
-    rating: "4.6/5",
+    rating: "",
     locations: [
       "Rishikesh",
       "Mussoorie",
@@ -6248,7 +6248,7 @@ export const AdveturousTours = [
     // price: "Varies by package",
     image:
       "https://images.unsplash.com/photo-1644325515343-c94b15a4757f?q=80&w=687",
-    rating: "4.7/5",
+    rating: "",
     locations: ["Corbett National Park, Uttarakhand"],
     category: "Wildlife",
     featured: true,
@@ -6336,7 +6336,7 @@ export const AdveturousTours = [
     // price: "Varies by package",
     image:
       "https://plus.unsplash.com/premium_photo-1661962388409-eb7a041606fb?q=80&w=1170",
-    rating: "4.7/5",
+    rating: "",
     locations: [
       "Jaipur",
       "Bharatpur",
@@ -6473,7 +6473,7 @@ export const AdveturousTours = [
     // price: "Varies by package",
     image:
       "https://images.unsplash.com/photo-1731355775922-1ba3f1f008be?q=80&w=1167",
-    rating: "4.7/5",
+    rating: "",
     locations: [
       "Ranthambore National Park, Rajasthan",
       "Jim Corbett National Park, Uttarakhand",
@@ -6649,7 +6649,7 @@ export const allTours = [
     // price: 1299,
     image:
       "https://images.unsplash.com/photo-1602615576820-ea14cf3e476a?q=80&w=1200",
-    rating: 4.8,
+    rating: "",
     locations: ["Manali", "Leh", "Nubra Valley", "Pangong Lake"],
     category: "Adventure",
     featured: false,
@@ -6777,7 +6777,7 @@ export const allTours = [
     // price: 549,
     image:
       "https://images.unsplash.com/photo-1476158085676-e67f57ed9ed7?q=80&w=1200",
-    rating: 4.5,
+    rating: "",
     locations: ["North Goa", "South Goa"],
     category: "Beach",
     featured: false,
@@ -6854,7 +6854,7 @@ export const allTours = [
     // price: 1499,
     image:
       "https://images.unsplash.com/photo-1605649487212-47bdab064df7?q=80&w=1200",
-    rating: 4.9,
+    rating: "",
     locations: ["Gangtok", "Darjeeling", "Kaziranga", "Shillong"],
     category: "adventure",
     featured: false,

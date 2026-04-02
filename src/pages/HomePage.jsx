@@ -370,7 +370,7 @@ const HomePage = () => {
       </section>
 
       {/* Stats Counter Section */}
-      <section className="py-16 bg-travel-orange text-white" ref={statsRef}>
+      {/* <section className="py-16 bg-travel-orange text-white" ref={statsRef}>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {stats.map((stat, index) => (
@@ -391,7 +391,7 @@ const HomePage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Facebook Gallery Section */}
       <FacebookGallery />
