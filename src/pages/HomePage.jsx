@@ -22,7 +22,7 @@ const HomePage = () => {
   const toastId = toast(
     <div className="toast-card">
       <img
-        src="https://images.unsplash.com/photo-1712733900711-d0b929d0d7cc?q=80&w=1200&auto=format&fit=crop"
+        src="./popup.jpeg"
         alt="Char Dham"
       />
 

@@ -168,12 +168,12 @@ const TourDetailsPage = () => {
                 >
                   Itinerary
                 </button>
-                <button 
+                {/* <button 
                   className={`py-3 px-6 font-medium ${activeTab === 'inclusion' ? 'text-travel-orange border-b-2 border-travel-orange' : 'text-gray-600 hover:text-travel-orange'}`}
-                  onClick={() => setActiveTab('inclusion')}
+                  onClick={() => setActiveTab('inclusionh')}
                 >
-                  Inclusions
-                </button>
+                  // added inclusionh instead of inclusion
+                </button> */}
               </div>
 
               {/* Tab Content */}
@@ -303,24 +303,48 @@ const TourDetailsPage = () => {
                               
                               {/* Content */}
                               <div className="bg-white rounded-lg shadow-md p-6 flex-grow border border-gray-100">
-                                <h3 className="text-xl font-bold mb-2">{day.title}</h3>
+                                <h3 className="text-xl font-bold mb-2">
+  {tour.id === "best-of-north-india"
+    ? `${day.name}, ${day.duration}`
+    : `${day.title}, ${day.distanceKm}. ${day.driveHours}`}
+</h3>
                                 <p className="text-gray-700 mb-4">{day.description}</p>
                                 
-                                {day.activities && day.activities.length > 0 && (
-                                  <div>
-                                    <h4 className="font-bold text-gray-800 mb-2">Activities:</h4>
-                                    <ul className="space-y-1">
-                                      {day.activities.map((activity, actIdx) => (
-                                        <li key={actIdx} className="flex items-start">
-                                          <svg className="w-4 h-4 text-travel-orange mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                          </svg>
-                                          <span className="text-gray-700">{activity}</span>
-                                        </li>
-                                      ))}
-                                    </ul>
-                                  </div>
-                                )}
+                                {tour.itinerary.map((day, index) => {
+  const isNorthIndia = tour.id === "best-of-north-india";
+  const list = isNorthIndia ? day.destinations : day.activities;
+  const label = isNorthIndia ? "Destinations" : "Activities";
+
+  return (
+    <div key={index}>
+      {list && list.length > 0 && (
+        <div>
+          <h4 className="font-bold text-gray-800 mb-2">{label}:</h4>
+          <ul className="space-y-1">
+            {list.map((item, idx) => (
+              <li key={idx} className="flex items-start">
+                <svg
+                  className="w-4 h-4 text-travel-orange mr-2 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+                <span className="text-gray-700">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+})}
                               </div>
                             </div>
                           </div>
