@@ -54,8 +54,8 @@ const TourDetailsPage = () => {
   // Animation variants
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
       transition: {
         duration: 0.6
@@ -78,14 +78,14 @@ const TourDetailsPage = () => {
       {/* Hero Section */}
       <section className="relative pt-32 pb-16 md:pt-48 md:pb-24">
         <div className="absolute inset-0 z-0">
-          <img 
+          <img
             src={tour?.image}
             alt={tour?.title}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30"></div>
         </div>
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl text-white">
             <div className="flex items-center space-x-2 text-sm mb-2">
@@ -118,28 +118,28 @@ const TourDetailsPage = () => {
                 </div>
               )}
             </div>
-            <p className="text-lg text-gray-200 mb-8">{tour.description}</p> 
-             {(
-  tour.id === "char-dham-yatra" ||
-  tour.id === "kedarnath-badrinath-yatra" ||
-  tour.id === "kedarnath-dham-yatra" ||
-  tour.id === "yamunotri-dham-yatra" ||
-  tour.id === "yamunotri-gangotri-yatra" ||
-  tour.id === "badrinath-dham-yatra"
-                         )            && (
-  <button
-    className="book-btn"
-    onClick={() => {
-      window.open(
-        "https://registrationandtouristcare.uk.gov.in/",
-        "_blank"
-      );
-      toast.dismiss();
-    }}
-  >
-    Register Now
-  </button>
-)}
+            <p className="text-lg text-gray-200 mb-8">{tour.description}</p>
+            {(
+              tour.id === "char-dham-yatra" ||
+              tour.id === "kedarnath-badrinath-yatra" ||
+              tour.id === "kedarnath-dham-yatra" ||
+              tour.id === "yamunotri-dham-yatra" ||
+              tour.id === "yamunotri-gangotri-yatra" ||
+              tour.id === "badrinath-dham-yatra"
+            ) && (
+                <button
+                  className="book-btn"
+                  onClick={() => {
+                    window.open(
+                      "https://registrationandtouristcare.uk.gov.in/",
+                      "_blank"
+                    );
+                    toast.dismiss();
+                  }}
+                >
+                  Register Now
+                </button>
+              )}
             <div className="flex items-center">
               <div className="text-3xl font-bold text-travel-orange mr-4">{tour.price}</div>
               {/* <span className="text-gray-300">per person</span> */}
@@ -156,13 +156,13 @@ const TourDetailsPage = () => {
             <div className="lg:w-2/3">
               {/* Tabs Navigation */}
               <div className="flex border-b border-gray-200 mb-8">
-                <button 
+                <button
                   className={`py-3 px-6 font-medium ${activeTab === 'overview' ? 'text-travel-orange border-b-2 border-travel-orange' : 'text-gray-600 hover:text-travel-orange'}`}
                   onClick={() => setActiveTab('overview')}
                 >
                   Overview
                 </button>
-                <button 
+                <button
                   className={`py-3 px-6 font-medium ${activeTab === 'itinerary' ? 'text-travel-orange border-b-2 border-travel-orange' : 'text-gray-600 hover:text-travel-orange'}`}
                   onClick={() => setActiveTab('itinerary')}
                 >
@@ -196,18 +196,18 @@ const TourDetailsPage = () => {
                       <p className="text-gray-700 mb-8">
                         With comfortable accommodations, expert guides, and seamless transportation arranged throughout your journey, you can focus on creating memories that will last a lifetime.
                       </p>
-                      
+
                       <h3 className="text-xl font-bold mb-4">Highlights</h3>
-                      
-                      <motion.ul 
+
+                      <motion.ul
                         className="space-y-3 mb-8"
                         variants={staggerContainer}
                         initial="hidden"
                         animate="visible"
                       >
                         {tour.highlights && tour.highlights.map((highlight, index) => (
-                          <motion.li 
-                            key={index} 
+                          <motion.li
+                            key={index}
                             className="flex items-start"
                             variants={fadeInUp}
                           >
@@ -220,7 +220,7 @@ const TourDetailsPage = () => {
                           </motion.li>
                         ))}
                       </motion.ul>
-                      
+
                       <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 mb-8">
                         <h3 className="text-xl font-bold mb-4">Important Information</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -242,7 +242,7 @@ const TourDetailsPage = () => {
                           </div>
                         </div>
                       </div>
-                      
+
                       <div className="bg-travel-cream p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-2">Why Book With Us?</h3>
                         <ul className="space-y-2">
@@ -284,7 +284,7 @@ const TourDetailsPage = () => {
                     variants={fadeInUp}
                   >
                     <h2 className="text-2xl font-playfair font-bold mb-6">Tour Itinerary</h2>
-                    
+
                     {tour.itinerary ? (
                       <div className="space-y-8">
                         {tour.itinerary.map((day, index) => (
@@ -293,58 +293,54 @@ const TourDetailsPage = () => {
                             {index < tour.itinerary.length - 1 && (
                               <div className="absolute top-0 left-6 w-0.5 h-full bg-gray-200 z-0"></div>
                             )}
-                            
+
                             {/* Timeline Content */}
                             <div className="flex gap-4 relative z-10">
                               {/* Day Circle */}
                               <div className="bg-travel-orange text-white w-12 h-12 flex items-center justify-center rounded-full font-bold shadow-md flex-shrink-0">
                                 {day.day}
                               </div>
-                              
+
                               {/* Content */}
                               <div className="bg-white rounded-lg shadow-md p-6 flex-grow border border-gray-100">
-                                <h3 className="text-xl font-bold mb-2">
-  {tour.id === "best-of-north-india"
-    ? `${day.name}, ${day.duration}`
-    : `${day.title}, ${day.distanceKm}. ${day.driveHours}`}
-</h3>
+                               <h3 className="text-xl font-bold mb-2">
+                                  {tour.id === "best-of-north-india"
+                                    ? `${day.name}`
+                                    : `${day.title}`}
+                                </h3>
+                                <div className="text-l mb-2">
+                                  {tour.id === "best-of-north-india"
+                                    ? `${day.duration}`
+                                    : `${day.distanceKm}, ${day.driveHours}`}
+                                </div>
                                 <p className="text-gray-700 mb-4">{day.description}</p>
-                                
-                                {tour.itinerary.map((day, index) => {
-  const isNorthIndia = tour.id === "best-of-north-india";
-  const list = isNorthIndia ? day.destinations : day.activities;
-  const label = isNorthIndia ? "Destinations" : "Activities";
+
+                                {(() => {
+  const isSpecial =
+    tour.id === "best-of-north-india" ||
+    tour.id === "best-of-west-india";
+
+  const list = isSpecial ? day.destinations : day.activities;
+  const label = isSpecial ? "Destinations" : "Activities";
 
   return (
-    <div key={index}>
-      {list && list.length > 0 && (
-        <div>
-          <h4 className="font-bold text-gray-800 mb-2">{label}:</h4>
-          <ul className="space-y-1">
-            {list.map((item, idx) => (
-              <li key={idx} className="flex items-start">
-                <svg
-                  className="w-4 h-4 text-travel-orange mr-2 mt-1"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-                <span className="text-gray-700">{item}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
+    list && list.length > 0 && (
+      <div>
+        <h4 className="font-semibold text-gray-800 mb-2">
+          {label}:
+        </h4>
+        <ul className="space-y-1">
+          {list.map((item, idx) => (
+            <li key={idx} className="flex items-center">
+              <span className="text-travel-orange mr-2">›</span>
+              <span className="text-gray-700">{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
   );
-})}
+})()}
                               </div>
                             </div>
                           </div>
@@ -366,7 +362,7 @@ const TourDetailsPage = () => {
                     variants={fadeInUp}
                   >
                     <h2 className="text-2xl font-playfair font-bold mb-6">Inclusions & Exclusions</h2>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       {/* Inclusions */}
                       <div className="bg-white border border-gray-100 rounded-lg p-6 shadow-md">
@@ -427,7 +423,7 @@ const TourDetailsPage = () => {
                           </li>
                         </ul>
                       </div>
-                      
+
                       {/* Exclusions */}
                       <div className="bg-white border border-gray-100 rounded-lg p-6 shadow-md">
                         <h3 className="text-xl font-bold mb-4 flex items-center text-red-600">
@@ -492,57 +488,57 @@ const TourDetailsPage = () => {
                 )}
               </div>
             </div>
-            
+
             {/* Sidebar Booking Form */}
             <div className="lg:w-1/3">
-              <motion.div 
+              <motion.div
                 className="bg-white rounded-lg shadow-md p-6 border border-gray-100 sticky top-24"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
                 <h3 className="text-xl font-bold mb-6 text-center">Book This Tour</h3>
-                
+
                 <form className="space-y-4">
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1">Name*</label>
-                    <input 
-                      type="text" 
-                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange" 
+                    <input
+                      type="text"
+                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Name"
                       required
                     />
                   </div>
-                  
+
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1">Email*</label>
-                    <input 
-                      type="email" 
-                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange" 
+                    <input
+                      type="email"
+                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Email"
                       required
                     />
                   </div>
-                  
+
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1">Phone*</label>
-                    <input 
-                      type="tel" 
-                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange" 
+                    <input
+                      type="tel"
+                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Phone Number"
                       required
                     />
                   </div>
-                  
+
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1">Travel Date*</label>
-                    <input 
-                      type="date" 
-                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange" 
+                    <input
+                      type="date"
+                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       required
                     />
                   </div>
-                  
+
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1">Number of Travelers*</label>
                     <select className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange">
@@ -553,23 +549,23 @@ const TourDetailsPage = () => {
                       <option value="5+">5+ Travelers</option>
                     </select>
                   </div>
-                  
+
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1">Special Requests (Optional)</label>
-                    <textarea 
+                    <textarea
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange h-24"
                       placeholder="Any special requirements or questions?"
                     ></textarea>
                   </div>
-                  
-                  <button 
-                    type="submit" 
+
+                  <button
+                    type="submit"
                     className="w-full bg-travel-orange text-white py-3 rounded-md font-medium hover:bg-travel-maroon transition-colors duration-300"
                   >
                     Book Now
                   </button>
                 </form>
-                
+
                 <div className="mt-6 text-center">
                   <p className="text-sm text-gray-600">Need help? Call us at</p>
                   <p className="font-bold text-lg text-travel-maroon">+919412072802</p>
@@ -579,16 +575,16 @@ const TourDetailsPage = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Related Tours */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <SectionTitle 
-            title="You Might Also Like" 
+          <SectionTitle
+            title="You Might Also Like"
             subtitle="Similar Tours"
             center
           />
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredTours
               .filter(relatedTour => relatedTour.id !== tour?.id)
@@ -607,7 +603,7 @@ const TourDetailsPage = () => {
           </div>
         </div>
       </section>
-      
+
       <ScrollToTop />
     </Layout>
   );
