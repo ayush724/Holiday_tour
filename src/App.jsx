@@ -15,7 +15,7 @@ import NotFound from "./pages/NotFound";
 // added for toaster 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import AdminPage from "./pages/AdminPage";
 const queryClient = new QueryClient();
 
 const App = () => {
@@ -37,6 +37,7 @@ const App = () => {
             <Route path="/tours" element={<ToursPage />} />
             <Route path="/gallery6121" element={<Gallery />} />
             <Route path="/tours/:id" element={<TourDetailsPage />} />
+             <Route path="/admin" element={<AdminPage />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="*" element={<NotFound />} />

@@ -41,6 +41,7 @@ const Navbar = () => {
     { name: "Tours", path: "/tours" },
     { name: "Services", path: "/services" },
     { name: "Contact", path: "/contact" },
+    { name: "Admin", path: "/admin" },
   ];
 
   // Animation variants
