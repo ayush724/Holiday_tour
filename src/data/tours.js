@@ -7603,7 +7603,7 @@ export const AdveturousTours = [
     },
   },
 ];
-export const allTours = [
+const defaultAllTours = [
   ...CharDhamYatra,
   ...featuredTours1,
   // ...CharDhamYatra,
@@ -8024,6 +8024,32 @@ export const allTours = [
     ],
   },
 ];
+
+const TOUR_STORAGE_KEY = "holiday-tour-admin-tours";
+
+const getToursFromStorage = () => {
+  if (typeof window === "undefined") {
+    return null;
+  }
+
+  try {
+    const stored = window.localStorage.getItem(TOUR_STORAGE_KEY);
+    if (!stored) {
+      return null;
+    }
+
+    const parsed = JSON.parse(stored);
+    if (Array.isArray(parsed)) {
+      return parsed;
+    }
+  } catch (error) {
+    console.warn("Unable to parse tours from localStorage:", error);
+  }
+
+  return null;
+};
+
+export const allTours = getToursFromStorage() ?? defaultAllTours;
 
 export const tourCategories = [
   {
