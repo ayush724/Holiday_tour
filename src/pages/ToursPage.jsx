@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 import ScrollToTop from "../components/ui/ScrollToTop";
-import { allTours, tourCategories } from "../data/tours";
+import { fetchTours,tourCategories } from "../data/tours";
 
 // Import the new component files
 import TourPageHero from "../components/tours/TourPageHero";
@@ -17,12 +17,20 @@ const ToursPage = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const categoryParam = queryParams.get("category");
+  const [allTours,setAllTours] = useState([]);
 
   const [activeCategory, setActiveCategory] = useState(categoryParam || "all");
   const [filteredTours, setFilteredTours] = useState(allTours);
   const [sortBy, setSortBy] = useState("recommended");
 
-  
+  useEffect(() => {
+    const load = async () => {
+      const data = await fetchTours();
+      setAllTours(data);
+    };
+
+    load();
+  }, []);
 
   useEffect(() => {
     let updatedTours = [...allTours];
@@ -67,7 +75,8 @@ const ToursPage = () => {
     }
 
     setFilteredTours(updatedTours);
-  }, [activeCategory, sortBy]);
+  }, [activeCategory, sortBy,allTours]);
+
 
   return (
     <Layout>

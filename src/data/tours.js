@@ -3368,7 +3368,7 @@ export const Honeymoon = [
         best_time_to_visit: "November to March",
       },
     ],
-    contact_info: {
+    contact: {
       address:
         "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
       phone: ["+91 – 9412072802", "+91 – 9456 332153", "+91 – 8630090671"],
@@ -8049,7 +8049,31 @@ const getToursFromStorage = () => {
   return null;
 };
 
+import { createClient } from "@supabase/supabase-js";
+import {supabase} from "../lib/supabase";
+
+// ✅ Fetch tours from Supabase
+export const fetchTours = async () => {
+  try {
+    const { data, error } = await supabase
+      .from("tours")
+      .select("*");
+
+    if (error) {
+      console.error("Supabase fetch error:", error);
+      return [];
+    }
+
+    return data || [];
+  } catch (err) {
+    console.error("Unexpected error:", err);
+    return [];
+  }
+};
+
 export const allTours = getToursFromStorage() ?? defaultAllTours;
+
+
 
 export const tourCategories = [
   {

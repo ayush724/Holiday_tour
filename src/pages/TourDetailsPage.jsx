@@ -6,13 +6,14 @@ import Layout from '../components/layout/Layout';
 import SectionTitle from '../components/ui/SectionTitle';
 import ScrollToTop from '../components/ui/ScrollToTop';
 import TourCard from '../components/ui/TourCard';
-import { allTours, featuredTours } from '../data/tours';
+import { fetchTours, featuredTours } from '../data/tours';
 
 const TourDetailsPage = () => {
   const { id } = useParams();
   const [tour, setTour] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('overview');
+  const [allTours,setAllTours] = useState([]);
 
   useEffect(() => {
     // Simulate API call
@@ -21,7 +22,16 @@ const TourDetailsPage = () => {
       setTour(foundTour || null);
       setLoading(false);
     }, 500);
-  }, [id]);
+  }, [id,allTours]);
+
+  useEffect(() => {
+    const load = async () => {
+      const data = await fetchTours();
+      setAllTours(data);
+    };
+
+    load();
+  }, []);
 
   if (loading) {
     return (
