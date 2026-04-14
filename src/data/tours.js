@@ -6864,8 +6864,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Mussoorie",
         activities: [
           "Scouting locations for hill and valley shots",
@@ -6875,8 +6875,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         destination: "Rishikesh",
         activities: [
           "Filming on the banks of the Ganga River",
@@ -6886,8 +6886,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Haridwar",
         activities: [
           "Evening Ganga Aarti filming at Har Ki Pauri",
@@ -6897,8 +6897,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Dehradun",
         activities: [
           "Urban and natural shots in the city",
@@ -6908,8 +6908,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Nainital",
         activities: [
           "Lake and boat scenes at Naini Lake",
@@ -6919,8 +6919,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Kausani",
         activities: [
           "Capture Himalayan range views",
@@ -6930,8 +6930,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         destination: "Auli",
         activities: [
           "Filming skiing sequences in winter",
@@ -6941,8 +6941,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Almora",
         activities: [
           "Heritage architecture and local culture shots",
@@ -6991,8 +6991,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Delhi",
         activities: [
           "Ramjas Rocks: sandstone walls 20-60ft high, beginner to expert routes",
@@ -7002,8 +7002,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Around Delhi",
         activities: [
           "Dhauj, Haryana: quartzite rocks 10-40m high, over 250 routes",
@@ -7012,8 +7012,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Uttarakhand",
         activities: [
           "Uttarkashi: Nehru Institute of Mountaineering, beginner bouldering",
@@ -7022,8 +7022,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Himachal Pradesh",
         activities: [
           "Manikaran Spires: rock towers up to 15,000ft",
@@ -7032,8 +7032,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Rajasthan",
         activities: [
           "Mount Abu: volcanic rock formations, beginner-friendly climbs",
@@ -7043,8 +7043,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         destination: "West India",
         activities: [
           "Western Ghats around Mumbai: pinnacles and boulders for climbing",
@@ -7054,8 +7054,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Central India",
         activities: [
           "Pachmarhi, Madhya Pradesh: multi-pitch climbs on sandstone cliffs",
@@ -7063,8 +7063,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "East India",
         activities: [
           "Susunia Hills, West Bengal: granite and sandstone 1440ft high, beginner/intermediate",
@@ -7075,8 +7075,8 @@ export const AdveturousTours = [
       },
       {
         day: 9,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "South India",
         activities: [
           "Hampi, Karnataka: granite boulders 4m-100m, 14 sq.km area",
@@ -7199,8 +7199,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Arrival at wildlife resort/camp near Corbett NP",
           "Check-in and lunch",
@@ -7211,8 +7211,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Jeep ride to Durga Devi gate of Corbett Tiger Reserve",
           "Start elephant safari and trek",
@@ -7223,8 +7223,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Full day elephant safari and wildlife observation",
           "Elephant bath in Mandal river",
@@ -7235,8 +7235,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Jeep safari in Corbett NP, exploring Ramganga river and wildlife",
           "Lunch and relaxation at Dhikala Forest Lodge",
@@ -7246,8 +7246,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Early morning elephant ride from Dhikala",
           "Breakfast",
@@ -7258,8 +7258,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: ["Breakfast", "Departure for onward destination"],
       },
     ],
@@ -7448,8 +7448,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Ranthambore National Park, Rajasthan",
         activities: [
           "Jeep safari to spot Tigers and other wildlife",
@@ -7460,8 +7460,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Jim Corbett National Park, Uttarakhand",
         activities: [
           "Guided safari through the oldest national park in Asia",
@@ -7473,8 +7473,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Bandhavgarh National Park, Madhya Pradesh",
         activities: [
           "Observe Royal Bengal Tigers in their natural habitat",
@@ -7485,8 +7485,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Kanha National Park, Madhya Pradesh",
         activities: [
           "Explore the inspiration behind The Jungle Book",
@@ -7497,8 +7497,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Kaziranga National Park, Assam",
         activities: [
           "Elephant and jeep safari to spot One-horned Rhinoceros",
@@ -7509,8 +7509,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Sunderban National Park, West Bengal",
         activities: [
           "Boat safari through the Mangrove forests",
@@ -7521,8 +7521,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Gir National Park, Gujarat",
         activities: [
           "Jeep safari to spot Asiatic Lions",
@@ -7533,8 +7533,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Pench National Park, Madhya Pradesh",
         activities: [
           "Spot Tigers, Leopards, Wild Boar, Nilgai, Crimson-breasted Barbet",
@@ -7545,8 +7545,8 @@ export const AdveturousTours = [
       },
       {
         day: 9,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Satpura National Park, Madhya Pradesh",
         activities: [
           "Adventure trekking in rugged terrain",
@@ -7557,8 +7557,8 @@ export const AdveturousTours = [
       },
       {
         day: 10,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Tadoba National Park, Maharashtra",
         activities: [
           "Jeep safari to spot Tigers, Barking Deer, Hyenas, Gaur, Leopards",
@@ -7569,8 +7569,8 @@ export const AdveturousTours = [
       },
       {
         day: 11,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Bandipur National Park, Karnataka",
         activities: [
           "Safari to spot Tigers, Gaur, Sambhar, Chital, Wild Dogs, Jackal, Sloth Bear, Panther",
@@ -7581,8 +7581,8 @@ export const AdveturousTours = [
       },
       {
         day: 12,
-        distanceKm: "",
-        driveHours: "",
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Nagarhole National Park, Karnataka",
         activities: [
           "Safari to spot Tigers, Leopards, Wild Dogs, Sloth Bear, Elephants, Deer",

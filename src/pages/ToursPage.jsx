@@ -1,7 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 import ScrollToTop from "../components/ui/ScrollToTop";
+import LoadingSpinner from "../components/ui/LoadingSpinner";
 import { fetchTours,tourCategories } from "../data/tours";
 
 // Import the new component files
@@ -18,21 +19,23 @@ const ToursPage = () => {
   const queryParams = new URLSearchParams(location.search);
   const categoryParam = queryParams.get("category");
   const [allTours,setAllTours] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const [activeCategory, setActiveCategory] = useState(categoryParam || "all");
-  const [filteredTours, setFilteredTours] = useState(allTours);
   const [sortBy, setSortBy] = useState("recommended");
 
   useEffect(() => {
     const load = async () => {
+      setLoading(true);
       const data = await fetchTours();
       setAllTours(data);
+      setLoading(false);
     };
 
     load();
   }, []);
 
-  useEffect(() => {
+  const filteredTours = useMemo(() => {
     let updatedTours = [...allTours];
 
     // Filter
@@ -74,8 +77,8 @@ const ToursPage = () => {
         );
     }
 
-    setFilteredTours(updatedTours);
-  }, [activeCategory, sortBy,allTours]);
+    return updatedTours;
+  }, [activeCategory, sortBy, allTours]);
 
 
   return (
@@ -90,16 +93,22 @@ const ToursPage = () => {
 
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <TourFilters
-            toursCount={filteredTours.length}
-            sortBy={sortBy}
-            setSortBy={setSortBy}
-          />
+          {loading ? (
+            <LoadingSpinner size="lg" text="Fetching tours..." />
+          ) : (
+            <>
+              <TourFilters
+                toursCount={filteredTours.length}
+                sortBy={sortBy}
+                setSortBy={setSortBy}
+              />
 
-          <ToursGrid
-            tours={filteredTours}
-            setActiveCategory={setActiveCategory}
-          />
+              <ToursGrid
+                tours={filteredTours}
+                setActiveCategory={setActiveCategory}
+              />
+            </>
+          )}
         </div>
       </section>
 

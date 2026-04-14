@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import Layout from "../components/layout/Layout";
 import { allTours } from "../data/tours";
-import { createClient } from "@supabase/supabase-js";
 import {supabase} from "@/lib/supabase";
+import LoadingSpinner from "../components/ui/LoadingSpinner";
 
+const CATEGORIES = ["spiritual1", "cultural", "indiatour", "spiritual", "adventure", "wildlife", "honeymon", "beach"];
 
 const defaultFormState = {
   id: "",
@@ -145,15 +146,19 @@ const ItineraryEditor = ({ itinerary, onChange }) => {
 // ============================
 const AdminPage = () => {
   const [tours, setTours] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [saving, setSaving] = useState(false);
   const [mode, setMode] = useState("list");
   const [editingId, setEditingId] = useState(null);
   const [form, setForm] = useState(defaultFormState);
 
   // ✅ LOAD FROM SUPABASE
   const loadTours = async () => {
+    setLoading(true);
     const { data } = await supabase.from("tours").select("*");
     if (data && data.length > 0) setTours(data);
     else setTours(allTours);
+    setLoading(false);
   };
 
   useEffect(() => {
@@ -191,6 +196,7 @@ const AdminPage = () => {
 
   // ✅ SAVE TO SUPABASE + VERSION
   const saveTour = async () => {
+    setSaving(true);
     const {advancedJson,...rest } =form;
 
     console.log(rest);
@@ -229,6 +235,7 @@ const AdminPage = () => {
     await supabase.from("tours").insert(updated);
 
     setTours(updated);
+    setSaving(false);
     resetForm();
   };
 
@@ -241,11 +248,13 @@ const AdminPage = () => {
     await supabase.from("tours").insert(updated);
 
     setTours(updated);
+    await loadTours();
   };
 
   return (
     <Layout>
-      <div className="container mx-auto py-10">
+      <div className="h-16 md:h-20"></div>
+<div className="container mx-auto pt-28 pb-10 relative z-10">
         <div className="flex justify-between mb-6">
           <h1 className="text-2xl font-bold">Admin Panel</h1>
           {mode === "list" && (
@@ -255,30 +264,39 @@ const AdminPage = () => {
                 setEditingId(null);
                 setForm(defaultFormState);
               }}
-              className="bg-orange-500 text-white px-4 py-2"
+              className="bg-travel-orange hover:bg-travel-maroon text-white px-6 py-2.5 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-200 flex items-center gap-2"
             >
-              + Add Tour
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+              </svg>
+              Add New Tour
             </button>
           )}
         </div>
 
-        {mode === "list" &&
-          tours.map((t) => (
-            <div key={t.id} className="flex justify-between border p-3 mb-2">
-              <span>{t.title}</span>
-              <div className="flex gap-2">
-                <button onClick={() => { setEditingId(t.id); setMode("edit"); }}>
-                  Edit
-                </button>
-                <button
-                  onClick={() => deleteTour(t.id)}
-                  className="text-red-500"
-                >
-                  Delete
-                </button>
+
+        {mode === "list" && (
+          loading ? (
+            <LoadingSpinner size="md" text="Loading tours..." />
+          ) : (
+            tours.map((t) => (
+              <div key={t.id} className="flex justify-between border p-3 mb-2">
+                <span>{t.title}</span>
+                <div className="flex gap-2">
+                  <button onClick={() => { setEditingId(t.id); setMode("edit"); }}>
+                    Edit
+                  </button>
+                  <button
+                    onClick={() => deleteTour(t.id)}
+                    className="text-red-500"
+                  >
+                    Delete
+                  </button>
+                </div>
               </div>
-            </div>
-          ))}
+            ))
+          )
+        )}
 
         {mode !== "list" && (
           <div className="space-y-4">
@@ -286,20 +304,33 @@ const AdminPage = () => {
               {mode === "create" ? "Create Tour" : "Edit Tour"}
             </h2>
 
-            <input value={form.id} onChange={(e)=>setForm({...form,id:e.target.value})} placeholder="ID" className="w-full border p-2" />
+            <input value={form.id} onChange={(e)=>setForm({...form,id:e.target.value})} placeholder="ID" className="w-full border p-2" disabled={mode === "edit"} />
             <input value={form.title} onChange={(e)=>setForm({...form,title:e.target.value})} placeholder="Title" className="w-full border p-2" />
             <textarea value={form.description} onChange={(e)=>setForm({...form,description:e.target.value})} placeholder="Description" className="w-full border p-2" />
             <input value={form.duration} onChange={(e)=>setForm({...form,duration:e.target.value})} placeholder="Duration" className="w-full border p-2" />
             <input value={form.image} onChange={(e)=>setForm({...form,image:e.target.value})} placeholder="Image URL" className="w-full border p-2" />
-            <input value={form.category} onChange={(e)=>setForm({...form,category:e.target.value})} placeholder="Category" className="w-full border p-2" />
+            <select value={form.category} onChange={(e)=>setForm({...form,category:e.target.value})} className="w-full border p-2">
+              <option value="" disabled>Select Category</option>
+              {CATEGORIES.map((cat) => (
+                <option key={cat} value={cat}>{cat}</option>
+              ))}
+            </select>
             <input value={form.locations} onChange={(e)=>setForm({...form,locations:e.target.value})} placeholder="Locations" className="w-full border p-2" />
             <input value={form.highlights} onChange={(e)=>setForm({...form,highlights:e.target.value})} placeholder="Highlights" className="w-full border p-2" />
 
             <ItineraryEditor itinerary={form.itinerary} onChange={(val)=>setForm({...form,itinerary:val})} />
 
             <div className="flex gap-2">
-              <button onClick={resetForm} className="border px-4 py-2">Cancel</button>
-              <button onClick={saveTour} className="bg-green-600 text-white px-4 py-2">Save</button>
+              <button onClick={resetForm} className="border px-4 py-2" disabled={saving}>Cancel</button>
+              <button onClick={saveTour} className="bg-green-600 text-orange px-4 py-2 flex items-center gap-2" disabled={saving}>
+                {saving && (
+                  <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                  </svg>
+                )}
+                {saving ? "Saving..." : "Save"}
+              </button>
             </div>
           </div>
         )}

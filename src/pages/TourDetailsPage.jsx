@@ -6,6 +6,7 @@ import Layout from '../components/layout/Layout';
 import SectionTitle from '../components/ui/SectionTitle';
 import ScrollToTop from '../components/ui/ScrollToTop';
 import TourCard from '../components/ui/TourCard';
+import LoadingSpinner from '../components/ui/LoadingSpinner';
 import { fetchTours, featuredTours } from '../data/tours';
 
 const TourDetailsPage = () => {
@@ -16,15 +17,6 @@ const TourDetailsPage = () => {
   const [allTours,setAllTours] = useState([]);
 
   useEffect(() => {
-    // Simulate API call
-    setTimeout(() => {
-      const foundTour = allTours.find(tour => tour.id === id);
-      setTour(foundTour || null);
-      setLoading(false);
-    }, 500);
-  }, [id,allTours]);
-
-  useEffect(() => {
     const load = async () => {
       const data = await fetchTours();
       setAllTours(data);
@@ -33,14 +25,18 @@ const TourDetailsPage = () => {
     load();
   }, []);
 
+  useEffect(() => {
+    if (allTours.length === 0) return;
+    const foundTour = allTours.find(tour => tour.id === id);
+    setTour(foundTour || null);
+    setLoading(false);
+  }, [id, allTours]);
+
   if (loading) {
     return (
       <Layout>
         <div className="container mx-auto px-4 py-20 min-h-screen flex items-center justify-center">
-          <div className="animate-pulse flex flex-col items-center">
-            <div className="rounded-full bg-gray-200 h-12 w-12 mb-4"></div>
-            <div className="text-gray-500">Loading tour details...</div>
-          </div>
+          <LoadingSpinner size="lg" text="Loading tour details..." />
         </div>
       </Layout>
     );
