@@ -29,7 +29,7 @@ const HomePage = () => {
       <h4>Char Dham Yatra 2026</h4>
       <p>Starting from <b>23 April 2026</b></p>
 
-      <button
+      {/* <button
         className="book-btn"
         onClick={() => {
           window.open(
@@ -41,7 +41,7 @@ const HomePage = () => {
         }}
       >
         Register Now
-      </button>
+      </button> */}
     </div>,
     { autoClose: 5000 }
   );

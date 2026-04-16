@@ -125,7 +125,7 @@ const TourDetailsPage = () => {
               )}
             </div>
             <p className="text-lg text-gray-200 mb-8">{tour.description}</p>
-            {(
+            {/* {(
               tour.id === "char-dham-yatra" ||
               tour.id === "kedarnath-badrinath-yatra" ||
               tour.id === "kedarnath-dham-yatra" ||
@@ -145,7 +145,7 @@ const TourDetailsPage = () => {
                 >
                   Register Now
                 </button>
-              )}
+              )} */}
             <div className="flex items-center">
               <div className="text-3xl font-bold text-travel-orange mr-4">{tour.price}</div>
               {/* <span className="text-gray-300">per person</span> */}
@@ -248,6 +248,28 @@ const TourDetailsPage = () => {
                           </div>
                         </div>
                       </div>
+
+                      {(
+              tour.id === "char-dham-yatra" ||
+              tour.id === "kedarnath-badrinath-yatra" ||
+              tour.id === "kedarnath-dham-yatra" ||
+              tour.id === "yamunotri-dham-yatra" ||
+              tour.id === "yamunotri-gangotri-yatra" ||
+              tour.id === "badrinath-dham-yatra"
+            ) && (
+                <button
+                  className="book-btn"
+                  onClick={() => {
+                    window.open(
+                      "https://registrationandtouristcare.uk.gov.in/",
+                      "_blank"
+                    );
+                    toast.dismiss();
+                  }}
+                >
+                  Register Now
+                </button>
+              )}
 
                       <div className="bg-travel-cream p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-2">Why Book With Us?</h3>
