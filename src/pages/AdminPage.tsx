@@ -73,6 +73,29 @@ const ItineraryEditor = ({ itinerary, onChange }) => {
             className="w-full mt-2 border p-2"
           />
 
+          <div className="flex gap-2 mt-2">
+            <input
+              value={day.distanceKm || ""}
+              onChange={(e) => {
+                const updated = [...itinerary];
+                updated[i].distanceKm = e.target.value;
+                update(updated);
+              }}
+              placeholder="Distance (e.g. 300 km)"
+              className="flex-1 border p-2"
+            />
+            <input
+              value={day.driveHours || ""}
+              onChange={(e) => {
+                const updated = [...itinerary];
+                updated[i].driveHours = e.target.value;
+                update(updated);
+              }}
+              placeholder="Drive Hours (e.g. 7–8 hrs)"
+              className="flex-1 border p-2"
+            />
+          </div>
+
           <textarea
             value={day.description}
             onChange={(e) => {
@@ -128,6 +151,8 @@ const ItineraryEditor = ({ itinerary, onChange }) => {
             {
               day: itinerary.length + 1,
               title: "",
+              distanceKm: "",
+              driveHours: "",
               description: "",
               activities: [],
             },
