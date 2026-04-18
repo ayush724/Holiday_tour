@@ -33,6 +33,8 @@ export const featuredTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Arrive in Delhi and drive to Haridwar. In the evening, attend the sacred Ganga Aarti at Har-ki-Pauri.",
@@ -43,6 +45,8 @@ export const featuredTours = [
       },
       {
         day: 2,
+        distanceKm: "220 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Barkot",
         description:
           "Travel from Haridwar to Barkot via Dehradun and Mussoorie. Scenic drive through hills and valleys.",
@@ -54,6 +58,8 @@ export const featuredTours = [
       },
       {
         day: 3,
+        distanceKm: "70 km",
+        driveHours: "3–4 hrs",
         title: "Barkot to Yamunotri and back",
         description:
           "Early morning drive to Janki Chatti, then trek/horse/doli ride to Yamunotri. Visit Yamunotri temple before returning to Barkot.",
@@ -66,6 +72,8 @@ export const featuredTours = [
       },
       {
         day: 4,
+        distanceKm: "100 km",
+        driveHours: "4 hrs",
         title: "Barkot to Uttarkashi",
         description:
           "Drive to Uttarkashi and visit the famous Vishwanath Temple in the evening.",
@@ -73,6 +81,8 @@ export const featuredTours = [
       },
       {
         day: 5,
+        distanceKm: "200 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Gangotri and back",
         description:
           "Full-day excursion to Gangotri, one of the Char Dhams. Return to Uttarkashi for overnight stay.",
@@ -84,6 +94,8 @@ export const featuredTours = [
       },
       {
         day: 6,
+        distanceKm: "180 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Rudraprayag",
         description:
           "Drive from Uttarkashi to Rudraprayag via the Tehri Dam route.",
@@ -91,6 +103,8 @@ export const featuredTours = [
       },
       {
         day: 7,
+        distanceKm: "75 km",
+        driveHours: "3 hrs + trek",
         title: "Rudraprayag to Kedarnath",
         description:
           "Travel to Gaurikund and begin trek to Kedarnath. Stay overnight near the Kedarnath Temple.",
@@ -103,6 +117,8 @@ export const featuredTours = [
       },
       {
         day: 8,
+        distanceKm: "75 km",
+        driveHours: "3 hrs + trek",
         title: "Kedarnath to Rudraprayag",
         description:
           "Return from Kedarnath trek to Gaurikund and drive back to Rudraprayag via Guptkashi.",
@@ -114,6 +130,8 @@ export const featuredTours = [
       },
       {
         day: 9,
+        distanceKm: "160 km",
+        driveHours: "6–7 hrs",
         title: "Rudraprayag to Badrinath",
         description:
           "Drive to Badrinath via Joshimath. Evening darshan at the Badrinath Temple.",
@@ -125,6 +143,8 @@ export const featuredTours = [
       },
       {
         day: 10,
+        distanceKm: "50 km",
+        driveHours: "1.5 hrs",
         title: "Badrinath to Joshimath",
         description:
           "Morning darshan at Badrinath, then drive to Joshimath. Visit nearby attractions like Mana village and Vyas Gufa.",
@@ -137,6 +157,8 @@ export const featuredTours = [
       },
       {
         day: 11,
+        distanceKm: "250 km",
+        driveHours: "8–9 hrs",
         title: "Joshimath to Rishikesh",
         description:
           "Drive to Rishikesh. Visit Narsingh Temple and Shankaracharya Math. Evening free at leisure.",
@@ -148,6 +170,8 @@ export const featuredTours = [
       },
       {
         day: 12,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Rishikesh to Delhi (via Haridwar)",
         description:
           "Drive back to Delhi via Haridwar. Departure for onward journey.",
@@ -200,6 +224,8 @@ export const featuredTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Drive from Delhi to Haridwar and attend the evening Ganga Aarti at Har-ki-Pauri.",
@@ -210,6 +236,8 @@ export const featuredTours = [
       },
       {
         day: 2,
+        distanceKm: "220 km",
+        driveHours: "8–9 hrs",
         title: "Haridwar to Guptkashi",
         description:
           "Travel from Haridwar to Guptkashi via Devprayag and Rudraprayag, enjoying scenic views en route.",
@@ -220,6 +248,8 @@ export const featuredTours = [
       },
       {
         day: 3,
+        distanceKm: "30 km",
+        driveHours: "1 hr + trek",
         title: "Guptkashi to Kedarnath",
         description:
           "Proceed to Gaurikund and trek/pony/doli/helicopter 14 km to Kedarnath; overnight stay at Kedarnath.",
@@ -231,6 +261,8 @@ export const featuredTours = [
       },
       {
         day: 4,
+        distanceKm: "75 km",
+        driveHours: "3 hrs + trek",
         title: "Kedarnath to Rudraprayag",
         description:
           "Descend from Kedarnath to Gaurikund and drive to Rudraprayag; overnight stay at Rudraprayag.",
@@ -242,6 +274,8 @@ export const featuredTours = [
       },
       {
         day: 5,
+        distanceKm: "160 km",
+        driveHours: "6–7 hrs",
         title: "Rudraprayag to Badrinath",
         description:
           "Drive to Badrinath via Joshimath and attend evening Darshan at Badrinath Temple.",
@@ -252,6 +286,8 @@ export const featuredTours = [
       },
       {
         day: 6,
+        distanceKm: "50 km",
+        driveHours: "1.5 hrs",
         title: "Badrinath to Joshimath",
         description:
           "Sightseeing around Joshimath including Mana Village, Vyas Gufa, Charanpaduka, etc.",
@@ -264,6 +300,8 @@ export const featuredTours = [
       },
       {
         day: 7,
+        distanceKm: "250 km",
+        driveHours: "8–9 hrs",
         title: "Joshimath to Rishikesh",
         description:
           "Drive to Rishikesh via Shankaracharya Math and Narsingh Temple; overnight stay in Rishikesh.",
@@ -274,6 +312,8 @@ export const featuredTours = [
       },
       {
         day: 8,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Rishikesh to Delhi via Haridwar",
         description:
           "Return to Delhi via Haridwar with transfer to railway station or airport.",
@@ -319,6 +359,8 @@ export const featuredTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Arrive in Delhi and drive to Haridwar. Attend the evening Ganga Ceremony at Har Ki Pauri.",
@@ -329,6 +371,8 @@ export const featuredTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Rudraprayag / Guptkashi",
         description:
           "Travel from Haridwar to Rudraprayag / Guptkashi via Devprayag, visiting Satyanarayan Temple along the way.",
@@ -339,6 +383,8 @@ export const featuredTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rudraprayag / Sitapur to Kedarnath and back",
         description:
           "Travel to Gaurikund, then trek or use horse/pony/dolly/helicopter to reach Kedarnath. Return to Rudraprayag / Sitapur in the evening.",
@@ -351,6 +397,8 @@ export const featuredTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rudraprayag / Sitapur to Haridwar",
         description:
           "Drive back to Haridwar via Rishikesh and Devprayag, enjoying scenic views along the way.",
@@ -362,6 +410,8 @@ export const featuredTours = [
       },
       {
         day: 5,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Haridwar to Delhi",
         description:
           "Drive back to Delhi, visiting Daksh Temple, Shri Yantra Temple, and Maya Devi Temple en route. Depart from Delhi.",
@@ -409,6 +459,8 @@ export const featuredTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Drive from Delhi to Haridwar and attend the evening Ganga Aarti at Har-ki-Pauri.",
@@ -419,6 +471,8 @@ export const featuredTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Rudraprayag",
         description:
           "Travel from Haridwar to Rudraprayag via Deoprayag, enjoying scenic stops along the way.",
@@ -429,6 +483,8 @@ export const featuredTours = [
       },
       {
         day: 3,
+        distanceKm: "160 km",
+        driveHours: "6–7 hrs",
         title: "Rudraprayag to Badrinath",
         description:
           "Drive to Badrinath via Joshimath and visit Badrinath Temple in the evening.",
@@ -439,6 +495,8 @@ export const featuredTours = [
       },
       {
         day: 4,
+        distanceKm: "50 km",
+        driveHours: "1.5 hrs",
         title: "Badrinath to Joshimath",
         description:
           "Explore nearby sites around Joshimath including Mana Village, Vyas Gufa, Bhimkund, and Charanpaduka; overnight stay in Joshimath.",
@@ -450,6 +508,8 @@ export const featuredTours = [
       },
       {
         day: 5,
+        distanceKm: "250 km",
+        driveHours: "8–9 hrs",
         title: "Joshimath to Rishikesh",
         description:
           "Drive to Rishikesh visiting Sriningsh Temple and Shankaracharya Math; overnight stay in Rishikesh.",
@@ -460,6 +520,8 @@ export const featuredTours = [
       },
       {
         day: 6,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Rishikesh to Delhi via Haridwar",
         description:
           "Drive back to Delhi via Haridwar with drop at railway station or airport.",
@@ -503,6 +565,8 @@ export const featuredTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Arrive in Delhi and drive to Haridwar. Attend the evening Ganga Ceremony at Har Ki Pauri.",
@@ -513,6 +577,8 @@ export const featuredTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Rudraprayag / Guptkashi",
         description:
           "Travel from Haridwar to Rudraprayag / Guptkashi via Devprayag, visiting Satyanarayan Temple along the way.",
@@ -523,6 +589,8 @@ export const featuredTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rudraprayag / Sitapur to Kedarnath and back",
         description:
           "Travel to Gaurikund, then trek or use horse/pony/dolly/helicopter to reach Kedarnath. Return to Rudraprayag / Sitapur in the evening.",
@@ -535,6 +603,8 @@ export const featuredTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rudraprayag / Sitapur to Haridwar",
         description:
           "Drive back to Haridwar via Rishikesh and Devprayag, enjoying scenic views along the way.",
@@ -546,6 +616,8 @@ export const featuredTours = [
       },
       {
         day: 5,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Haridwar to Delhi",
         description:
           "Drive back to Delhi, visiting Daksh Temple, Shri Yantra Temple, and Maya Devi Temple en route. Depart from Delhi.",
@@ -584,6 +656,8 @@ export const featuredTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Arrive in Delhi and drive to Haridwar. Attend the Ganga Aarti at Har-Ki-Pauri in the evening.",
@@ -594,6 +668,8 @@ export const featuredTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Uttarkashi",
         description:
           "Drive from Haridwar to Uttarkashi via a scenic route through the mountains.",
@@ -604,6 +680,8 @@ export const featuredTours = [
       },
       {
         day: 3,
+        distanceKm: "200 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Gangotri and back",
         description:
           "Travel from Uttarkashi to Gangotri, perform holy dip and pooja at the Gangotri Temple, then return to Uttarkashi.",
@@ -616,6 +694,8 @@ export const featuredTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Haridwar",
         description:
           "Drive back to Haridwar with a lunch stop at Chamba. Leisure time upon arrival.",
@@ -628,6 +708,8 @@ export const featuredTours = [
       },
       {
         day: 5,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Haridwar to Delhi",
         description:
           "Drive back to Delhi and transfer to the railway station or airport for departure.",
@@ -676,6 +758,8 @@ export const featuredTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description: "Drive 230 km (~6 hrs) from Delhi to Haridwar.",
         activities: [
@@ -686,6 +770,8 @@ export const featuredTours = [
       },
       {
         day: 2,
+        distanceKm: "220 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Barkot",
         description:
           "Travel from Haridwar to Barkot via Dehradun, enjoying scenic views en route.",
@@ -697,6 +783,8 @@ export const featuredTours = [
       },
       {
         day: 3,
+        distanceKm: "70 km",
+        driveHours: "3–4 hrs",
         title: "Barkot to Yamunotri and Back",
         description:
           "Trek 7 km each way from Barkot to Yamunotri temple and return.",
@@ -708,6 +796,8 @@ export const featuredTours = [
       },
       {
         day: 4,
+        distanceKm: "100 km",
+        driveHours: "4 hrs",
         title: "Barkot to Uttarkashi",
         description: "Drive from Barkot to Uttarkashi and check-in at hotel.",
         activities: [
@@ -718,6 +808,8 @@ export const featuredTours = [
       },
       {
         day: 5,
+        distanceKm: "200 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Gangotri and Back",
         description:
           "Travel 100 km (~4 hrs) to Gangotri, perform rituals and return to Uttarkashi.",
@@ -729,6 +821,8 @@ export const featuredTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Rishikesh",
         description:
           "Drive from Uttarkashi to Rishikesh and check-in at hotel.",
@@ -740,6 +834,8 @@ export const featuredTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rishikesh to Haridwar",
         description:
           "Travel from Rishikesh to Haridwar, visit local sites if time permits.",
@@ -751,6 +847,8 @@ export const featuredTours = [
       },
       {
         day: 8,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Haridwar to Delhi",
         description:
           "Return to Delhi from Haridwar with drop at railway station or airport.",
@@ -796,6 +894,8 @@ export const featuredTours1 = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Delhi",
         description:
           "Arrive at Delhi International Airport. Meet and greet with our representative. Transfer to hotel. Evening at leisure.",
@@ -803,6 +903,8 @@ export const featuredTours1 = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Delhi City Tour",
         description:
           "Full day sightseeing of Old and New Delhi visiting major attractions.",
@@ -816,6 +918,8 @@ export const featuredTours1 = [
       },
       {
         day: 3,
+        distanceKm: "230 km",
+        driveHours: "4 hrs",
         title: "Delhi to Agra",
         description:
           "Morning drive to Agra. Afternoon visit to Taj Mahal and Agra Fort.",
@@ -827,6 +931,8 @@ export const featuredTours1 = [
       },
       {
         day: 4,
+        distanceKm: "240 km",
+        driveHours: "5 hrs",
         title: "Agra to Jaipur",
         description:
           "Drive to Jaipur via Fatehpur Sikri. Check-in at hotel in Jaipur.",
@@ -838,6 +944,8 @@ export const featuredTours1 = [
       },
       {
         day: 5,
+        distanceKm: "30 km",
+        driveHours: "3 hrs",
         title: "Jaipur Sightseeing",
         description:
           "Full day Jaipur tour including Amber Fort, City Palace, and more.",
@@ -851,6 +959,8 @@ export const featuredTours1 = [
       },
       {
         day: 6,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description: "Transfer to Jaipur airport for onward journey.",
         activities: ["Breakfast at hotel", "Airport transfer"],
@@ -881,6 +991,8 @@ export const featuredTours1 = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Kochi",
         description:
           "Arrive at Kochi International Airport. Transfer to hotel. Evening Kathakali dance performance.",
@@ -892,6 +1004,8 @@ export const featuredTours1 = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Kochi City Tour",
         description:
           "Full day sightseeing in Fort Kochi area including Chinese fishing nets, St. Francis Church, and Mattancherry Palace.",
@@ -904,6 +1018,8 @@ export const featuredTours1 = [
       },
       {
         day: 3,
+        distanceKm: "130 km",
+        driveHours: "4 hrs",
         title: "Kochi to Munnar",
         description:
           "Morning drive to Munnar. Afternoon visit to tea plantations and Eravikulam National Park.",
@@ -915,6 +1031,8 @@ export const featuredTours1 = [
       },
       {
         day: 4,
+        distanceKm: "160 km",
+        driveHours: "5 hrs",
         title: "Munnar to Alleppey",
         description:
           "Travel to Alleppey. Board a traditional houseboat for an overnight stay on the backwaters.",
@@ -927,6 +1045,8 @@ export const featuredTours1 = [
       },
       {
         day: 5,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description:
           "Disembark from houseboat. Transfer to Kochi airport for departure.",
@@ -961,6 +1081,8 @@ export const featuredTours1 = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Jaipur",
         description:
           "Arrive at Jaipur Airport. Transfer to heritage hotel. Evening at leisure to explore the pink city.",
@@ -972,6 +1094,8 @@ export const featuredTours1 = [
       },
       {
         day: 2,
+        distanceKm: "30 km",
+        driveHours: "3 hrs",
         title: "Jaipur Sightseeing",
         description:
           "Full day tour of Jaipur including Amber Fort, City Palace, and Hawa Mahal.",
@@ -983,6 +1107,8 @@ export const featuredTours1 = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jaipur to Jodhpur",
         description:
           "Drive to Jodhpur with stop at Ajmer Sharif Dargah. Evening arrival in the Blue City.",
@@ -994,6 +1120,8 @@ export const featuredTours1 = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jodhpur Exploration",
         description:
           "Visit Mehrangarh Fort, Jaswant Thada, and explore the blue-painted old city.",
@@ -1005,6 +1133,8 @@ export const featuredTours1 = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jodhpur to Jaisalmer",
         description:
           "Travel to Jaisalmer, the Golden City. Evening visit to Gadisar Lake.",
@@ -1016,6 +1146,8 @@ export const featuredTours1 = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jaisalmer and Desert Safari",
         description:
           "Morning tour of Jaisalmer Fort and havelis. Afternoon camel safari and desert camping.",
@@ -1028,6 +1160,8 @@ export const featuredTours1 = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jaisalmer to Udaipur",
         description:
           "Long drive to Udaipur, the City of Lakes. Evening at leisure.",
@@ -1039,6 +1173,8 @@ export const featuredTours1 = [
       },
       {
         day: 8,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure from Udaipur",
         description:
           "Morning boat ride on Lake Pichola. Visit to City Palace. Transfer to airport for departure.",
@@ -1073,6 +1209,8 @@ export const featuredTours1 = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Varanasi",
         description:
           "Arrive at Varanasi Airport. Transfer to hotel near the ghats. Evening visit to witness the spectacular Ganga Aarti ceremony at Dashashwamedh Ghat.",
@@ -1084,6 +1222,8 @@ export const featuredTours1 = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Varanasi Ghats and Temples",
         description:
           "Early morning boat ride on the Ganges to witness the sunrise. After breakfast, visit important temples including Kashi Vishwanath and Sankat Mochan.",
@@ -1096,6 +1236,8 @@ export const featuredTours1 = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Excursion to Sarnath",
         description:
           "Day trip to Sarnath where Buddha gave his first sermon. Visit the Dhamek Stupa, Archaeological Museum, and the Bodhi tree. Evening meditation session by the Ganges.",
@@ -1108,6 +1250,8 @@ export const featuredTours1 = [
       },
       {
         day: 4,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description:
           "Optional early morning visit to the ghats. After breakfast, transfer to airport for departure.",
@@ -1154,6 +1298,8 @@ export const CharDhamYatra = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Arrive in Delhi and drive to Haridwar. In the evening, attend the sacred Ganga Aarti at Har-ki-Pauri.",
@@ -1164,6 +1310,8 @@ export const CharDhamYatra = [
       },
       {
         day: 2,
+        distanceKm: "220 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Barkot",
         description:
           "Travel from Haridwar to Barkot via Dehradun and Mussoorie. Scenic drive through hills and valleys.",
@@ -1175,6 +1323,8 @@ export const CharDhamYatra = [
       },
       {
         day: 3,
+        distanceKm: "70 km",
+        driveHours: "3–4 hrs",
         title: "Barkot to Yamunotri and back",
         description:
           "Early morning drive to Janki Chatti, then trek/horse/doli ride to Yamunotri. Visit Yamunotri temple before returning to Barkot.",
@@ -1187,6 +1337,8 @@ export const CharDhamYatra = [
       },
       {
         day: 4,
+        distanceKm: "100 km",
+        driveHours: "4 hrs",
         title: "Barkot to Uttarkashi",
         description:
           "Drive to Uttarkashi and visit the famous Vishwanath Temple in the evening.",
@@ -1194,6 +1346,8 @@ export const CharDhamYatra = [
       },
       {
         day: 5,
+        distanceKm: "200 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Gangotri and back",
         description:
           "Full-day excursion to Gangotri, one of the Char Dhams. Return to Uttarkashi for overnight stay.",
@@ -1205,6 +1359,8 @@ export const CharDhamYatra = [
       },
       {
         day: 6,
+        distanceKm: "180 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Rudraprayag",
         description:
           "Drive from Uttarkashi to Rudraprayag via the Tehri Dam route.",
@@ -1212,6 +1368,8 @@ export const CharDhamYatra = [
       },
       {
         day: 7,
+        distanceKm: "75 km",
+        driveHours: "3 hrs + trek",
         title: "Rudraprayag to Kedarnath",
         description:
           "Travel to Gaurikund and begin trek to Kedarnath. Stay overnight near the Kedarnath Temple.",
@@ -1224,6 +1382,8 @@ export const CharDhamYatra = [
       },
       {
         day: 8,
+        distanceKm: "75 km",
+        driveHours: "3 hrs + trek",
         title: "Kedarnath to Rudraprayag",
         description:
           "Return from Kedarnath trek to Gaurikund and drive back to Rudraprayag via Guptkashi.",
@@ -1235,6 +1395,8 @@ export const CharDhamYatra = [
       },
       {
         day: 9,
+        distanceKm: "160 km",
+        driveHours: "6–7 hrs",
         title: "Rudraprayag to Badrinath",
         description:
           "Drive to Badrinath via Joshimath. Evening darshan at the Badrinath Temple.",
@@ -1246,6 +1408,8 @@ export const CharDhamYatra = [
       },
       {
         day: 10,
+        distanceKm: "50 km",
+        driveHours: "1.5 hrs",
         title: "Badrinath to Joshimath",
         description:
           "Morning darshan at Badrinath, then drive to Joshimath. Visit nearby attractions like Mana village and Vyas Gufa.",
@@ -1258,6 +1422,8 @@ export const CharDhamYatra = [
       },
       {
         day: 11,
+        distanceKm: "250 km",
+        driveHours: "8–9 hrs",
         title: "Joshimath to Rishikesh",
         description:
           "Drive to Rishikesh. Visit Narsingh Temple and Shankaracharya Math. Evening free at leisure.",
@@ -1269,6 +1435,8 @@ export const CharDhamYatra = [
       },
       {
         day: 12,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Rishikesh to Delhi (via Haridwar)",
         description:
           "Drive back to Delhi via Haridwar. Departure for onward journey.",
@@ -1310,6 +1478,8 @@ export const CharDhamYatra = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Arrive in Delhi and drive to Haridwar. Attend the evening Ganga Ceremony at Har Ki Pauri.",
@@ -1320,6 +1490,8 @@ export const CharDhamYatra = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Rudraprayag / Guptkashi",
         description:
           "Travel from Haridwar to Rudraprayag / Guptkashi via Devprayag, visiting Satyanarayan Temple along the way.",
@@ -1330,6 +1502,8 @@ export const CharDhamYatra = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rudraprayag / Sitapur to Kedarnath and back",
         description:
           "Travel to Gaurikund, then trek or use horse/pony/dolly/helicopter to reach Kedarnath. Return to Rudraprayag / Sitapur in the evening.",
@@ -1342,6 +1516,8 @@ export const CharDhamYatra = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rudraprayag / Sitapur to Haridwar",
         description:
           "Drive back to Haridwar via Rishikesh and Devprayag, enjoying scenic views along the way.",
@@ -1353,6 +1529,8 @@ export const CharDhamYatra = [
       },
       {
         day: 5,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Haridwar to Delhi",
         description:
           "Drive back to Delhi, visiting Daksh Temple, Shri Yantra Temple, and Maya Devi Temple en route. Depart from Delhi.",
@@ -1391,6 +1569,8 @@ export const CharDhamYatra = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Arrive in Delhi and drive to Haridwar. Attend the Ganga Aarti at Har-Ki-Pauri in the evening.",
@@ -1401,6 +1581,8 @@ export const CharDhamYatra = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Uttarkashi",
         description:
           "Drive from Haridwar to Uttarkashi via a scenic route through the mountains.",
@@ -1411,6 +1593,8 @@ export const CharDhamYatra = [
       },
       {
         day: 3,
+        distanceKm: "200 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Gangotri and back",
         description:
           "Travel from Uttarkashi to Gangotri, perform holy dip and pooja at the Gangotri Temple, then return to Uttarkashi.",
@@ -1423,6 +1607,8 @@ export const CharDhamYatra = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Haridwar",
         description:
           "Drive back to Haridwar with a lunch stop at Chamba. Leisure time upon arrival.",
@@ -1435,6 +1621,8 @@ export const CharDhamYatra = [
       },
       {
         day: 5,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Haridwar to Delhi",
         description:
           "Drive back to Delhi and transfer to the railway station or airport for departure.",
@@ -1481,6 +1669,8 @@ export const CharDhamYatra = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Arrive in Delhi and drive to Haridwar. Attend the evening Ganga Ceremony at Har Ki Pauri.",
@@ -1491,6 +1681,8 @@ export const CharDhamYatra = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Rudraprayag / Guptkashi",
         description:
           "Travel from Haridwar to Rudraprayag / Guptkashi via Devprayag, visiting Satyanarayan Temple along the way.",
@@ -1501,6 +1693,8 @@ export const CharDhamYatra = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rudraprayag / Sitapur to Kedarnath and back",
         description:
           "Travel to Gaurikund, then trek or use horse/pony/dolly/helicopter to reach Kedarnath. Return to Rudraprayag / Sitapur in the evening.",
@@ -1513,6 +1707,8 @@ export const CharDhamYatra = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rudraprayag / Sitapur to Haridwar",
         description:
           "Drive back to Haridwar via Rishikesh and Devprayag, enjoying scenic views along the way.",
@@ -1524,6 +1720,8 @@ export const CharDhamYatra = [
       },
       {
         day: 5,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Haridwar to Delhi",
         description:
           "Drive back to Delhi, visiting Daksh Temple, Shri Yantra Temple, and Maya Devi Temple en route. Depart from Delhi.",
@@ -1571,6 +1769,8 @@ export const CharDhamYatra = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Drive from Delhi to Haridwar and attend the evening Ganga Aarti at Har-ki-Pauri.",
@@ -1581,6 +1781,8 @@ export const CharDhamYatra = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Rudraprayag",
         description:
           "Travel from Haridwar to Rudraprayag via Deoprayag, enjoying scenic stops along the way.",
@@ -1591,6 +1793,8 @@ export const CharDhamYatra = [
       },
       {
         day: 3,
+        distanceKm: "160 km",
+        driveHours: "6–7 hrs",
         title: "Rudraprayag to Badrinath",
         description:
           "Drive to Badrinath via Joshimath and visit Badrinath Temple in the evening.",
@@ -1601,6 +1805,8 @@ export const CharDhamYatra = [
       },
       {
         day: 4,
+        distanceKm: "50 km",
+        driveHours: "1.5 hrs",
         title: "Badrinath to Joshimath",
         description:
           "Explore nearby sites around Joshimath including Mana Village, Vyas Gufa, Bhimkund, and Charanpaduka; overnight stay in Joshimath.",
@@ -1612,6 +1818,8 @@ export const CharDhamYatra = [
       },
       {
         day: 5,
+        distanceKm: "250 km",
+        driveHours: "8–9 hrs",
         title: "Joshimath to Rishikesh",
         description:
           "Drive to Rishikesh visiting Sriningsh Temple and Shankaracharya Math; overnight stay in Rishikesh.",
@@ -1622,6 +1830,8 @@ export const CharDhamYatra = [
       },
       {
         day: 6,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Rishikesh to Delhi via Haridwar",
         description:
           "Drive back to Delhi via Haridwar with drop at railway station or airport.",
@@ -1676,6 +1886,8 @@ export const CharDhamYatra = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description:
           "Drive from Delhi to Haridwar and attend the evening Ganga Aarti at Har-ki-Pauri.",
@@ -1686,6 +1898,8 @@ export const CharDhamYatra = [
       },
       {
         day: 2,
+        distanceKm: "220 km",
+        driveHours: "8–9 hrs",
         title: "Haridwar to Guptkashi",
         description:
           "Travel from Haridwar to Guptkashi via Devprayag and Rudraprayag, enjoying scenic views en route.",
@@ -1696,6 +1910,8 @@ export const CharDhamYatra = [
       },
       {
         day: 3,
+        distanceKm: "30 km",
+        driveHours: "1 hr + trek",
         title: "Guptkashi to Kedarnath",
         description:
           "Proceed to Gaurikund and trek/pony/doli/helicopter 14 km to Kedarnath; overnight stay at Kedarnath.",
@@ -1707,6 +1923,8 @@ export const CharDhamYatra = [
       },
       {
         day: 4,
+        distanceKm: "75 km",
+        driveHours: "3 hrs + trek",
         title: "Kedarnath to Rudraprayag",
         description:
           "Descend from Kedarnath to Gaurikund and drive to Rudraprayag; overnight stay at Rudraprayag.",
@@ -1718,6 +1936,8 @@ export const CharDhamYatra = [
       },
       {
         day: 5,
+        distanceKm: "160 km",
+        driveHours: "6–7 hrs",
         title: "Rudraprayag to Badrinath",
         description:
           "Drive to Badrinath via Joshimath and attend evening Darshan at Badrinath Temple.",
@@ -1728,6 +1948,8 @@ export const CharDhamYatra = [
       },
       {
         day: 6,
+        distanceKm: "50 km",
+        driveHours: "1.5 hrs",
         title: "Badrinath to Joshimath",
         description:
           "Sightseeing around Joshimath including Mana Village, Vyas Gufa, Charanpaduka, etc.",
@@ -1740,6 +1962,8 @@ export const CharDhamYatra = [
       },
       {
         day: 7,
+        distanceKm: "250 km",
+        driveHours: "8–9 hrs",
         title: "Joshimath to Rishikesh",
         description:
           "Drive to Rishikesh via Shankaracharya Math and Narsingh Temple; overnight stay in Rishikesh.",
@@ -1750,6 +1974,8 @@ export const CharDhamYatra = [
       },
       {
         day: 8,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Rishikesh to Delhi via Haridwar",
         description:
           "Return to Delhi via Haridwar with transfer to railway station or airport.",
@@ -1797,6 +2023,8 @@ export const CharDhamYatra = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         description: "Drive 230 km (~6 hrs) from Delhi to Haridwar.",
         activities: [
@@ -1807,6 +2035,8 @@ export const CharDhamYatra = [
       },
       {
         day: 2,
+        distanceKm: "220 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Barkot",
         description:
           "Travel from Haridwar to Barkot via Dehradun, enjoying scenic views en route.",
@@ -1818,6 +2048,8 @@ export const CharDhamYatra = [
       },
       {
         day: 3,
+        distanceKm: "70 km",
+        driveHours: "3–4 hrs",
         title: "Barkot to Yamunotri and Back",
         description:
           "Trek 7 km each way from Barkot to Yamunotri temple and return.",
@@ -1829,6 +2061,8 @@ export const CharDhamYatra = [
       },
       {
         day: 4,
+        distanceKm: "100 km",
+        driveHours: "4 hrs",
         title: "Barkot to Uttarkashi",
         description: "Drive from Barkot to Uttarkashi and check-in at hotel.",
         activities: [
@@ -1839,6 +2073,8 @@ export const CharDhamYatra = [
       },
       {
         day: 5,
+        distanceKm: "200 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Gangotri and Back",
         description:
           "Travel 100 km (~4 hrs) to Gangotri, perform rituals and return to Uttarkashi.",
@@ -1850,6 +2086,8 @@ export const CharDhamYatra = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Rishikesh",
         description:
           "Drive from Uttarkashi to Rishikesh and check-in at hotel.",
@@ -1861,6 +2099,8 @@ export const CharDhamYatra = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rishikesh to Haridwar",
         description:
           "Travel from Rishikesh to Haridwar, visit local sites if time permits.",
@@ -1872,6 +2112,8 @@ export const CharDhamYatra = [
       },
       {
         day: 8,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Haridwar to Delhi",
         description:
           "Return to Delhi from Haridwar with drop at railway station or airport.",
@@ -1915,6 +2157,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Delhi",
         description: "Arrival at Delhi airport, transfer to hotel.",
         activities: [
@@ -1924,6 +2168,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Delhi sightseeing",
         description: "Explore Old and New Delhi.",
         activities: [
@@ -1936,6 +2182,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Agra",
         description: "Drive to Agra, visit Taj Mahal and Agra Fort.",
         activities: [
@@ -1946,6 +2194,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Samode",
         description: "Drive to Samode via Fatehpur Sikri.",
         activities: [
@@ -1957,6 +2207,8 @@ export const Honeymoon = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jaipur",
         description: "Sightseeing in Jaipur.",
         activities: [
@@ -1967,6 +2219,8 @@ export const Honeymoon = [
       },
       {
         day: 6,
+        distanceKm: "30 km",
+        driveHours: "3 hrs",
         title: "Jaipur sightseeing",
         description:
           "Visit Amber Fort, City Palace, Hawa Mahal, Jantar Mantar.",
@@ -1978,6 +2232,8 @@ export const Honeymoon = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Udaipur",
         description: "Drive to Udaipur and enjoy boat ride.",
         activities: [
@@ -1988,6 +2244,8 @@ export const Honeymoon = [
       },
       {
         day: 8,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Udaipur sightseeing",
         description: "Explore Udaipur’s palaces and gardens.",
         activities: [
@@ -1998,6 +2256,8 @@ export const Honeymoon = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Return to Delhi",
         description: "Transfer back to Delhi.",
         activities: [
@@ -2008,6 +2268,8 @@ export const Honeymoon = [
       },
       {
         day: 10,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description: "End of tour.",
         activities: [
@@ -2043,6 +2305,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Port Blair",
         description: "Arrive at Port Blair and check in.",
         activities: [
@@ -2053,6 +2317,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Transfer to Havelock",
         description: "Ferry to Havelock and visit Radhanagar Beach.",
         activities: [
@@ -2064,6 +2330,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Elephant Beach Excursion",
         description: "Snorkeling and beach fun at Elephant Beach.",
         activities: [
@@ -2075,6 +2343,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Leisure Day",
         description: "Free day at Havelock Island.",
         activities: [
@@ -2085,6 +2355,8 @@ export const Honeymoon = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Return to Port Blair",
         description: "Visit Kalapathar Beach and return to Port Blair.",
         activities: [
@@ -2096,6 +2368,8 @@ export const Honeymoon = [
       },
       {
         day: 6,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description: "End of tour.",
         activities: [
@@ -2131,6 +2405,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Srinagar",
         description:
           "Arrival at Srinagar Airport and transfer to resort or houseboat.",
@@ -2143,6 +2419,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Srinagar Sightseeing",
         description: "Half-day city tour of Srinagar.",
         activities: [
@@ -2154,6 +2432,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Gulmarg Excursion",
         description: "Day trip to Gulmarg.",
         activities: [
@@ -2165,6 +2445,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Sonmarg Excursion",
         description: "Day trip to Sonmarg.",
         activities: [
@@ -2176,6 +2458,8 @@ export const Honeymoon = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Pahalgam Excursion",
         description: "Day trip to Pahalgam.",
         activities: [
@@ -2186,6 +2470,8 @@ export const Honeymoon = [
       },
       {
         day: 6,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description: "Check out and transfer to Srinagar Airport.",
         activities: [
@@ -2232,6 +2518,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival",
         description: "Reach Shimla / Manali and check-in at hotel.",
         activities: [
@@ -2242,6 +2530,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Shimla Sightseeing",
         description: "Explore Shimla and nearby attractions.",
         activities: [
@@ -2252,6 +2542,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kullu & Manali",
         description: "Drive to Kullu and Manali for sightseeing.",
         activities: [
@@ -2262,6 +2554,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Manali Sightseeing",
         description: "Explore Manali and adventure activities.",
         activities: [
@@ -2272,6 +2566,8 @@ export const Honeymoon = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Dharamshala / McLeodganj",
         description: "Excursion to Dharamshala.",
         activities: [
@@ -2282,6 +2578,8 @@ export const Honeymoon = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Chamba & Chail",
         description: "Explore Chamba and Chail.",
         activities: [
@@ -2293,6 +2591,8 @@ export const Honeymoon = [
       },
       {
         day: 7,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description: "End of tour and transfer to airport/railway station.",
         activities: [
@@ -2341,6 +2641,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Delhi",
         description: "Reach Delhi and check-in at hotel.",
         activities: [
@@ -2351,6 +2653,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Delhi Sightseeing",
         description: "Explore Delhi’s heritage sites.",
         activities: [
@@ -2361,6 +2665,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "230 km",
+        driveHours: "4 hrs",
         title: "Delhi to Agra",
         description: "Drive to Agra and visit Taj Mahal and Agra Fort.",
         activities: [
@@ -2371,6 +2677,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "240 km",
+        driveHours: "5 hrs",
         title: "Agra to Jaipur via Fatehpur Sikri",
         description: "Visit Fatehpur Sikri on the way to Jaipur.",
         activities: [
@@ -2381,6 +2689,8 @@ export const Honeymoon = [
       },
       {
         day: 5,
+        distanceKm: "30 km",
+        driveHours: "3 hrs",
         title: "Jaipur Sightseeing",
         description: "Explore Amber Fort, City Palace, Hawa Mahal.",
         activities: [
@@ -2391,6 +2701,8 @@ export const Honeymoon = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jaipur to Udaipur",
         description: "Drive to Udaipur and enjoy boat ride.",
         activities: [
@@ -2402,6 +2714,8 @@ export const Honeymoon = [
       },
       {
         day: 7,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Udaipur Sightseeing",
         description: "Visit City Palace and other attractions.",
         activities: [
@@ -2412,6 +2726,8 @@ export const Honeymoon = [
       },
       {
         day: 8,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description: "End of tour and transfer to airport/railway station.",
         activities: [
@@ -2464,6 +2780,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in South India",
         description: "Reach first destination and check-in.",
         activities: [
@@ -2474,6 +2792,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Pondicherry & Kanyakumari",
         description: "Explore Pondicherry and Kanyakumari.",
         activities: [
@@ -2483,6 +2803,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Coonoor & Kodaikanal",
         description: "Explore hill stations.",
         activities: [
@@ -2492,6 +2814,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Ooty & Coorg",
         description: "Explore Ooty and Coorg.",
         activities: [
@@ -2501,6 +2825,8 @@ export const Honeymoon = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Thekkady & Kabini",
         description: "Wildlife and backwater experiences.",
         activities: [
@@ -2510,6 +2836,8 @@ export const Honeymoon = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kerala Backwaters & Beaches",
         description: "Explore Kerala backwaters and beaches.",
         activities: [
@@ -2520,6 +2848,8 @@ export const Honeymoon = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Munnar & Wayanad",
         description: "Tea gardens and scenic hills.",
         activities: [
@@ -2529,6 +2859,8 @@ export const Honeymoon = [
       },
       {
         day: 8,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description: "End of tour and transfer to airport/railway station.",
         activities: [
@@ -2565,6 +2897,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Custom Itinerary",
         description: "Choose your preferred destinations and plan.",
         activities: [
@@ -2601,6 +2935,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival at Pipariya – Transfer to Pachmarhi",
         description:
           "Arrive at Pipariya railway station. Meet our representative and transfer to Pachmarhi. Check-in at the hotel and spend the evening at leisure.",
@@ -2613,6 +2949,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Pachmarhi Sightseeing – Waterfalls and Caves",
         description:
           "Explore popular waterfalls and natural sites of Pachmarhi, perfect for couples.",
@@ -2625,6 +2963,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Dhupgarh Sunset & Nature Trails",
         description:
           "Enjoy romantic nature trails and visit Dhupgarh, the highest point of Madhya Pradesh, for breathtaking sunset views.",
@@ -2637,6 +2977,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure from Pachmarhi",
         description:
           "After breakfast, check out from hotel and drive back to Pipariya railway station for onward journey.",
@@ -2674,6 +3016,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Cochin",
         description:
           "Arrive at Cochin Airport/Railway Station. Transfer to hotel, check-in, and relax. Later, explore Fort Cochin and visit St. Francis Church, Dutch Palace, and Jewish Synagogue. In the evening, enjoy a Kathakali dance performance.",
@@ -2686,6 +3030,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Cochin to Munnar",
         description:
           "Drive to Munnar and check-in at a luxurious treehouse resort. Spend the rest of the day at leisure or explore the surroundings.",
@@ -2698,6 +3044,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Munnar Sightseeing",
         description:
           "Full day sightseeing of Munnar covering Mattupetty Dam, Old Munnar Town, Town Market, and Eravikulam National Park. Return to treehouse stay.",
@@ -2710,6 +3058,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "160 km",
+        driveHours: "5 hrs",
         title: "Munnar to Alleppey (Houseboat Stay)",
         description:
           "Drive to Alleppey and board a traditional houseboat (Kettuvallam) for an overnight backwater cruise with sightseeing.",
@@ -2722,6 +3072,8 @@ export const Honeymoon = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Alleppey to Kovalam",
         description:
           "Disembark from the houseboat after breakfast and drive to Kovalam. Check-in at a beach resort and relax by the crescent-shaped beaches.",
@@ -2734,6 +3086,8 @@ export const Honeymoon = [
       },
       {
         day: 6,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Kovalam Sightseeing",
         description:
           "Explore local attractions including Padmanabhaswamy Temple, Veli Tourist Village, Museum Complex, Science & Technology Museum, and Shankumugham Beach. Return to Kovalam.",
@@ -2747,6 +3101,8 @@ export const Honeymoon = [
       },
       {
         day: 7,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure from Trivandrum",
         description:
           "After breakfast, check-out and transfer to Trivandrum Airport/Railway Station for onward journey.",
@@ -2806,6 +3162,8 @@ export const Honeymoon = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Lakshadweep",
         description:
           "Relax on tranquil beaches and dive into thrilling water sports in Lakshadweep.",
@@ -2820,6 +3178,8 @@ export const Honeymoon = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Leh & Ladakh",
         description:
           "Adventure meets serenity in Ladakh with high mountain passes and pristine lakes.",
@@ -2834,6 +3194,8 @@ export const Honeymoon = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Manali",
         description:
           "Snow-clad Himalayas, adventure sports, and cozy resorts make Manali a honeymoon hotspot.",
@@ -2848,6 +3210,8 @@ export const Honeymoon = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jaisalmer",
         description:
           "The golden city offers desert adventures, sand dunes, and romantic camel rides.",
@@ -2856,6 +3220,8 @@ export const Honeymoon = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Gulmarg",
         description:
           "A winter paradise famous for skiing, gondola rides, and Asia’s only heli-skiing.",
@@ -2864,6 +3230,8 @@ export const Honeymoon = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Shillong",
         description:
           "The Scotland of the East blends natural beauty with soft adventure activities.",
@@ -2878,6 +3246,8 @@ export const Honeymoon = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Goa",
         description:
           "Golden beaches, vibrant nightlife, and exciting water adventures make Goa unforgettable.",
@@ -2892,6 +3262,8 @@ export const Honeymoon = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jim Corbett National Park",
         description:
           "India’s first national park offers wildlife adventures amidst scenic landscapes.",
@@ -2905,6 +3277,8 @@ export const Honeymoon = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Darjeeling",
         description:
           "Tea gardens, Himalayan views, and soft adventures make Darjeeling perfect for couples.",
@@ -2918,6 +3292,8 @@ export const Honeymoon = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Lonavala",
         description:
           "Quick getaway from Mumbai with thrilling adventure activities and natural beauty.",
@@ -2931,6 +3307,8 @@ export const Honeymoon = [
       },
       {
         day: 11,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Andaman & Nicobar Islands",
         description:
           "Romantic island paradise offering marine adventures and secluded beaches.",
@@ -2945,6 +3323,8 @@ export const Honeymoon = [
       },
       {
         day: 12,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Matheran",
         description:
           "A vehicle-free hill station where couples can enjoy serene nature trails.",
@@ -2953,6 +3333,8 @@ export const Honeymoon = [
       },
       {
         day: 13,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rishikesh",
         description:
           "The yoga capital of the world with endless adventure sports by the Ganges.",
@@ -2967,6 +3349,8 @@ export const Honeymoon = [
       },
       {
         day: 14,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rann of Kutch",
         description:
           "Romantic white desert offering camel safaris and starlit nights.",
@@ -2975,6 +3359,8 @@ export const Honeymoon = [
       },
       {
         day: 15,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Auli",
         description:
           "Snowy slopes, ski resorts, and Asia’s longest cable car ride make Auli magical.",
@@ -2982,7 +3368,7 @@ export const Honeymoon = [
         best_time_to_visit: "November to March",
       },
     ],
-    contact_info: {
+    contact: {
       address:
         "Sharanya, Brahm Vihar, Phase – 2, Kankhal – 249408, Haridwar, Uttarakhand, India",
       phone: ["+91 – 9412072802", "+91 – 9456 332153", "+91 – 8630090671"],
@@ -3503,6 +3889,8 @@ export const IndiaTour = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Delhi → Chennai",
         destinations: ["Delhi", "Chennai"],
         activities: [
@@ -3512,6 +3900,8 @@ export const IndiaTour = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Chennai → Tirumala",
         destinations: ["Chennai", "Tirumala"],
         activities: [
@@ -3521,6 +3911,8 @@ export const IndiaTour = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Tirumala Darshan",
         destinations: ["Tirumala"],
         activities: [
@@ -3530,6 +3922,8 @@ export const IndiaTour = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Tirumala → Chennai",
         destinations: ["Tirumala", "Chennai"],
         activities: [
@@ -3539,6 +3933,8 @@ export const IndiaTour = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Chennai → Delhi",
         destinations: ["Chennai", "Delhi"],
         activities: [
@@ -3679,6 +4075,8 @@ export const IndiaTour = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bandhavgarh & Ranthambore",
         description:
           "Start the wildlife adventure visiting central India’s famous parks.",
@@ -3690,6 +4088,8 @@ export const IndiaTour = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kaziranga & Kanha",
         description: "Explore northeastern and central Indian wildlife.",
         activities: [
@@ -3700,6 +4100,8 @@ export const IndiaTour = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Sunderbans & Manas",
         description:
           "Experience the unique ecosystems of mangroves and grasslands.",
@@ -3711,6 +4113,8 @@ export const IndiaTour = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bandipur & Sultanpur",
         description: "Discover southern and northern wildlife sanctuaries.",
         activities: [
@@ -3721,6 +4125,8 @@ export const IndiaTour = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Raja Ji & Dudwha",
         description: "Explore northern India’s diverse flora and fauna.",
         activities: [
@@ -3731,6 +4137,8 @@ export const IndiaTour = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bhalukpong & Simlipal",
         description: "Discover eastern and northeastern sanctuaries.",
         activities: [
@@ -3741,6 +4149,8 @@ export const IndiaTour = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Nandankanan & Gahirmatha",
         description: "Explore Odisha’s wildlife gems.",
         activities: [
@@ -3751,6 +4161,8 @@ export const IndiaTour = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Namdapha & Velavadar",
         description: "Wildlife exploration in northeast and west India.",
         activities: [
@@ -3761,6 +4173,8 @@ export const IndiaTour = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Wild Ass & Dachigam",
         description: "Experience unique habitats of the desert and mountains.",
         activities: [
@@ -3771,6 +4185,8 @@ export const IndiaTour = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Great Himalayan & Dibru Saikhowa",
         description:
           "Northern and northeastern high-altitude wildlife exploration.",
@@ -3782,6 +4198,8 @@ export const IndiaTour = [
       },
       {
         day: 11,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Nameri, Him’s High Altitude & Nanda Devi",
         description:
           "Conclude the tour exploring Arunachal Pradesh and Uttarakhand sanctuaries.",
@@ -3843,12 +4261,16 @@ export const IndiaTour = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Delhi Arrival",
         description: "Arrive in Delhi and check-in at the hotel.",
         activities: ["Airport pickup", "Hotel check-in", "Evening at leisure"],
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Delhi Sightseeing",
         description: "Explore key attractions in Delhi.",
         activities: [
@@ -3861,6 +4283,8 @@ export const IndiaTour = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Delhi to Udaipur",
         description: "Travel to Udaipur by flight/train and check-in at hotel.",
         activities: [
@@ -3871,6 +4295,8 @@ export const IndiaTour = [
       },
       {
         day: 4,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Udaipur City Tour",
         description: "Sightseeing in Udaipur including palaces and lakes.",
         activities: [
@@ -3882,12 +4308,16 @@ export const IndiaTour = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Udaipur to Jaipur",
         description: "Travel to Jaipur and check-in at hotel.",
         activities: ["Drive to Jaipur", "Hotel check-in", "Evening at leisure"],
       },
       {
         day: 6,
+        distanceKm: "30 km",
+        driveHours: "3 hrs",
         title: "Jaipur Sightseeing",
         description: "Explore Jaipur including forts and markets.",
         activities: [
@@ -3900,6 +4330,8 @@ export const IndiaTour = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jaipur to Agra",
         description: "Travel to Agra for Taj Mahal and Agra Fort visit.",
         activities: [
@@ -3911,6 +4343,8 @@ export const IndiaTour = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Agra to Varanasi",
         description: "Travel to Varanasi via flight and explore the ghats.",
         activities: [
@@ -3921,6 +4355,8 @@ export const IndiaTour = [
       },
       {
         day: 9,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Varanasi Sightseeing",
         description: "Explore temples, ghats, and local culture of Varanasi.",
         activities: [
@@ -3931,6 +4367,8 @@ export const IndiaTour = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Varanasi to Delhi",
         description: "Fly back to Delhi and departure.",
         activities: [
@@ -3977,6 +4415,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Delhi",
         destinations: ["Delhi"],
         activities: [
@@ -3987,6 +4427,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Delhi → Udaipur → Mount Abu",
         destinations: ["Delhi", "Udaipur", "Mount Abu"],
         activities: [
@@ -3997,6 +4439,8 @@ export const ReligiousTours = [
       },
       {
         day: 3,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Mount Abu Sightseeing",
         destinations: ["Mount Abu"],
         activities: [
@@ -4006,6 +4450,8 @@ export const ReligiousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Mount Abu → Ranakpur",
         destinations: ["Mount Abu", "Ranakpur"],
         activities: [
@@ -4015,12 +4461,16 @@ export const ReligiousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Ranakpur → Udaipur",
         destinations: ["Ranakpur", "Udaipur"],
         activities: ["Travel back to Udaipur", "Sightseeing in Udaipur"],
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Udaipur → Delhi",
         destinations: ["Udaipur", "Delhi"],
         activities: [
@@ -4030,6 +4480,8 @@ export const ReligiousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Delhi → Bangalore → Hassan → Shravanabelagola",
         destinations: ["Delhi", "Bangalore", "Hassan", "Shravanabelagola"],
         activities: [
@@ -4040,6 +4492,8 @@ export const ReligiousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Shravanabelagola → Bangalore → Delhi",
         destinations: ["Shravanabelagola", "Bangalore", "Delhi"],
         activities: [
@@ -4094,6 +4548,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Delhi",
         destinations: ["Delhi"],
         activities: [
@@ -4104,6 +4560,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Delhi Sightseeing",
         destinations: ["Delhi"],
         activities: [
@@ -4114,6 +4572,8 @@ export const ReligiousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Gurudwaras & Old Delhi Excursion",
         destinations: ["Delhi"],
         activities: [
@@ -4124,6 +4584,8 @@ export const ReligiousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Delhi → Chandigarh",
         destinations: ["Delhi", "Chandigarh"],
         activities: [
@@ -4134,6 +4596,8 @@ export const ReligiousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Chandigarh → Anandpur Sahib via Ropar & Fatehgarh Sahib",
         destinations: [
           "Chandigarh",
@@ -4149,6 +4613,8 @@ export const ReligiousTours = [
       },
       {
         day: 6,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Amritsar Arrival",
         destinations: ["Amritsar"],
         activities: [
@@ -4158,6 +4624,8 @@ export const ReligiousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Full Day Golden Temple Tour",
         destinations: ["Amritsar"],
         activities: [
@@ -4168,6 +4636,8 @@ export const ReligiousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Excursion to Tarn Taran and Goindwal",
         destinations: ["Amritsar", "Tarn Taran", "Goindwal"],
         activities: [
@@ -4177,6 +4647,8 @@ export const ReligiousTours = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Travel to Patna via Delhi",
         destinations: ["Amritsar", "Delhi", "Patna"],
         activities: [
@@ -4186,6 +4658,8 @@ export const ReligiousTours = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Visit Birthplace of Guru Gobind Singh",
         destinations: ["Patna"],
         activities: [
@@ -4195,6 +4669,8 @@ export const ReligiousTours = [
       },
       {
         day: 11,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Patna → Varanasi",
         destinations: ["Patna", "Varanasi"],
         activities: [
@@ -4204,6 +4680,8 @@ export const ReligiousTours = [
       },
       {
         day: 12,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Varanasi → Agra",
         destinations: ["Varanasi", "Agra"],
         activities: [
@@ -4214,6 +4692,8 @@ export const ReligiousTours = [
       },
       {
         day: 13,
+        distanceKm: "230 km",
+        driveHours: "4 hrs",
         title: "Agra Sightseeing and Return to Delhi",
         destinations: ["Agra", "Delhi"],
         activities: [
@@ -4224,6 +4704,8 @@ export const ReligiousTours = [
       },
       {
         day: 14,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure from Delhi",
         destinations: ["Delhi"],
         activities: [
@@ -4276,6 +4758,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Delhi → Haridwar → Govindghat",
         destinations: ["Delhi", "Haridwar", "Govindghat"],
         activities: [
@@ -4286,6 +4770,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Govindghat → Ghangharia",
         destinations: ["Govindghat", "Ghangharia"],
         activities: [
@@ -4296,6 +4782,8 @@ export const ReligiousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Valley of Flowers Excursion",
         destinations: ["Ghangharia", "Valley of Flowers", "Ghangharia"],
         activities: [
@@ -4306,6 +4794,8 @@ export const ReligiousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Ghangharia → Hemkund Sahib → Ghangharia",
         destinations: ["Ghangharia", "Hemkund Sahib", "Ghangharia"],
         activities: [
@@ -4316,6 +4806,8 @@ export const ReligiousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Ghangharia → Govindghat → Haridwar",
         destinations: ["Ghangharia", "Govindghat", "Haridwar"],
         activities: [
@@ -4326,6 +4818,8 @@ export const ReligiousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar → Delhi",
         destinations: ["Haridwar", "Delhi"],
         activities: ["Travel back to Delhi", "End of tour"],
@@ -4367,6 +4861,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Chennai → Tirumala → Chennai",
         destinations: ["Chennai", "Tirumala", "Chennai"],
         activities: [
@@ -4420,7 +4916,216 @@ export const ReligiousTours = [
       "Guided pilgrimage ensuring spiritual enrichment",
       "Comfortable accommodations and transportation",
     ],
-    itinerary: [],
+    itinerary: [
+  {
+    day: 1,
+    distanceKm: "230 km",
+    driveHours: "5–6 hrs",
+    title: "Delhi → Haridwar",
+    destinations: ["Delhi", "Haridwar"],
+    activities: [
+      "Travel from Delhi to Haridwar",
+      "Check-in at hotel",
+      "Evening Ganga Aarti at Har Ki Pauri",
+    ],
+  },
+  {
+    day: 2,
+    distanceKm: "250 km",
+    driveHours: "8–9 hrs",
+    title: "Haridwar → Guptkashi",
+    destinations: ["Haridwar", "Guptkashi"],
+    activities: [
+      "Drive towards Guptkashi",
+      "En-route scenic Himalayan views",
+      "Overnight stay at Guptkashi",
+    ],
+  },
+  {
+    day: 3,
+    distanceKm: "30 km",
+    driveHours: "2–3 hrs",
+    title: "Guptkashi → Kedarnath",
+    destinations: ["Guptkashi", "Kedarnath"],
+    activities: [
+      "Drive to Sonprayag and trek to Kedarnath",
+      "Visit Kedarnath Temple",
+      "Overnight stay near temple",
+    ],
+  },
+  {
+    day: 4,
+    distanceKm: "30 km",
+    driveHours: "2–3 hrs",
+    title: "Kedarnath → Guptkashi",
+    destinations: ["Kedarnath", "Guptkashi"],
+    activities: [
+      "Morning darshan at Kedarnath",
+      "Trek back to Sonprayag",
+      "Drive to Guptkashi",
+    ],
+  },
+  {
+    day: 5,
+    distanceKm: "220 km",
+    driveHours: "9–10 hrs",
+    title: "Guptkashi → Badrinath",
+    destinations: ["Guptkashi", "Badrinath"],
+    activities: [
+      "Drive to Badrinath",
+      "Temple darshan at Badrinath",
+      "Overnight stay",
+    ],
+  },
+  {
+    day: 6,
+    distanceKm: "300 km",
+    driveHours: "10–11 hrs",
+    title: "Badrinath → Haridwar",
+    destinations: ["Badrinath", "Haridwar"],
+    activities: [
+      "Return journey to Haridwar",
+      "Rest and leisure",
+    ],
+  },
+  {
+    day: 7,
+    distanceKm: "800 km",
+    driveHours: "14–16 hrs",
+    title: "Haridwar → Varanasi",
+    destinations: ["Haridwar", "Varanasi"],
+    activities: [
+      "Travel to Varanasi (train/flight)",
+      "Evening Ganga Aarti",
+    ],
+  },
+  {
+    day: 8,
+    distanceKm: "10 km",
+    driveHours: "1–2 hrs",
+    title: "Kashi Vishwanath Darshan",
+    destinations: ["Varanasi", "Kashi Vishwanath"],
+    activities: [
+      "Visit Kashi Vishwanath Temple",
+      "Explore ghats of Varanasi",
+    ],
+  },
+  {
+    day: 9,
+    distanceKm: "350 km",
+    driveHours: "7–8 hrs",
+    title: "Varanasi → Ujjain",
+    destinations: ["Varanasi", "Ujjain"],
+    activities: [
+      "Travel to Ujjain",
+      "Rest after arrival",
+    ],
+  },
+  {
+    day: 10,
+    distanceKm: "20 km",
+    driveHours: "1–2 hrs",
+    title: "Ujjain → Omkareshwar",
+    destinations: ["Ujjain", "Omkareshwar"],
+    activities: [
+      "Mahakaleshwar Jyotirlinga darshan",
+      "Travel to Omkareshwar",
+      "Visit Omkareshwar Temple",
+    ],
+  },
+  {
+    day: 11,
+    distanceKm: "600 km",
+    driveHours: "10–12 hrs",
+    title: "Omkareshwar → Bhimashankar",
+    destinations: ["Omkareshwar", "Bhimashankar"],
+    activities: [
+      "Travel towards Bhimashankar",
+      "Overnight stay en route",
+    ],
+  },
+  {
+    day: 12,
+    distanceKm: "50 km",
+    driveHours: "2–3 hrs",
+    title: "Bhimashankar → Trimbakeshwar",
+    destinations: ["Bhimashankar", "Trimbakeshwar"],
+    activities: [
+      "Visit Bhimashankar Temple",
+      "Proceed to Trimbakeshwar",
+      "Temple darshan",
+    ],
+  },
+  {
+    day: 13,
+    distanceKm: "250 km",
+    driveHours: "5–6 hrs",
+    title: "Trimbakeshwar → Grishneshwar",
+    destinations: ["Trimbakeshwar", "Grishneshwar"],
+    activities: [
+      "Travel to Grishneshwar",
+      "Visit Grishneshwar Temple",
+    ],
+  },
+  {
+    day: 14,
+    distanceKm: "900 km",
+    driveHours: "16–18 hrs",
+    title: "Grishneshwar → Somnath",
+    destinations: ["Grishneshwar", "Somnath"],
+    activities: [
+      "Long journey to Somnath (train/flight)",
+      "Rest after arrival",
+    ],
+  },
+  {
+    day: 15,
+    distanceKm: "230 km",
+    driveHours: "5–6 hrs",
+    title: "Somnath → Dwarka",
+    destinations: ["Somnath", "Dwarka"],
+    activities: [
+      "Visit Somnath Temple",
+      "Proceed to Dwarka",
+      "Dwarkadhish Temple darshan",
+    ],
+  },
+  {
+    day: 16,
+    distanceKm: "1500 km",
+    driveHours: "20–22 hrs",
+    title: "Dwarka → Rameswaram",
+    destinations: ["Dwarka", "Rameswaram"],
+    activities: [
+      "Travel to Rameswaram (flight/train)",
+      "Rest after arrival",
+    ],
+  },
+  {
+    day: 17,
+    distanceKm: "20 km",
+    driveHours: "1–2 hrs",
+    title: "Rameswaram Darshan",
+    destinations: ["Rameswaram"],
+    activities: [
+      "Visit Ramanathaswamy Temple",
+      "Holy bath and rituals",
+    ],
+  },
+  {
+    day: 18,
+    distanceKm: "800 km",
+    driveHours: "14–16 hrs",
+    title: "Rameswaram → Mallikarjuna → Delhi",
+    destinations: ["Rameswaram", "Mallikarjuna", "Delhi"],
+    activities: [
+      "Travel to Mallikarjuna Temple (Srisailam)",
+      "Final Jyotirlinga darshan",
+      "Return journey to Delhi",
+      "End of tour",
+    ],
+  },
+],
     contact: {
       phone: ["+91‑9412072802", "+91‑9456332153", "8630090671"],
       email: ["amitbajaj13@hotmail.com", "indiaholidayhome@gmail.com"],
@@ -4459,6 +5164,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Kathmandu",
         destinations: ["Kathmandu"],
         activities: [
@@ -4469,6 +5176,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Kathmandu Sightseeing",
         destinations: ["Kathmandu"],
         activities: [
@@ -4478,6 +5187,8 @@ export const ReligiousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kathmandu to Rasuwa Gadi",
         destinations: ["Kathmandu", "Rasuwa Gadi"],
         activities: [
@@ -4487,6 +5198,8 @@ export const ReligiousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rasuwa Gadi to Gyirong",
         destinations: ["Rasuwa Gadi", "Gyirong"],
         activities: [
@@ -4497,12 +5210,16 @@ export const ReligiousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Gyirong to Saga",
         destinations: ["Gyirong", "Saga"],
         activities: ["Drive to Saga", "Overnight stay in Saga"],
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Saga to Lake Mansarovar",
         destinations: ["Saga", "Lake Mansarovar"],
         activities: [
@@ -4512,6 +5229,8 @@ export const ReligiousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Lake Mansarovar to Darchen",
         destinations: ["Lake Mansarovar", "Darchen"],
         activities: [
@@ -4521,6 +5240,8 @@ export const ReligiousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Darchen to Dirapuk",
         destinations: ["Darchen", "Dirapuk"],
         activities: [
@@ -4531,6 +5252,8 @@ export const ReligiousTours = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Dirapuk to Zutulpuk",
         destinations: ["Dirapuk", "Zutulpuk"],
         activities: [
@@ -4541,6 +5264,8 @@ export const ReligiousTours = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Zutulpuk to Darchen",
         destinations: ["Zutulpuk", "Darchen"],
         activities: [
@@ -4551,18 +5276,24 @@ export const ReligiousTours = [
       },
       {
         day: 11,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Darchen to Saga",
         destinations: ["Darchen", "Saga"],
         activities: ["Drive back to Saga", "Overnight stay in Saga"],
       },
       {
         day: 12,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Saga to Gyirong",
         destinations: ["Saga", "Gyirong"],
         activities: ["Drive to Gyirong", "Overnight stay in Gyirong"],
       },
       {
         day: 13,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Gyirong to Rasuwa Gadi",
         destinations: ["Gyirong", "Rasuwa Gadi"],
         activities: [
@@ -4572,6 +5303,8 @@ export const ReligiousTours = [
       },
       {
         day: 14,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rasuwa Gadi to Kathmandu",
         destinations: ["Rasuwa Gadi", "Kathmandu"],
         activities: [
@@ -4582,6 +5315,8 @@ export const ReligiousTours = [
       },
       {
         day: 15,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kathmandu Leisure Day",
         destinations: ["Kathmandu"],
         activities: [
@@ -4591,6 +5326,8 @@ export const ReligiousTours = [
       },
       {
         day: 16,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure from Kathmandu",
         destinations: ["Kathmandu"],
         activities: [
@@ -4627,6 +5364,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Srinagar",
         destinations: ["Srinagar"],
         activities: [
@@ -4637,6 +5376,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Srinagar to Pahalgam",
         destinations: ["Srinagar", "Pahalgam"],
         activities: [
@@ -4647,6 +5388,8 @@ export const ReligiousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Pahalgam to Amarnath Cave",
         destinations: ["Pahalgam", "Amarnath Cave"],
         activities: [
@@ -4657,6 +5400,8 @@ export const ReligiousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Return to Pahalgam",
         destinations: ["Amarnath Cave", "Pahalgam"],
         activities: [
@@ -4667,6 +5412,8 @@ export const ReligiousTours = [
       },
       {
         day: 5,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure from Pahalgam",
         destinations: ["Pahalgam", "Srinagar"],
         activities: ["Drive back to Srinagar", "Departure from Srinagar"],
@@ -4700,6 +5447,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Katra",
         destinations: ["Katra"],
         activities: [
@@ -4710,6 +5459,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Trek to Vaishno Devi Shrine",
         destinations: ["Katra", "Vaishno Devi Shrine"],
         activities: [
@@ -4751,6 +5502,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Haridwar",
         destinations: ["Haridwar"],
         activities: [
@@ -4761,6 +5514,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar → Uttarkashi",
         destinations: ["Haridwar", "Uttarkashi"],
         activities: [
@@ -4771,6 +5526,8 @@ export const ReligiousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Yoga & Meditation in Uttarkashi",
         destinations: ["Uttarkashi"],
         activities: [
@@ -4782,6 +5539,8 @@ export const ReligiousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi → Rishikesh",
         destinations: ["Uttarkashi", "Rishikesh"],
         activities: [
@@ -4792,6 +5551,8 @@ export const ReligiousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Yoga & Meditation in Rishikesh",
         destinations: ["Rishikesh"],
         activities: [
@@ -4803,6 +5564,8 @@ export const ReligiousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "River Rafting & Spiritual Exploration",
         destinations: ["Rishikesh"],
         activities: [
@@ -4814,6 +5577,8 @@ export const ReligiousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Nature Walk & Meditation",
         destinations: ["Rishikesh"],
         activities: [
@@ -4825,6 +5590,8 @@ export const ReligiousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Free Day in Rishikesh",
         destinations: ["Rishikesh"],
         activities: [
@@ -4835,6 +5602,8 @@ export const ReligiousTours = [
       },
       {
         day: 9,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure from Rishikesh",
         destinations: ["Rishikesh", "Haridwar/Dehradun"],
         activities: [
@@ -4872,6 +5641,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         destinations: ["Delhi", "Haridwar"],
         activities: [
@@ -4884,6 +5655,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Uttarkashi",
         destinations: ["Haridwar", "Uttarkashi"],
         activities: [
@@ -4895,6 +5668,8 @@ export const ReligiousTours = [
       },
       {
         day: 3,
+        distanceKm: "200 km",
+        driveHours: "7–8 hrs",
         title: "Uttarkashi to Gangotri",
         destinations: ["Uttarkashi", "Gangotri"],
         activities: [
@@ -4906,6 +5681,8 @@ export const ReligiousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Gangotri to Bhojwasa",
         destinations: ["Gangotri", "Bhojwasa"],
         activities: [
@@ -4917,6 +5694,8 @@ export const ReligiousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bhojwasa to Gaumukh and Return to Bhojwasa",
         destinations: ["Bhojwasa", "Gaumukh"],
         activities: [
@@ -4928,6 +5707,8 @@ export const ReligiousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bhojwasa to Gangotri and Return to Uttarkashi",
         destinations: ["Bhojwasa", "Gangotri", "Uttarkashi"],
         activities: [
@@ -4972,6 +5753,8 @@ export const ReligiousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Govindghat",
         destinations: ["Haridwar", "Govindghat"],
         activities: [
@@ -4983,6 +5766,8 @@ export const ReligiousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Govindghat to Ghangaria",
         destinations: ["Govindghat", "Poolna", "Ghangaria"],
         activities: [
@@ -4994,6 +5779,8 @@ export const ReligiousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Ghangaria to Valley of Flowers",
         destinations: ["Ghangaria", "Valley of Flowers"],
         activities: [
@@ -5005,6 +5792,8 @@ export const ReligiousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Ghangaria to Hemkund Sahib",
         destinations: ["Ghangaria", "Hemkund Sahib"],
         activities: [
@@ -5016,6 +5805,8 @@ export const ReligiousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Ghangaria to Govindghat",
         destinations: ["Ghangaria", "Poolna", "Govindghat"],
         activities: [
@@ -5026,6 +5817,8 @@ export const ReligiousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Govindghat to Haridwar",
         destinations: ["Govindghat", "Haridwar"],
         activities: ["Drive back to Haridwar", "Arrive in Haridwar by evening"],
@@ -5071,6 +5864,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Delhi",
         destinations: ["Delhi"],
         description: "Arrive in Delhi and settle in.",
@@ -5083,6 +5878,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "210 km",
+        driveHours: "5–6 hrs",
         title: "Delhi to Haridwar",
         destinations: ["Delhi", "Haridwar"],
         description: "Travel to Haridwar and experience Ganga Aarti.",
@@ -5095,6 +5892,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar to Joshimath",
         destinations: ["Haridwar", "Joshimath"],
         description: "Drive to Joshimath and relax.",
@@ -5107,6 +5906,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Joshimath to Auli",
         destinations: ["Joshimath", "Auli"],
         description: "Reach Auli and prepare for skiing.",
@@ -5119,6 +5920,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Skiing in Auli",
         destinations: ["Auli"],
         description: "Full day skiing sessions.",
@@ -5132,6 +5935,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Skiing in Auli",
         destinations: ["Auli"],
         description: "Second day of skiing.",
@@ -5145,6 +5950,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Auli to Rishikesh",
         destinations: ["Auli", "Rishikesh"],
         description: "Drive to Rishikesh and enjoy evening rituals.",
@@ -5157,6 +5964,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         title: "Rishikesh to Delhi",
         destinations: ["Rishikesh", "Delhi"],
         description: "Return to Delhi and conclude tour.",
@@ -5204,6 +6013,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Rafting Adventure in Rishikesh",
         destinations: ["Rishikesh"],
         description: "Single-day rafting experience.",
@@ -5258,6 +6069,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival and Orientation",
         destinations: ["Base Camp"],
         description: "Arrive at base camp and settle in.",
@@ -5269,6 +6082,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Start of Trek",
         destinations: ["Base Camp", "First Trek Stop"],
         description: "Begin guided trek.",
@@ -5281,6 +6096,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Trekking and Exploration",
         destinations: ["First Trek Stop", "Next Trek Stop"],
         description: "Continue trekking.",
@@ -5293,6 +6110,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Summit Day or Exploration",
         destinations: ["Next Trek Stop", "Base Camp"],
         description: "Summit or rest day.",
@@ -5305,6 +6124,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         destinations: ["Base Camp", "Starting Point"],
         description: "End of trekking tour.",
@@ -5352,6 +6173,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival and Orientation",
         destinations: ["Rishikesh", "Kayaking Base Camp"],
         description: "Get familiar with kayaking basics.",
@@ -5364,6 +6187,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kayaking Adventure",
         destinations: ["Ganges River", "Rishikesh", "Kayaking Base Camp"],
         description: "Full-day kayaking experience.",
@@ -5450,6 +6275,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Delhi – Leh",
         destinations: ["Delhi", "Leh"],
         activities: [
@@ -5461,6 +6288,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Leh Sightseeing",
         destinations: [
           "Leh",
@@ -5479,6 +6308,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Leh – Nubra Valley",
         destinations: ["Leh", "Nubra Valley"],
         activities: [
@@ -5489,6 +6320,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Nubra Valley – Leh",
         destinations: ["Nubra Valley", "Samstanling Monastery", "Leh"],
         activities: [
@@ -5500,6 +6333,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Leh – Tsomoriri Lake",
         destinations: [
           "Leh",
@@ -5516,6 +6351,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Tso Moriri Lake – Tsokar Lake",
         destinations: [
           "Tsomoriri Lake",
@@ -5532,6 +6369,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Tso-Kar Lake – Jispa",
         destinations: ["Tsokar Lake", "Sarchu Plains", "Jispa"],
         activities: [
@@ -5542,6 +6381,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jispa – Manali",
         destinations: ["Jispa", "Keylong", "Rohtang Pass", "Manali"],
         activities: [
@@ -5592,12 +6433,16 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Delhi Arrival",
         destinations: ["Delhi"],
         activities: ["Airport transfer", "Hotel check-in", "Overnight stay"],
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Delhi Sightseeing",
         destinations: ["Delhi"],
         activities: [
@@ -5607,6 +6452,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Delhi – Varanasi",
         destinations: ["Delhi", "Varanasi", "Sarnath"],
         activities: [
@@ -5618,6 +6465,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Varanasi",
         destinations: ["Varanasi"],
         activities: [
@@ -5629,6 +6478,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Varanasi – Khajuraho",
         destinations: ["Varanasi", "Khajuraho"],
         activities: [
@@ -5639,6 +6490,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Khajuraho – Orchha",
         destinations: ["Khajuraho", "Orchha"],
         activities: [
@@ -5649,6 +6502,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Orchha – Jhansi – Bhopal",
         destinations: ["Orchha", "Jhansi", "Bhopal"],
         activities: [
@@ -5659,12 +6514,16 @@ export const AdveturousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bhopal",
         destinations: ["Bhopal", "Sanchi"],
         activities: ["Visit Sanchi Stupa and Museum", "Overnight stay"],
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bhopal – Bhimbetka – Bhojpur – Pachmarhi",
         destinations: ["Bhopal", "Bhimbetka", "Bhojpur", "Pachmarhi"],
         activities: [
@@ -5674,6 +6533,8 @@ export const AdveturousTours = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Pachmarhi",
         destinations: ["Pachmarhi"],
         activities: [
@@ -5683,6 +6544,8 @@ export const AdveturousTours = [
       },
       {
         day: 11,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Pachmarhi – Jabalpur",
         destinations: ["Pachmarhi", "Jabalpur"],
         activities: [
@@ -5693,6 +6556,8 @@ export const AdveturousTours = [
       },
       {
         day: 12,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Jabalpur – Kanha",
         destinations: ["Jabalpur", "Kanha National Park"],
         activities: [
@@ -5703,12 +6568,16 @@ export const AdveturousTours = [
       },
       {
         day: 13,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kanha",
         destinations: ["Kanha National Park"],
         activities: ["Wildlife safari in Kanha", "Overnight stay"],
       },
       {
         day: 14,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kanha – Nagpur – Mumbai",
         destinations: ["Kanha National Park", "Nagpur", "Mumbai"],
         activities: [
@@ -5719,6 +6588,8 @@ export const AdveturousTours = [
       },
       {
         day: 15,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Mumbai",
         destinations: [
           "Mumbai",
@@ -5760,6 +6631,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Mumbai Arrival",
         destinations: ["Mumbai"],
         activities: [
@@ -5771,6 +6644,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Mumbai Sightseeing",
         destinations: ["Mumbai"],
         activities: [
@@ -5780,6 +6655,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Mumbai – Nagpur – Kanha",
         destinations: ["Mumbai", "Nagpur", "Kanha"],
         activities: [
@@ -5791,6 +6668,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kanha Safari",
         destinations: ["Kanha National Park"],
         activities: [
@@ -5801,12 +6680,16 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kanha Safari",
         destinations: ["Kanha National Park"],
         activities: ["Full-day game viewing in Kanha", "Overnight stay"],
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kanha – Bandhavgarh",
         destinations: ["Kanha", "Bandhavgarh"],
         activities: [
@@ -5817,6 +6700,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bandhavgarh Safari",
         destinations: ["Bandhavgarh National Park"],
         activities: [
@@ -5827,6 +6712,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bandhavgarh Safari",
         destinations: ["Bandhavgarh National Park"],
         activities: [
@@ -5837,6 +6724,8 @@ export const AdveturousTours = [
       },
       {
         day: 9,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Bandhavgarh Sightseeing",
         destinations: ["Bandhavgarh National Park"],
         activities: [
@@ -5846,6 +6735,8 @@ export const AdveturousTours = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Bandhavgarh – Umaria – Agra",
         destinations: ["Bandhavgarh", "Umaria", "Agra"],
         activities: [
@@ -5855,6 +6746,8 @@ export const AdveturousTours = [
       },
       {
         day: 11,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Agra",
         destinations: ["Agra", "Fatehpur Sikri"],
         activities: [
@@ -5865,6 +6758,8 @@ export const AdveturousTours = [
       },
       {
         day: 12,
+        distanceKm: "230 km",
+        driveHours: "4 hrs",
         title: "Agra – Delhi",
         destinations: ["Agra", "Delhi"],
         activities: [
@@ -5876,6 +6771,8 @@ export const AdveturousTours = [
       },
       {
         day: 13,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Delhi Sightseeing & Departure",
         destinations: ["Delhi"],
         activities: [
@@ -5915,6 +6812,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Haridwar Motor Biking Experience",
         activities: [
           "Pickup from Haridwar Railway Station or your hotel",
@@ -5965,6 +6864,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Mussoorie",
         activities: [
           "Scouting locations for hill and valley shots",
@@ -5974,6 +6875,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "230 km",
+        driveHours: "6–7 hrs",
         destination: "Rishikesh",
         activities: [
           "Filming on the banks of the Ganga River",
@@ -5983,6 +6886,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Haridwar",
         activities: [
           "Evening Ganga Aarti filming at Har Ki Pauri",
@@ -5992,6 +6897,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Dehradun",
         activities: [
           "Urban and natural shots in the city",
@@ -6001,6 +6908,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Nainital",
         activities: [
           "Lake and boat scenes at Naini Lake",
@@ -6010,6 +6919,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Kausani",
         activities: [
           "Capture Himalayan range views",
@@ -6019,6 +6930,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         destination: "Auli",
         activities: [
           "Filming skiing sequences in winter",
@@ -6028,6 +6941,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Almora",
         activities: [
           "Heritage architecture and local culture shots",
@@ -6076,6 +6991,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Delhi",
         activities: [
           "Ramjas Rocks: sandstone walls 20-60ft high, beginner to expert routes",
@@ -6085,6 +7002,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Around Delhi",
         activities: [
           "Dhauj, Haryana: quartzite rocks 10-40m high, over 250 routes",
@@ -6093,6 +7012,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Uttarakhand",
         activities: [
           "Uttarkashi: Nehru Institute of Mountaineering, beginner bouldering",
@@ -6101,6 +7022,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Himachal Pradesh",
         activities: [
           "Manikaran Spires: rock towers up to 15,000ft",
@@ -6109,6 +7032,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Rajasthan",
         activities: [
           "Mount Abu: volcanic rock formations, beginner-friendly climbs",
@@ -6118,6 +7043,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         destination: "West India",
         activities: [
           "Western Ghats around Mumbai: pinnacles and boulders for climbing",
@@ -6127,6 +7054,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Central India",
         activities: [
           "Pachmarhi, Madhya Pradesh: multi-pitch climbs on sandstone cliffs",
@@ -6134,6 +7063,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "East India",
         activities: [
           "Susunia Hills, West Bengal: granite and sandstone 1440ft high, beginner/intermediate",
@@ -6144,6 +7075,8 @@ export const AdveturousTours = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "South India",
         activities: [
           "Hampi, Karnataka: granite boulders 4m-100m, 14 sq.km area",
@@ -6197,6 +7130,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Para-Gliding Experience",
         description:
           "Exciting paragliding adventure with full safety and guidance.",
@@ -6264,6 +7199,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Arrival at wildlife resort/camp near Corbett NP",
           "Check-in and lunch",
@@ -6274,6 +7211,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Jeep ride to Durga Devi gate of Corbett Tiger Reserve",
           "Start elephant safari and trek",
@@ -6284,6 +7223,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Full day elephant safari and wildlife observation",
           "Elephant bath in Mandal river",
@@ -6294,6 +7235,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Jeep safari in Corbett NP, exploring Ramganga river and wildlife",
           "Lunch and relaxation at Dhikala Forest Lodge",
@@ -6303,6 +7246,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: [
           "Early morning elephant ride from Dhikala",
           "Breakfast",
@@ -6313,6 +7258,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         activities: ["Breakfast", "Departure for onward destination"],
       },
     ],
@@ -6501,6 +7448,8 @@ export const AdveturousTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Ranthambore National Park, Rajasthan",
         activities: [
           "Jeep safari to spot Tigers and other wildlife",
@@ -6511,6 +7460,8 @@ export const AdveturousTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Jim Corbett National Park, Uttarakhand",
         activities: [
           "Guided safari through the oldest national park in Asia",
@@ -6522,6 +7473,8 @@ export const AdveturousTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Bandhavgarh National Park, Madhya Pradesh",
         activities: [
           "Observe Royal Bengal Tigers in their natural habitat",
@@ -6532,6 +7485,8 @@ export const AdveturousTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Kanha National Park, Madhya Pradesh",
         activities: [
           "Explore the inspiration behind The Jungle Book",
@@ -6542,6 +7497,8 @@ export const AdveturousTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Kaziranga National Park, Assam",
         activities: [
           "Elephant and jeep safari to spot One-horned Rhinoceros",
@@ -6552,6 +7509,8 @@ export const AdveturousTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Sunderban National Park, West Bengal",
         activities: [
           "Boat safari through the Mangrove forests",
@@ -6562,6 +7521,8 @@ export const AdveturousTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Gir National Park, Gujarat",
         activities: [
           "Jeep safari to spot Asiatic Lions",
@@ -6572,6 +7533,8 @@ export const AdveturousTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Pench National Park, Madhya Pradesh",
         activities: [
           "Spot Tigers, Leopards, Wild Boar, Nilgai, Crimson-breasted Barbet",
@@ -6582,6 +7545,8 @@ export const AdveturousTours = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Satpura National Park, Madhya Pradesh",
         activities: [
           "Adventure trekking in rugged terrain",
@@ -6592,6 +7557,8 @@ export const AdveturousTours = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Tadoba National Park, Maharashtra",
         activities: [
           "Jeep safari to spot Tigers, Barking Deer, Hyenas, Gaur, Leopards",
@@ -6602,6 +7569,8 @@ export const AdveturousTours = [
       },
       {
         day: 11,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Bandipur National Park, Karnataka",
         activities: [
           "Safari to spot Tigers, Gaur, Sambhar, Chital, Wild Dogs, Jackal, Sloth Bear, Panther",
@@ -6612,6 +7581,8 @@ export const AdveturousTours = [
       },
       {
         day: 12,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         destination: "Nagarhole National Park, Karnataka",
         activities: [
           "Safari to spot Tigers, Leopards, Wild Dogs, Sloth Bear, Elephants, Deer",
@@ -6632,7 +7603,7 @@ export const AdveturousTours = [
     },
   },
 ];
-export const allTours = [
+const defaultAllTours = [
   ...CharDhamYatra,
   ...featuredTours1,
   // ...CharDhamYatra,
@@ -6663,6 +7634,8 @@ export const allTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Manali",
         description:
           "Arrive and acclimatize in Manali. Briefing about the journey ahead.",
@@ -6675,6 +7648,8 @@ export const allTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Manali Exploration",
         description:
           "Visit Hadimba Temple, Vashisht Hot Springs, and prepare for the journey.",
@@ -6686,6 +7661,8 @@ export const allTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Manali to Keylong",
         description:
           "Drive over Rohtang Pass to reach Keylong. Stunning landscapes along the way.",
@@ -6697,6 +7674,8 @@ export const allTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Keylong to Leh",
         description:
           "Long drive through Baralacha La and Moore Plains to reach Leh.",
@@ -6708,6 +7687,8 @@ export const allTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Leh Acclimatization",
         description:
           "Rest day in Leh with short visits to Shanti Stupa and Leh Palace.",
@@ -6719,6 +7700,8 @@ export const allTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Leh to Nubra Valley",
         description:
           "Cross Khardung La, the world's highest motorable pass, to reach Nubra Valley.",
@@ -6730,6 +7713,8 @@ export const allTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Nubra Valley Exploration",
         description: "Visit Diskit Monastery, sand dunes, and hot springs.",
         activities: [
@@ -6740,6 +7725,8 @@ export const allTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Nubra to Pangong Lake",
         description:
           "Travel to the stunning Pangong Lake through Shyok river route.",
@@ -6751,6 +7738,8 @@ export const allTours = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Pangong Lake to Leh",
         description:
           "Morning by the lake, then return to Leh via Chang La pass.",
@@ -6762,6 +7751,8 @@ export const allTours = [
       },
       {
         day: 10,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure from Leh",
         description: "Transfer to Leh airport for departure.",
         activities: ["Souvenir shopping", "Airport transfer"],
@@ -6791,6 +7782,8 @@ export const allTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Goa",
         description:
           "Arrive at Goa Airport. Transfer to beach resort. Evening leisure time at the beach.",
@@ -6803,6 +7796,8 @@ export const allTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "North Goa Beaches",
         description:
           "Explore North Goa beaches including Baga, Calangute, and Anjuna. Try water sports and visit the famous flea market.",
@@ -6815,6 +7810,8 @@ export const allTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Old Goa and Panjim",
         description:
           "Visit the historic churches of Old Goa and explore Panjim city. Evening sunset cruise on the Mandovi River.",
@@ -6827,6 +7824,8 @@ export const allTours = [
       },
       {
         day: 4,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "South Goa Exploration",
         description:
           "Day trip to the more serene beaches of South Goa including Palolem and Colva. Visit to spice plantation on the way.",
@@ -6839,6 +7838,8 @@ export const allTours = [
       },
       {
         day: 5,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description:
           "Morning free for last-minute shopping or beach time. Transfer to airport for departure.",
@@ -6868,6 +7869,8 @@ export const allTours = [
     itinerary: [
       {
         day: 1,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Arrival in Bagdogra",
         description:
           "Arrive at Bagdogra Airport. Drive to Darjeeling. Evening at leisure.",
@@ -6880,6 +7883,8 @@ export const allTours = [
       },
       {
         day: 2,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Darjeeling Exploration",
         description:
           "Early morning visit to Tiger Hill for sunrise over Kanchenjunga. Visit tea plantations and the Himalayan Mountaineering Institute.",
@@ -6892,6 +7897,8 @@ export const allTours = [
       },
       {
         day: 3,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Darjeeling to Gangtok",
         description: "Drive to Gangtok. Evening walk on MG Road.",
         activities: [
@@ -6902,6 +7909,8 @@ export const allTours = [
       },
       {
         day: 4,
+        distanceKm: "40 km",
+        driveHours: "3–4 hrs",
         title: "Gangtok Sightseeing",
         description:
           "Visit to Rumtek Monastery, Enchey Monastery, and other attractions around Gangtok.",
@@ -6913,6 +7922,8 @@ export const allTours = [
       },
       {
         day: 5,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Excursion to Tsomgo Lake",
         description:
           "Day trip to the high-altitude Tsomgo Lake and Baba Mandir.",
@@ -6924,6 +7935,8 @@ export const allTours = [
       },
       {
         day: 6,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Gangtok to Guwahati",
         description:
           "Fly from Bagdogra to Guwahati. Evening visit to Brahmaputra River front.",
@@ -6935,6 +7948,8 @@ export const allTours = [
       },
       {
         day: 7,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Guwahati to Kaziranga",
         description:
           "Drive to Kaziranga National Park. Evening cultural program at resort.",
@@ -6947,6 +7962,8 @@ export const allTours = [
       },
       {
         day: 8,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kaziranga Safari",
         description:
           "Morning elephant safari and afternoon jeep safari in different ranges of the park to spot one-horned rhinos.",
@@ -6959,6 +7976,8 @@ export const allTours = [
       },
       {
         day: 9,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Kaziranga to Shillong",
         description:
           "Drive to Shillong through scenic landscapes. Evening at leisure.",
@@ -6970,6 +7989,8 @@ export const allTours = [
       },
       {
         day: 10,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Shillong Exploration",
         description:
           "Visit local attractions including Don Bosco Museum and Ward's Lake.",
@@ -6981,6 +8002,8 @@ export const allTours = [
       },
       {
         day: 11,
+        distanceKm: "300 km",
+        driveHours: "7–8 hrs",
         title: "Excursion to Cherrapunji",
         description:
           "Day trip to Cherrapunji to see living root bridges and waterfalls.",
@@ -6992,6 +8015,8 @@ export const allTours = [
       },
       {
         day: 12,
+        distanceKm: "20 km",
+        driveHours: "1 hr",
         title: "Departure",
         description: "Transfer to Guwahati airport for departure.",
         activities: ["Shillong to Guwahati transfer", "Airport drop-off"],
@@ -6999,6 +8024,56 @@ export const allTours = [
     ],
   },
 ];
+
+const TOUR_STORAGE_KEY = "holiday-tour-admin-tours";
+
+const getToursFromStorage = () => {
+  if (typeof window === "undefined") {
+    return null;
+  }
+
+  try {
+    const stored = window.localStorage.getItem(TOUR_STORAGE_KEY);
+    if (!stored) {
+      return null;
+    }
+
+    const parsed = JSON.parse(stored);
+    if (Array.isArray(parsed)) {
+      return parsed;
+    }
+  } catch (error) {
+    console.warn("Unable to parse tours from localStorage:", error);
+  }
+
+  return null;
+};
+
+import { createClient } from "@supabase/supabase-js";
+import {supabase} from "../lib/supabase";
+
+// ✅ Fetch tours from Supabase
+export const fetchTours = async () => {
+  try {
+    const { data, error } = await supabase
+      .from("tours")
+      .select("*");
+
+    if (error) {
+      console.error("Supabase fetch error:", error);
+      return [];
+    }
+
+    return data || [];
+  } catch (err) {
+    console.error("Unexpected error:", err);
+    return [];
+  }
+};
+
+export const allTours = getToursFromStorage() ?? defaultAllTours;
+
+
 
 export const tourCategories = [
   {

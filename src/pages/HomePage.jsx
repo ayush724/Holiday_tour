@@ -8,28 +8,50 @@ import TourCard from "../components/ui/TourCard";
 import TestimonialCard from "../components/ui/TestimonialCard";
 import ScrollToTop from "../components/ui/ScrollToTop";
 import FacebookGallery from "../components/ui/FacebookGallery";
-import { featuredTours, tourCategories, carRental } from "../data/tours";
+// import { featuredTours, tourCategories, carRental, CharDhamYatra } from "../data/tours";
+import { tourCategories, carRental } from "../data/tours";
 import { reviews } from "../data/reviews";
-
+import { supabase } from "@/lib/supabase";
 import { toast } from "react-toastify";
 
 
 const HomePage = () => {
 
 
- 
+  const [featuredTours, setFeaturedTours] = useState([]);
+  const [loadingFeatured, setLoadingFeatured] = useState(true);
+
+  // FETCH FEATURED TOURS
+  // =========================
   useEffect(() => {
-  const toastId = toast(
-    <div className="toast-card">
-      <img
-        src="./popup.jpeg"
-        alt="Char Dham"
-      />
+    const loadFeaturedTours = async () => {
+      const { data, error } = await supabase
+        .from("tours")
+        .select("*")
+        .eq("featured", true);
 
-      <h4>Char Dham Yatra 2026</h4>
-      <p>Starting from <b>23 April 2026</b></p>
+      if (!error && data) {
+        setFeaturedTours(data);
+      }
 
-      {/* <button
+      setLoadingFeatured(false);
+    };
+
+    loadFeaturedTours();
+  }, []);
+
+  useEffect(() => {
+    const toastId = toast(
+      <div className="toast-card">
+        <img
+          src="./popup.jpeg"
+          alt="Char Dham"
+        />
+
+        <h4>Char Dham Yatra 2026</h4>
+        <p>Starting from <b>23 April 2026</b></p>
+
+        {/* <button
         className="book-btn"
         onClick={() => {
           window.open(
@@ -42,23 +64,23 @@ const HomePage = () => {
       >
         Register Now
       </button> */}
-    </div>,
-    { autoClose: 5000 }
-  );
+      </div>,
+      { autoClose: 5000 }
+    );
 
-  const handleOutsideClick = (e) => {
-    const toastElement = document.querySelector(".Toastify__toast");
-    if (toastElement && !toastElement.contains(e.target)) {
-      toast.dismiss(toastId);
-    }
-  };
+    const handleOutsideClick = (e) => {
+      const toastElement = document.querySelector(".Toastify__toast");
+      if (toastElement && !toastElement.contains(e.target)) {
+        toast.dismiss(toastId);
+      }
+    };
 
-  document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener("mousedown", handleOutsideClick);
 
-  return () => {
-    document.removeEventListener("mousedown", handleOutsideClick);
-  };
-}, []);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, []);
 
   // Animation for parallax
   const { scrollY } = useScroll();
@@ -211,8 +233,8 @@ const HomePage = () => {
           </svg>
         </motion.div>
       </section>
-
-      {/* Featured Tours Section */}
+      {/* hardcoded featured tours fetch */}
+      {/* Featured Tours Section
       <section className="py-20 bg-travel-cream" ref={featuredRef}>
         <div className="container mx-auto px-4">
           <SectionTitle
@@ -222,7 +244,7 @@ const HomePage = () => {
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {featuredTours.map((tour, index) => (
+            {CharDhamYatra.map((tour, index) => (
               <motion.div
                 key={tour.id}
                 custom={index}
@@ -245,6 +267,43 @@ const HomePage = () => {
               View All Tours
             </Link>
           </motion.div>
+        </div>
+      </section> */}
+
+      {/* FEATURED TOURS */}
+      <section className="py-20 bg-travel-cream" ref={featuredRef}>
+        <div className="container mx-auto px-4">
+          <SectionTitle
+            title="Featured Tour Packages"
+            subtitle="Discover India"
+            center
+          />
+
+          {loadingFeatured ? (
+            <p className="text-center mt-10">Loading tours...</p>
+          ) : featuredTours.length === 0 ? (
+            <p className="text-center mt-10">No featured tours available.</p>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {featuredTours.map((tour, index) => (
+                <motion.div
+                  key={tour.id}
+                  custom={index}
+                  initial="hidden"
+                  animate={featuredInView ? "visible" : "hidden"}
+                  variants={staggerVariants}
+                >
+                  <TourCard tour={tour} />
+                </motion.div>
+              ))}
+            </div>
+          )}
+
+          <div className="text-center mt-12">
+            <Link to="/tours" className="btn-primary">
+              View All Tours
+            </Link>
+          </div>
         </div>
       </section>
 

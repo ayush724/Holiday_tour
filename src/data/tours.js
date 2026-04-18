@@ -23,7 +23,7 @@ export const featuredTours = [
       "Rishikesh",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Ganga Aarti of Haridwar & Rishikesh",
       "Introduction to Indian spirituality through pilgrimage",
@@ -213,7 +213,7 @@ export const featuredTours = [
       "Rishikesh",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Ganga Aarti at Haridwar & Rishikesh",
       'Spiritual pilgrimage to both Kedarnath and Badrinath in one tour ("Do Dham")',
@@ -348,7 +348,7 @@ export const featuredTours = [
       "Kedarnath",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Visit Kedarnath Temple, one of the 12 Jyotirlingas and part of Chardham pilgrimage",
       "Trek 14 km from Gaurikund (trek / horse / pony / dolly; option of helicopter service available)",
@@ -449,7 +449,7 @@ export const featuredTours = [
       "Uttarakhand",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Darshan of Badrinath Temple at 3,133 m in the Garhwal Himalayas",
       "View of Neelkanth mountain, visit Mana Village",
@@ -555,7 +555,7 @@ export const featuredTours = [
     rating: "", // not given on the page :contentReference[oaicite:2]{index=2}
     locations: ["Delhi", "Haridwar", "Barkot", "Janki Chatti", "Yamunotri"],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Visit Yamunotri temple, the westernmost shrine of Chardham",
       "Trek 7 km from Janki Chatti to Yamunotri temple",
@@ -646,7 +646,7 @@ export const featuredTours = [
     rating: "", // one review is indicated but no star rating visible
     locations: ["Delhi", "Haridwar", "Uttarkashi", "Gangotri"],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Holy bathing at the source of the river Ganga (Bhagirathi) in Gangotri",
       "Visit Uttarkashi valley and its scenic surroundings",
@@ -747,7 +747,7 @@ export const featuredTours = [
       "Rishikesh",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Ganga Aarti at Haridwar and Rishikesh",
       "Introduction to Indian spirituality",
@@ -883,7 +883,7 @@ export const featuredTours1 = [
     rating: "",
     locations: ["Delhi", "Agra", "Jaipur"],
     category: "Cultural",
-    featured: true,
+    featured: false,
     highlights: [
       "Visit the iconic Taj Mahal at sunrise",
       "Explore the majestic Amber Fort in Jaipur",
@@ -980,7 +980,7 @@ export const featuredTours1 = [
     rating: "",
     locations: ["Kochi", "Munnar", "Alleppey"],
     category: "adventure",
-    featured: true,
+    featured: false,
     highlights: [
       "Overnight stay in traditional houseboat",
       "Spice plantation tour in Munnar",
@@ -1070,7 +1070,7 @@ export const featuredTours1 = [
     rating: "",
     locations: ["Jaipur", "Udaipur", "Jodhpur", "Jaisalmer"],
     category: "Cultural",
-    featured: true,
+    featured: false,
     highlights: [
       "Camel safari in Thar Desert",
       "Boat ride on Lake Pichola",
@@ -1198,7 +1198,7 @@ export const featuredTours1 = [
     rating: "",
     locations: ["Varanasi", "Sarnath"],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Witness the sacred Ganga Aarti ceremony",
       "Sunrise boat ride on the River Ganges",
@@ -1288,7 +1288,7 @@ export const CharDhamYatra = [
       "Rishikesh",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Ganga Aarti of Haridwar & Rishikesh",
       "Introduction to Indian spirituality through pilgrimage",
@@ -1468,7 +1468,7 @@ export const CharDhamYatra = [
     rating: "", // not given on the page :contentReference[oaicite:2]{index=2}
     locations: ["Delhi", "Haridwar", "Barkot", "Janki Chatti", "Yamunotri"],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Visit Yamunotri temple, the westernmost shrine of Chardham",
       "Trek 7 km from Janki Chatti to Yamunotri temple",
@@ -1559,7 +1559,7 @@ export const CharDhamYatra = [
     rating: "", // one review is indicated but no star rating visible
     locations: ["Delhi", "Haridwar", "Uttarkashi", "Gangotri"],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Holy bathing at the source of the river Ganga (Bhagirathi) in Gangotri",
       "Visit Uttarkashi valley and its scenic surroundings",
@@ -1658,7 +1658,7 @@ export const CharDhamYatra = [
       "Kedarnath",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Visit Kedarnath Temple, one of the 12 Jyotirlingas and part of Chardham pilgrimage",
       "Trek 14 km from Gaurikund (trek / horse / pony / dolly; option of helicopter service available)",
@@ -1759,7 +1759,7 @@ export const CharDhamYatra = [
       "Uttarakhand",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Darshan of Badrinath Temple at 3,133 m in the Garhwal Himalayas",
       "View of Neelkanth mountain, visit Mana Village",
@@ -1875,7 +1875,7 @@ export const CharDhamYatra = [
       "Rishikesh",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Ganga Aarti at Haridwar & Rishikesh",
       'Spiritual pilgrimage to both Kedarnath and Badrinath in one tour ("Do Dham")',
@@ -2012,7 +2012,7 @@ export const CharDhamYatra = [
       "Rishikesh",
     ],
     category: "Spiritual1",
-    featured: false,
+    featured: true,
     highlights: [
       "Ganga Aarti at Haridwar and Rishikesh",
       "Introduction to Indian spirituality",
@@ -2146,7 +2146,7 @@ export const Honeymoon = [
     rating: "",
     locations: ["Delhi", "Agra", "Samode", "Jaipur", "Udaipur"],
     category: "Honeymoon",
-    featured: false,
+    featured: true,
     highlights: [
       "Visit royal palaces and forts in Rajasthan",
       "Camel safaris and boat rides on Lake Pichola",
@@ -3003,7 +3003,7 @@ export const Honeymoon = [
     rating: "",
     locations: ["Cochin", "Munnar", "Alleppey", "Kovalam", "Trivandrum"],
     category: "Honeymoon",
-    featured: true,
+    featured: false,
     highlights: [
       "Sightseeing in Fort Kochi including St. Francis Church",
       "Special Kathakali performance in Cochin",
@@ -3143,7 +3143,7 @@ export const Honeymoon = [
       "Auli",
     ],
     category: "Honeymoon",
-    featured: true,
+    featured: false,
     highlights: [
       "Scuba diving in Lakshadweep’s azure waters",
       "Trekking and camping in Leh & Ladakh",
@@ -4850,7 +4850,7 @@ export const ReligiousTours = [
     rating: "",
     locations: ["Chennai", "Tirupati"],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Quick Entry Darshan tickets included (₹300)",
       "AC Tempo Traveller transportation",
@@ -4908,7 +4908,7 @@ export const ReligiousTours = [
       "Mallikarjuna (Andhra Pradesh)",
     ],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Visit to all 12 sacred Jyotirlingas of Lord Shiva",
       "Darshan at the Char Dham destinations: Dwarka, Rameswaram, Kedarnath, and Badrinath",
@@ -5153,7 +5153,7 @@ export const ReligiousTours = [
       "Zutulpuk",
     ],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Visit to Mount Kailash and Lake Mansarovar",
       "Kora trek around Mount Kailash",
@@ -5354,7 +5354,7 @@ export const ReligiousTours = [
     rating: "",
     locations: ["Srinagar", "Pahalgam", "Amarnath Cave"],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Darshan of the naturally formed ice Shiva Lingam",
       "Trek through the scenic Pahalgam route",
@@ -5438,7 +5438,7 @@ export const ReligiousTours = [
     rating: "",
     locations: ["Katra", "Vaishno Devi Shrine"],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Darshan of the sacred Vaishno Devi Shrine",
       "Trek through the scenic Trikuta Mountains",
@@ -5491,7 +5491,7 @@ export const ReligiousTours = [
     rating: "",
     locations: ["Haridwar", "Uttarkashi", "Rishikesh"],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Daily yoga and meditation sessions",
       "Ganga Aarti at Haridwar and Rishikesh",
@@ -5631,7 +5631,7 @@ export const ReligiousTours = [
     rating: "",
     locations: ["Delhi", "Haridwar", "Uttarkashi", "Gangotri", "Gaumukh"],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Trek to the source of the Ganges at Gaumukh",
       "Visit to Gangotri Temple",
@@ -5743,7 +5743,7 @@ export const ReligiousTours = [
       "Valley of Flowers",
     ],
     category: "Spiritual",
-    featured: true,
+    featured: false,
     highlights: [
       "Darshan at Hemkund Sahib",
       "Trek through the Valley of Flowers",
@@ -5853,7 +5853,7 @@ export const AdveturousTours = [
     rating: "",
     locations: ["Auli", "Delhi", "Haridwar", "Joshimath", "Rishikesh"],
     category: "Adventure",
-    featured: true,
+    featured: false,
     highlights: [
       "Skiing on the pristine slopes of Auli",
       "Stunning views of Nanda Devi and Trishul peaks",
@@ -6002,7 +6002,7 @@ export const AdveturousTours = [
     rating: "",
     locations: ["Rishikesh, Uttarakhand"],
     category: "Adventure",
-    featured: true,
+    featured: false,
     highlights: [
       "Thrilling white-water rafting on the Ganges",
       "Experienced and certified instructors",
@@ -6059,7 +6059,7 @@ export const AdveturousTours = [
       "Arunachal Pradesh",
     ],
     category: "Adventure",
-    featured: true,
+    featured: false,
     highlights: [
       "Explore renowned treks like Roopkund, Nanda Devi Base Camp, Dodital, and Valley of Flowers",
       "Experience spiritual journeys to Hemkund Sahib and the Sources of the Ganges",
@@ -6162,7 +6162,7 @@ export const AdveturousTours = [
     rating: "",
     locations: ["Rishikesh, Uttarakhand"],
     category: "Adventure",
-    featured: true,
+    featured: false,
     highlights: [
       "Introductory sessions covering paddling strokes, turning techniques, and kayak balance",
       "Guided trips through rapids suitable for different skill levels",
@@ -6232,7 +6232,7 @@ export const AdveturousTours = [
       "Gir National Park",
     ],
     category: "Wildlife",
-    featured: true,
+    featured: false,
     highlights: [
       "Explore wildlife sanctuaries safely in jeeps",
       "Reach remote and inaccessible jungle areas",
@@ -6265,7 +6265,7 @@ export const AdveturousTours = [
       "Manali",
     ],
     category: "Wildlife",
-    featured: true,
+    featured: false,
     highlights: [
       "Visit Phiyang & Spituk monasteries",
       "Camel safari at white sand dunes in Nubra",
@@ -6423,7 +6423,7 @@ export const AdveturousTours = [
       "Mumbai",
     ],
     category: "Wildlife",
-    featured: true,
+    featured: false,
     highlights: [
       "Excursion to Sarnath",
       "Visit Khajuraho Group of Monuments (UNESCO)",
@@ -6621,7 +6621,7 @@ export const AdveturousTours = [
     rating: "",
     locations: ["Mumbai", "Nagpur", "Kanha", "Bandhavgarh", "Agra", "Delhi"],
     category: "Wildlife",
-    featured: true,
+    featured: false,
     highlights: [
       "Sightseeing in Mumbai: Prince of Wales Museum, Hanging Gardens, Juhu Beach, Gateway of India, Marine Drive",
       "Jeep/Elephant Safari in Kanha and Bandhavgarh",
@@ -6801,7 +6801,7 @@ export const AdveturousTours = [
     rating: "",
     locations: ["Haridwar, Uttarakhand"],
     category: "Adventure",
-    featured: true,
+    featured: false,
     highlights: [
       "Explore Haridwar's historic temples, including Har Ki Pauri",
       "Experience vibrant local markets",
@@ -7119,7 +7119,7 @@ export const AdveturousTours = [
       "Bedni Bugyal in Kumaon",
     ],
     category: "Adventure",
-    featured: true,
+    featured: false,
     highlights: [
       "Soar high above the scenic landscapes of Uttarakhand",
       "Enjoy panoramic views of the Himalayan foothills",
@@ -7186,7 +7186,7 @@ export const AdveturousTours = [
     rating: "",
     locations: ["Corbett National Park, Uttarakhand"],
     category: "Wildlife",
-    featured: true,
+    featured: false,
     highlights: [
       "Elephant safari in Corbett National Park",
       "Wildlife spotting: Tigers, Rhinos, Leopards, Hyenas, Crocodiles",
@@ -7302,7 +7302,7 @@ export const AdveturousTours = [
       "Agra",
     ],
     category: "indiatour",
-    featured: true,
+    featured: false,
     highlights: [
       "Visit Jaipur, Bharatpur, Sariska National Park, Alwar, Shekhawati, Ajmer, Pushkar, Ranthambhore, Udaipur, Mt Abu, Jodhpur, Jaisalmer, Bikaner",
       "Desert safaris and wildlife tours",
@@ -7436,7 +7436,7 @@ export const AdveturousTours = [
       "Nagarhole National Park, Karnataka",
     ],
     category: "Wildlife",
-    featured: true,
+    featured: false,
     highlights: [
       "Sight wildlife across plains, deserts, mountains, rivers, valleys, tropical rainforests, and coastal mangroves",
       "Explore 89 national parks, 489 wildlife sanctuaries, and 40 tiger reserves",

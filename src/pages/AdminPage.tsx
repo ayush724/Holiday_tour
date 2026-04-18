@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Layout from "../components/layout/Layout";
 import { allTours } from "../data/tours";
-import {supabase} from "@/lib/supabase";
+import { supabase } from "@/lib/supabase";
 import LoadingSpinner from "../components/ui/LoadingSpinner";
 
 const CATEGORIES = ["spiritual1", "cultural", "indiatour", "spiritual", "adventure", "wildlife", "honeymon", "beach"];
@@ -205,7 +205,7 @@ const AdminPage = () => {
       duration: selectedTour.duration || "",
       image: selectedTour.image || "",
       category: selectedTour.category || "",
-      featured: !!selectedTour.featured,
+      featured: String(selectedTour.featured) === "true",
       locations: (selectedTour.locations || []).join(", "),
       highlights: (selectedTour.highlights || []).join(", "),
       advancedJson: "{}",
@@ -222,10 +222,10 @@ const AdminPage = () => {
   // ✅ SAVE TO SUPABASE + VERSION
   const saveTour = async () => {
     setSaving(true);
-    const {advancedJson,...rest } =form;
+    const { advancedJson, ...rest } = form;
 
     console.log(rest);
-    
+
     const tour = {
       ...rest,
       locations: form.locations.split(",").map(i => i.trim()).filter(Boolean),
@@ -238,8 +238,8 @@ const AdminPage = () => {
 
     let updated = [...tours];
 
-    
-    
+
+
     const index = updated.findIndex(t => t.id === form.id);
 
     if (index !== -1) updated[index] = tour;
@@ -256,10 +256,18 @@ const AdminPage = () => {
     ]);
 
     // 🔥 REPLACE DATA
+    // await supabase.from("tours").delete().neq("id", "");
+    // await supabase.from("tours").insert(updated);
     await supabase.from("tours").delete().neq("id", "");
     await supabase.from("tours").insert(updated);
 
-    setTours(updated);
+    await loadTours();   // important
+    setSaving(false);
+    resetForm();
+
+    console.log("Saving featured =", form.featured);
+    // setTours(updated);
+    await loadTours();
     setSaving(false);
     resetForm();
   };
@@ -279,7 +287,7 @@ const AdminPage = () => {
   return (
     <Layout>
       <div className="h-16 md:h-20"></div>
-<div className="container mx-auto pt-28 pb-10 relative z-10">
+      <div className="container mx-auto pt-28 pb-10 relative z-10">
         <div className="flex justify-between mb-6">
           <h1 className="text-2xl font-bold">Admin Panel</h1>
           {mode === "list" && (
@@ -329,21 +337,39 @@ const AdminPage = () => {
               {mode === "create" ? "Create Tour" : "Edit Tour"}
             </h2>
 
-            <input value={form.id} onChange={(e)=>setForm({...form,id:e.target.value})} placeholder="ID" className="w-full border p-2" disabled={mode === "edit"} />
-            <input value={form.title} onChange={(e)=>setForm({...form,title:e.target.value})} placeholder="Title" className="w-full border p-2" />
-            <textarea value={form.description} onChange={(e)=>setForm({...form,description:e.target.value})} placeholder="Description" className="w-full border p-2" />
-            <input value={form.duration} onChange={(e)=>setForm({...form,duration:e.target.value})} placeholder="Duration" className="w-full border p-2" />
-            <input value={form.image} onChange={(e)=>setForm({...form,image:e.target.value})} placeholder="Image URL" className="w-full border p-2" />
-            <select value={form.category} onChange={(e)=>setForm({...form,category:e.target.value})} className="w-full border p-2">
+            <input value={form.id} onChange={(e) => setForm({ ...form, id: e.target.value })} placeholder="ID" className="w-full border p-2" disabled={mode === "edit"} />
+            <input value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} placeholder="Title" className="w-full border p-2" />
+            <textarea value={form.description} onChange={(e) => setForm({ ...form, description: e.target.value })} placeholder="Description" className="w-full border p-2" />
+            <input value={form.duration} onChange={(e) => setForm({ ...form, duration: e.target.value })} placeholder="Duration" className="w-full border p-2" />
+            <input value={form.image} onChange={(e) => setForm({ ...form, image: e.target.value })} placeholder="Image URL" className="w-full border p-2" />
+            <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })} className="w-full border p-2">
               <option value="" disabled>Select Category</option>
               {CATEGORIES.map((cat) => (
                 <option key={cat} value={cat}>{cat}</option>
               ))}
             </select>
-            <input value={form.locations} onChange={(e)=>setForm({...form,locations:e.target.value})} placeholder="Locations" className="w-full border p-2" />
-            <input value={form.highlights} onChange={(e)=>setForm({...form,highlights:e.target.value})} placeholder="Highlights" className="w-full border p-2" />
+            <div className="flex items-center gap-3">
+              <input
+                type="checkbox"
+                id="featured"
+                checked={form.featured}
+                onChange={(e) =>
+                  setForm({
+                    ...form,
+                    featured: e.target.checked
+                  })
+                }
+                className="h-4 w-4"
+              />
 
-            <ItineraryEditor itinerary={form.itinerary} onChange={(val)=>setForm({...form,itinerary:val})} />
+              <label htmlFor="featured" className="font-medium">
+                Featured Tour
+              </label>
+            </div>
+            <input value={form.locations} onChange={(e) => setForm({ ...form, locations: e.target.value })} placeholder="Locations" className="w-full border p-2" />
+            <input value={form.highlights} onChange={(e) => setForm({ ...form, highlights: e.target.value })} placeholder="Highlights" className="w-full border p-2" />
+
+            <ItineraryEditor itinerary={form.itinerary} onChange={(val) => setForm({ ...form, itinerary: val })} />
 
             <div className="flex gap-2">
               <button onClick={resetForm} className="border px-4 py-2" disabled={saving}>Cancel</button>
