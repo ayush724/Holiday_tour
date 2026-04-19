@@ -96,9 +96,18 @@ const ContactPage = () => {
       [name]: value
     });
   };
-
+const saveToSheet = async (data) => {
+  return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  }).then((res) => res.json());
+};
   const handleSubmit = (e) => {
     e.preventDefault();
+    saveToSheet(formData);
     // Simulate form submission
     setFormStatus({
       submitted: true,

@@ -15,7 +15,46 @@ const TourDetailsPage = () => {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('overview');
   const [allTours,setAllTours] = useState([]);
-
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    traveldate: '',
+    numberoftravelers: '',
+    message: ''
+  });
+    const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+  const saveToSheet = async (data) => {
+  return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  }).then((res) => res.json());
+};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    saveToSheet(formData);
+    // Reset form after submission
+    console.log("hello");
+    setFormData({
+     name: '',
+    email: '',
+    phone: '',
+    traveldate: '',
+    numberoftravelers: '',
+    message: ''
+    });
+    
+    
+  };
   useEffect(() => {
     const load = async () => {
       const data = await fetchTours();
@@ -527,13 +566,15 @@ const TourDetailsPage = () => {
               >
                 <h3 className="text-xl font-bold mb-6 text-center">Book This Tour</h3>
 
-                <form className="space-y-4">
+                <form onSubmit={handleSubmit}  className="space-y-4">
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1">Name*</label>
                     <input
                       type="text"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Name"
+                      value={formData.name}
+                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -544,6 +585,8 @@ const TourDetailsPage = () => {
                       type="email"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Email"
+                      value={formData.email}
+                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -554,6 +597,8 @@ const TourDetailsPage = () => {
                       type="tel"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Phone Number"
+                      value={formData.phone}
+                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -563,13 +608,16 @@ const TourDetailsPage = () => {
                     <input
                       type="date"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
+                     value={formData.traveldate}
+                      onChange={handleChange}
                       required
                     />
                   </div>
 
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1">Number of Travelers*</label>
-                    <select className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange">
+                    <select value={formData.numberoftravelers}
+  onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange">
                       <option value="1">1 Traveler</option>
                       <option value="2">2 Travelers</option>
                       <option value="3">3 Travelers</option>
@@ -583,6 +631,8 @@ const TourDetailsPage = () => {
                     <textarea
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange h-24"
                       placeholder="Any special requirements or questions?"
+                      value={formData.message}
+                      onChange={handleChange}
                     ></textarea>
                   </div>
 
