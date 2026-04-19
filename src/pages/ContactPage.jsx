@@ -11,48 +11,48 @@ import { reviews } from '../data/reviews';
 
 
 // Company values
-  const values = [
-    {
-      title: 'Authenticity',
-      description: 'We showcase the true essence of India, beyond tourist traps and clichés.',
-      icon: (
-        <svg className="w-8 h-8 text-travel-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-        </svg>
-      )
-    },
-    {
-      title: 'Sustainability',
-      description: 'We operate with respect for local communities and environments.',
-      icon: (
-        <svg className="w-8 h-8 text-travel-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      )
-    },
-    {
-      title: 'Excellence',
-      description: 'We strive for perfection in every aspect of our service.',
-      icon: (
-        <svg className="w-8 h-8 text-travel-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-        </svg>
-      )
-    },
-    {
-      title: 'Personal Connection',
-      description: 'We foster meaningful connections between travelers and destinations.',
-      icon: (
-        <svg className="w-8 h-8 text-travel-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 01-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-        </svg>
-      )
-    }
-  ];
+const values = [
+  {
+    title: 'Authenticity',
+    description: 'We showcase the true essence of India, beyond tourist traps and clichés.',
+    icon: (
+      <svg className="w-8 h-8 text-travel-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+      </svg>
+    )
+  },
+  {
+    title: 'Sustainability',
+    description: 'We operate with respect for local communities and environments.',
+    icon: (
+      <svg className="w-8 h-8 text-travel-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    )
+  },
+  {
+    title: 'Excellence',
+    description: 'We strive for perfection in every aspect of our service.',
+    icon: (
+      <svg className="w-8 h-8 text-travel-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+      </svg>
+    )
+  },
+  {
+    title: 'Personal Connection',
+    description: 'We foster meaningful connections between travelers and destinations.',
+    icon: (
+      <svg className="w-8 h-8 text-travel-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 01-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg>
+    )
+  }
+];
 
 
 const ContactPage = () => {
-   // Scroll animation triggers
+  // Scroll animation triggers
   const [teamRef, teamInView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -82,7 +82,7 @@ const ContactPage = () => {
     subject: '',
     message: ''
   });
-  
+
   const [formStatus, setFormStatus] = useState({
     submitted: false,
     success: false,
@@ -96,25 +96,30 @@ const ContactPage = () => {
       [name]: value
     });
   };
-const saveToSheet = async (data) => {
-  return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  }).then((res) => res.json());
-};
+  const saveToSheet = (data) => {
+    console.log(data);
+    return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL_CONTACT, {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
-    saveToSheet(formData);
+    saveToSheet({
+      sheetName: "Sheet1",
+      ...formData
+    });
     // Simulate form submission
     setFormStatus({
       submitted: true,
       success: true,
       message: 'Thank you for your message! We will get back to you shortly.'
     });
-    
+
     // Reset form after submission
     setFormData({
       name: '',
@@ -123,7 +128,7 @@ const saveToSheet = async (data) => {
       subject: '',
       message: ''
     });
-    
+
     // Reset success message after 5 seconds
     setTimeout(() => {
       setFormStatus({
@@ -137,8 +142,8 @@ const saveToSheet = async (data) => {
   // Animation variants
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
       transition: {
         duration: 0.6
@@ -191,16 +196,16 @@ const saveToSheet = async (data) => {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1602615576820-ea14cf3e476a?q=80&w=2000" 
-            alt="Contact Us" 
+          <img
+            src="https://images.unsplash.com/photo-1602615576820-ea14cf3e476a?q=80&w=2000"
+            alt="Contact Us"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         </div>
-        
+
         <div className="container mx-auto px-4 relative z-10 text-center">
-          <motion.h1 
+          <motion.h1
             className="text-4xl md:text-6xl font-playfair font-bold text-white mb-6"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -208,7 +213,7 @@ const saveToSheet = async (data) => {
           >
             Contact Us
           </motion.h1>
-          <motion.p 
+          <motion.p
             className="text-lg md:text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -220,52 +225,52 @@ const saveToSheet = async (data) => {
       </section>
 
       {/* Our Story Section */}
-            <section className="py-20">
-              <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                  <motion.div 
-                    initial={{ opacity: 0, x: -50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                  >
-                    <SectionTitle 
-                      title="Our Story" 
-                      subtitle="Who We Are"
-                    />
-                    <p className="text-gray-700 mb-6">
-                      India Holiday Home, founded in 2010 by travel expert Rajiv Sharma, is dedicated to creating authentic and personalized travel experiences across India. Having served thousands of travelers, we continue to craft memorable journeys that showcase the country's rich culture, landscapes, and traditions.
-                    </p>
-                    {/*<p className="text-gray-700 mb-6">
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <SectionTitle
+                title="Our Story"
+                subtitle="Who We Are"
+              />
+              <p className="text-gray-700 mb-6">
+                India Holiday Home, founded in 2010 by travel expert Rajiv Sharma, is dedicated to creating authentic and personalized travel experiences across India. Having served thousands of travelers, we continue to craft memorable journeys that showcase the country's rich culture, landscapes, and traditions.
+              </p>
+              {/*<p className="text-gray-700 mb-6">
                       What started as a small operation with a handful of tours has grown into a trusted travel company offering a wide range of experiences across the Indian subcontinent. Despite our growth, we remain committed to our founding principles of authenticity, personalization, and exceptional service.
                     </p>
                     <p className="text-gray-700">
                       Today, we take pride in having served thousands of happy travelers, helping them create memories that last a lifetime. Our team of passionate travel experts continues to explore new destinations and craft unique experiences that showcase the rich cultural heritage, breathtaking landscapes, and spiritual traditions of India.
                     </p>*/}
-                  </motion.div>
-                  
-                  <motion.div 
-                    className="relative"
-                    initial={{ opacity: 0, x: 50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                  >
-                    <img 
-                      src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=600" 
-                      alt="Our story" 
-                      className="rounded-lg shadow-xl w-full h-[300px] object-cover"
-                    />
-                    <div className="absolute -bottom-8 -right-8 bg-white p-5 rounded-lg shadow-lg hidden md:block">
-                      <div className="text-travel-orange text-center">
-                        <div className="text-4xl font-bold">2010</div>
-                        <div className="text-sm">Year Founded</div>
-                      </div>
-                    </div>
-                  </motion.div>
+            </motion.div>
+
+            <motion.div
+              className="relative"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <img
+                src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=600"
+                alt="Our story"
+                className="rounded-lg shadow-xl w-full h-[300px] object-cover"
+              />
+              <div className="absolute -bottom-8 -right-8 bg-white p-5 rounded-lg shadow-lg hidden md:block">
+                <div className="text-travel-orange text-center">
+                  <div className="text-4xl font-bold">2010</div>
+                  <div className="text-sm">Year Founded</div>
                 </div>
               </div>
-            </section>
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
       {/* Contact Information */}
       <section className="py-20">
@@ -278,23 +283,23 @@ const saveToSheet = async (data) => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <SectionTitle 
-                title="Send Us a Message" 
+              <SectionTitle
+                title="Send Us a Message"
                 subtitle="Get in Touch"
               />
-              
+
               <form onSubmit={handleSubmit} className="mt-8">
                 {formStatus.submitted && (
                   <div className={`p-4 rounded-md mb-6 ${formStatus.success ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'}`}>
                     {formStatus.message}
                   </div>
                 )}
-                
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="name">Full Name*</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       id="name"
                       name="name"
                       value={formData.name}
@@ -306,8 +311,8 @@ const saveToSheet = async (data) => {
                   </div>
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="email">Email*</label>
-                    <input 
-                      type="email" 
+                    <input
+                      type="email"
                       id="email"
                       name="email"
                       value={formData.email}
@@ -318,12 +323,12 @@ const saveToSheet = async (data) => {
                     />
                   </div>
                 </div>
-                
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="phone">Phone</label>
-                    <input 
-                      type="tel" 
+                    <input
+                      type="tel"
                       id="phone"
                       name="phone"
                       value={formData.phone}
@@ -334,8 +339,8 @@ const saveToSheet = async (data) => {
                   </div>
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="subject">Subject*</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       id="subject"
                       name="subject"
                       value={formData.subject}
@@ -346,10 +351,10 @@ const saveToSheet = async (data) => {
                     />
                   </div>
                 </div>
-                
+
                 <div className="mb-6">
                   <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="message">Message*</label>
-                  <textarea 
+                  <textarea
                     id="message"
                     name="message"
                     value={formData.message}
@@ -360,16 +365,16 @@ const saveToSheet = async (data) => {
                     required
                   ></textarea>
                 </div>
-                
-                <button 
-                  type="submit" 
+
+                <button
+                  type="submit"
                   className="btn-primary w-full sm:w-auto"
                 >
                   Send Message
                 </button>
               </form>
             </motion.div>
-            
+
             {/* Contact Information */}
             <motion.div
               initial="hidden"
@@ -377,11 +382,11 @@ const saveToSheet = async (data) => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <SectionTitle 
-                title="Contact Information" 
+              <SectionTitle
+                title="Contact Information"
                 subtitle="Reach Us"
               />
-              
+
               <div className="mt-8 space-y-6">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex items-start">
@@ -395,7 +400,7 @@ const saveToSheet = async (data) => {
                   </div>
                 ))}
               </div>
-              
+
               <div className="mt-10">
                 <h3 className="font-bold text-lg mb-4">Connect With Us</h3>
                 <div className="flex space-x-4">
@@ -431,12 +436,12 @@ const saveToSheet = async (data) => {
         <div className="container mx-auto px-4">
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="h-96">
-              <iframe  
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9750.718226192539!2d78.13069766806805!3d29.924526742974574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39094642feabb0a7%3A0x929cf16c139da902!2sIndia%20Holiday%20Home!5e0!3m2!1sen!2sin!4v1771757886371!5m2!1sen!2sin" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen="" 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9750.718226192539!2d78.13069766806805!3d29.924526742974574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39094642feabb0a7%3A0x929cf16c139da902!2sIndia%20Holiday%20Home!5e0!3m2!1sen!2sin!4v1771757886371!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
                 loading="lazy"
                 title="Google Maps"
               ></iframe>
@@ -448,12 +453,12 @@ const saveToSheet = async (data) => {
       {/* Our Values Section */}
       <section className="py-20 bg-gray-50" ref={valuesRef}>
         <div className="container mx-auto px-4">
-          <SectionTitle 
-            title="Our Values" 
+          <SectionTitle
+            title="Our Values"
             subtitle="What Drives Us"
             center
           />
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             {values.map((value, index) => (
               <motion.div

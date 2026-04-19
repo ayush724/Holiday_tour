@@ -14,7 +14,7 @@ const TourDetailsPage = () => {
   const [tour, setTour] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('overview');
-  const [allTours,setAllTours] = useState([]);
+  const [allTours, setAllTours] = useState([]);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -23,37 +23,42 @@ const TourDetailsPage = () => {
     numberoftravelers: '',
     message: ''
   });
-    const handleChange = (e) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value
     });
   };
-  const saveToSheet = async (data) => {
-  return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  }).then((res) => res.json());
-};
+  const saveToSheet = (data) => {
+    console.log(data);
+    return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL_CONTACT, {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
-    saveToSheet(formData);
+    saveToSheet({
+      sheetName: "Sheet2",
+      ...formData
+    });
     // Reset form after submission
     console.log("hello");
     setFormData({
-     name: '',
-    email: '',
-    phone: '',
-    traveldate: '',
-    numberoftravelers: '',
-    message: ''
+      name: '',
+      email: '',
+      phone: '',
+      traveldate: '',
+      numberoftravelers: '',
+      message: ''
     });
-    
-    
+
+
   };
   useEffect(() => {
     const load = async () => {
@@ -289,26 +294,26 @@ const TourDetailsPage = () => {
                       </div>
 
                       {(
-              tour.id === "char-dham-yatra" ||
-              tour.id === "kedarnath-badrinath-yatra" ||
-              tour.id === "kedarnath-dham-yatra" ||
-              tour.id === "yamunotri-dham-yatra" ||
-              tour.id === "yamunotri-gangotri-yatra" ||
-              tour.id === "badrinath-dham-yatra"
-            ) && (
-                <button
-                  className="book-btn"
-                  onClick={() => {
-                    window.open(
-                      "https://registrationandtouristcare.uk.gov.in/",
-                      "_blank"
-                    );
-                    toast.dismiss();
-                  }}
-                >
-                  Register Now
-                </button>
-              )}
+                        tour.id === "char-dham-yatra" ||
+                        tour.id === "kedarnath-badrinath-yatra" ||
+                        tour.id === "kedarnath-dham-yatra" ||
+                        tour.id === "yamunotri-dham-yatra" ||
+                        tour.id === "yamunotri-gangotri-yatra" ||
+                        tour.id === "badrinath-dham-yatra"
+                      ) && (
+                          <button
+                            className="book-btn"
+                            onClick={() => {
+                              window.open(
+                                "https://registrationandtouristcare.uk.gov.in/",
+                                "_blank"
+                              );
+                              toast.dismiss();
+                            }}
+                          >
+                            Register Now
+                          </button>
+                        )}
 
                       <div className="bg-travel-cream p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-2">Why Book With Us?</h3>
@@ -370,7 +375,7 @@ const TourDetailsPage = () => {
 
                               {/* Content */}
                               <div className="bg-white rounded-lg shadow-md p-6 flex-grow border border-gray-100">
-                               <h3 className="text-xl font-bold mb-2">
+                                <h3 className="text-xl font-bold mb-2">
                                   {tour.id === "best-of-north-india"
                                     ? `${day.name}`
                                     : `${day.title}`}
@@ -383,31 +388,31 @@ const TourDetailsPage = () => {
                                 <p className="text-gray-700 mb-4">{day.description}</p>
 
                                 {(() => {
-  const isSpecial =
-    tour.id === "best-of-north-india" ||
-    tour.id === "best-of-west-india";
+                                  const isSpecial =
+                                    tour.id === "best-of-north-india" ||
+                                    tour.id === "best-of-west-india";
 
-  const list = isSpecial ? day.destinations : day.activities;
-  const label = isSpecial ? "Destinations" : "Activities";
+                                  const list = isSpecial ? day.destinations : day.activities;
+                                  const label = isSpecial ? "Destinations" : "Activities";
 
-  return (
-    list && list.length > 0 && (
-      <div>
-        <h4 className="font-semibold text-gray-800 mb-2">
-          {label}:
-        </h4>
-        <ul className="space-y-1">
-          {list.map((item, idx) => (
-            <li key={idx} className="flex items-center">
-              <span className="text-travel-orange mr-2">›</span>
-              <span className="text-gray-700">{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    )
-  );
-})()}
+                                  return (
+                                    list && list.length > 0 && (
+                                      <div>
+                                        <h4 className="font-semibold text-gray-800 mb-2">
+                                          {label}:
+                                        </h4>
+                                        <ul className="space-y-1">
+                                          {list.map((item, idx) => (
+                                            <li key={idx} className="flex items-center">
+                                              <span className="text-travel-orange mr-2">›</span>
+                                              <span className="text-gray-700">{item}</span>
+                                            </li>
+                                          ))}
+                                        </ul>
+                                      </div>
+                                    )
+                                  );
+                                })()}
                               </div>
                             </div>
                           </div>
@@ -566,11 +571,14 @@ const TourDetailsPage = () => {
               >
                 <h3 className="text-xl font-bold mb-6 text-center">Book This Tour</h3>
 
-                <form onSubmit={handleSubmit}  className="space-y-4">
+                <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
-                    <label className="block text-gray-700 text-sm font-medium mb-1">Name*</label>
+                    <label className="block text-gray-700 text-sm font-medium mb-1">
+                      Name*
+                    </label>
                     <input
                       type="text"
+                      name="name"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Name"
                       value={formData.name}
@@ -580,9 +588,12 @@ const TourDetailsPage = () => {
                   </div>
 
                   <div>
-                    <label className="block text-gray-700 text-sm font-medium mb-1">Email*</label>
+                    <label className="block text-gray-700 text-sm font-medium mb-1">
+                      Email*
+                    </label>
                     <input
                       type="email"
+                      name="email"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Email"
                       value={formData.email}
@@ -592,9 +603,12 @@ const TourDetailsPage = () => {
                   </div>
 
                   <div>
-                    <label className="block text-gray-700 text-sm font-medium mb-1">Phone*</label>
+                    <label className="block text-gray-700 text-sm font-medium mb-1">
+                      Phone*
+                    </label>
                     <input
                       type="tel"
+                      name="phone"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
                       placeholder="Your Phone Number"
                       value={formData.phone}
@@ -604,20 +618,31 @@ const TourDetailsPage = () => {
                   </div>
 
                   <div>
-                    <label className="block text-gray-700 text-sm font-medium mb-1">Travel Date*</label>
+                    <label className="block text-gray-700 text-sm font-medium mb-1">
+                      Travel Date*
+                    </label>
                     <input
                       type="date"
+                      name="traveldate"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
-                     value={formData.traveldate}
+                      value={formData.traveldate}
                       onChange={handleChange}
                       required
                     />
                   </div>
 
                   <div>
-                    <label className="block text-gray-700 text-sm font-medium mb-1">Number of Travelers*</label>
-                    <select value={formData.numberoftravelers}
-  onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange">
+                    <label className="block text-gray-700 text-sm font-medium mb-1">
+                      Number of Travelers*
+                    </label>
+                    <select
+                      name="numberoftravelers"
+                      value={formData.numberoftravelers}
+                      onChange={handleChange}
+                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange"
+                      required
+                    >
+                      <option value="">Select Travelers</option>
                       <option value="1">1 Traveler</option>
                       <option value="2">2 Travelers</option>
                       <option value="3">3 Travelers</option>
@@ -627,8 +652,11 @@ const TourDetailsPage = () => {
                   </div>
 
                   <div>
-                    <label className="block text-gray-700 text-sm font-medium mb-1">Special Requests (Optional)</label>
+                    <label className="block text-gray-700 text-sm font-medium mb-1">
+                      Special Requests (Optional)
+                    </label>
                     <textarea
+                      name="message"
                       className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-travel-orange h-24"
                       placeholder="Any special requirements or questions?"
                       value={formData.message}

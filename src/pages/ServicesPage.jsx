@@ -29,8 +29,8 @@ const ServicesPage = () => {
   // Animation variants
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
       transition: {
         duration: 0.6
@@ -53,15 +53,17 @@ const ServicesPage = () => {
     triggerOnce: true,
     threshold: 0.1,
   });
-const saveToSheet = async (data) => {
-  return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  }).then((res) => res.json());
-};
+  const saveToSheet = (data) => {
+    console.log(data);
+    return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL_CONTACT, {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+  };
   const handleChange = (e) => {
     const { name, value } = e.target;
     setBookingFormData({
@@ -72,14 +74,17 @@ const saveToSheet = async (data) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    saveToSheet(bookingFormData);
+    saveToSheet({
+      sheetName: "Sheet3",
+      ...bookingFormData
+    });
     // Simulate form submission
     setFormStatus({
       submitted: true,
       success: true,
       message: 'Thank you for your booking request! We will contact you shortly to confirm the details.'
     });
-    
+
     // Reset form after submission
     setBookingFormData({
       pickupLocation: '',
@@ -92,7 +97,7 @@ const saveToSheet = async (data) => {
       phone: '',
       specialRequests: ''
     });
-    
+
     // Reset success message after 5 seconds
     setTimeout(() => {
       setFormStatus({
@@ -169,16 +174,16 @@ const saveToSheet = async (data) => {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1586687798886-5a34d5b97337?q=80&w=1170" 
-            alt="Car Rental Services" 
+          <img
+            src="https://images.unsplash.com/photo-1586687798886-5a34d5b97337?q=80&w=1170"
+            alt="Car Rental Services"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         </div>
-        
+
         <div className="container mx-auto px-4 relative z-10 text-center">
-          <motion.h1 
+          <motion.h1
             className="text-4xl md:text-6xl font-playfair font-bold text-white mb-6"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -186,7 +191,7 @@ const saveToSheet = async (data) => {
           >
             Car Rental Services
           </motion.h1>
-          <motion.p 
+          <motion.p
             className="text-lg md:text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -254,13 +259,13 @@ const saveToSheet = async (data) => {
       {/* Service Features */}
       <section className="py-20 bg-gray-50" ref={featuresRef}>
         <div className="container mx-auto px-4">
-          <SectionTitle 
-            title="Why Choose Our Car Rental Service" 
+          <SectionTitle
+            title="Why Choose Our Car Rental Service"
             subtitle="Our Advantages"
             center
           />
-          
-          <motion.div 
+
+          <motion.div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12"
             variants={staggerContainer}
             initial="hidden"
@@ -293,23 +298,23 @@ const saveToSheet = async (data) => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <SectionTitle 
-                title="Book a Car" 
+              <SectionTitle
+                title="Book a Car"
                 subtitle="Easy Booking"
               />
-              
+
               <form onSubmit={handleSubmit} className="mt-8">
                 {formStatus.submitted && (
                   <div className={`p-4 rounded-md mb-6 ${formStatus.success ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'}`}>
                     {formStatus.message}
                   </div>
                 )}
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="pickupLocation">Pickup Location*</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       id="pickupLocation"
                       name="pickupLocation"
                       value={bookingFormData.pickupLocation}
@@ -321,8 +326,8 @@ const saveToSheet = async (data) => {
                   </div>
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="dropoffLocation">Drop-off Location*</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       id="dropoffLocation"
                       name="dropoffLocation"
                       value={bookingFormData.dropoffLocation}
@@ -333,12 +338,12 @@ const saveToSheet = async (data) => {
                     />
                   </div>
                 </div>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="pickupDate">Pickup Date & Time*</label>
-                    <input 
-                      type="datetime-local" 
+                    <input
+                      type="datetime-local"
                       id="pickupDate"
                       name="pickupDate"
                       value={bookingFormData.pickupDate}
@@ -349,8 +354,8 @@ const saveToSheet = async (data) => {
                   </div>
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="dropoffDate">Drop-off Date & Time*</label>
-                    <input 
-                      type="datetime-local" 
+                    <input
+                      type="datetime-local"
                       id="dropoffDate"
                       name="dropoffDate"
                       value={bookingFormData.dropoffDate}
@@ -360,7 +365,7 @@ const saveToSheet = async (data) => {
                     />
                   </div>
                 </div>
-                
+
                 <div className="mb-4">
                   <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="carType">Car Type*</label>
                   <select 
@@ -377,12 +382,12 @@ const saveToSheet = async (data) => {
                     <option value="suv">9 Seater</option>
                   </select>
                 </div>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="name">Full Name*</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       id="name"
                       name="name"
                       value={bookingFormData.name}
@@ -394,8 +399,8 @@ const saveToSheet = async (data) => {
                   </div>
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="email">Email*</label>
-                    <input 
-                      type="email" 
+                    <input
+                      type="email"
                       id="email"
                       name="email"
                       value={bookingFormData.email}
@@ -407,8 +412,8 @@ const saveToSheet = async (data) => {
                   </div>
                   <div>
                     <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="phone">Phone*</label>
-                    <input 
-                      type="tel" 
+                    <input
+                      type="tel"
                       id="phone"
                       name="phone"
                       value={bookingFormData.phone}
@@ -419,10 +424,10 @@ const saveToSheet = async (data) => {
                     />
                   </div>
                 </div>
-                
+
                 <div className="mb-6">
                   <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="specialRequests">Special Requests (Optional)</label>
-                  <textarea 
+                  <textarea
                     id="specialRequests"
                     name="specialRequests"
                     value={bookingFormData.specialRequests}
@@ -432,16 +437,16 @@ const saveToSheet = async (data) => {
                     placeholder="Any special requirements?"
                   ></textarea>
                 </div>
-                
-                <button 
-                  type="submit" 
+
+                <button
+                  type="submit"
                   className="btn-primary w-full md:w-auto"
                 >
                   Book Now
                 </button>
               </form>
             </motion.div>
-            
+
             {/* Service Policies */}
             <motion.div
               initial="hidden"
@@ -449,11 +454,11 @@ const saveToSheet = async (data) => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <SectionTitle 
-                title="Rental Policies" 
+              <SectionTitle
+                title="Rental Policies"
                 subtitle="Important Information"
               />
-              
+
               <div className="mt-8 space-y-6">
                 <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4">Booking & Payment</h3>
@@ -478,7 +483,7 @@ const saveToSheet = async (data) => {
                     </li>
                   </ul>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4">Cancellation Policy</h3>
                   <ul className="space-y-3">
@@ -502,7 +507,7 @@ const saveToSheet = async (data) => {
                     </li>
                   </ul>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4">What's Included</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -567,9 +572,9 @@ const saveToSheet = async (data) => {
                 We rented a car with driver for our two-week trip across Northern India. Our driver Sanjay was exceptional - safe, friendly, and knew all the best local spots. The vehicle was always clean and well-maintained. Highly recommend their car service!
               </p>
               <footer className="flex items-center justify-center">
-                <img 
-                  src="https://randomuser.me/api/portraits/women/89.jpg" 
-                  alt="Anna Schmidt" 
+                <img
+                  src="https://randomuser.me/api/portraits/women/89.jpg"
+                  alt="Anna Schmidt"
                   className="w-12 h-12 rounded-full mr-4"
                 />
                 <div className="text-left">
@@ -596,14 +601,14 @@ const saveToSheet = async (data) => {
               Contact us today to inquire about availability or to make a reservation for your upcoming trip to India.
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-4">
-              <a 
-                href="#booking-form" 
+              <a
+                href="#booking-form"
                 className="btn-primary"
               >
                 Book Now
               </a>
-              <a 
-                href="tel:+919876543210" 
+              <a
+                href="tel:+919876543210"
                 className="btn-outline"
               >
                 Call +919412072802
