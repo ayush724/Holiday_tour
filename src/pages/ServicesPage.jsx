@@ -53,7 +53,15 @@ const ServicesPage = () => {
     triggerOnce: true,
     threshold: 0.1,
   });
-
+const saveToSheet = async (data) => {
+  return fetch(import.meta.env.VITE_EXCEL_SCRIPT_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  }).then((res) => res.json());
+};
   const handleChange = (e) => {
     const { name, value } = e.target;
     setBookingFormData({
@@ -64,6 +72,7 @@ const ServicesPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    saveToSheet(bookingFormData);
     // Simulate form submission
     setFormStatus({
       submitted: true,
